@@ -8,6 +8,8 @@
 import os
 import json
 import subprocess
+import time
+import threading
 
 # 加载 .env 环境变量（API Key 等）
 try:
@@ -15,29 +17,81 @@ try:
     load_env()
 except Exception as e:
     print(f"⚠️  加载 .env 失败: {e}")
-import threading
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
 
-# 后台任务并发锁：记录正在运行的任务 key，避免重复触发
-_running_tasks = set()
-_running_tasks_lock = threading.Lock()
+# ============================================================
+# 后台任务追踪器：管理任务状态、捕获输出日志、防重并发
+# ============================================================
+class TaskTracker:
+    """后台任务状态与日志追踪器"""
+
+    MAX_OUTPUT_LINES = 200  # 每个任务最多保留的日志行数
+
+    def __init__(self):
+        self._lock = threading.Lock()
+        self._tasks = {}  # key -> {running, output_lines, start_time, end_time, return_code, error}
+
+    def try_start(self, key, task_type='unknown', label=''):
+        """尝试启动一个任务，返回 True 表示成功，False 表示已有同名任务在运行"""
+        with self._lock:
+            if key in self._tasks and self._tasks[key]['running']:
+                return False
+            self._tasks[key] = {
+                'running': True,
+                'task_type': task_type,
+                'label': label or key,
+                'output_lines': [],
+                'start_time': time.time(),
+                'end_time': None,
+                'return_code': None,
+                'error': None,
+            }
+            return True
+
+    def append_output(self, key, line):
+        """追加一行输出日志"""
+        with self._lock:
+            if key in self._tasks:
+                self._tasks[key]['output_lines'].append(line)
+                if len(self._tasks[key]['output_lines']) > self.MAX_OUTPUT_LINES:
+                    self._tasks[key]['output_lines'] = self._tasks[key]['output_lines'][-self.MAX_OUTPUT_LINES:]
+
+    def finish(self, key, return_code=0, error=None):
+        """标记任务结束"""
+        with self._lock:
+            if key in self._tasks:
+                self._tasks[key]['running'] = False
+                self._tasks[key]['end_time'] = time.time()
+                self._tasks[key]['return_code'] = return_code
+                self._tasks[key]['error'] = error
+
+    def get_all(self):
+        """获取所有任务的状态快照"""
+        with self._lock:
+            result = {}
+            for key, task in self._tasks.items():
+                result[key] = {
+                    'running': task['running'],
+                    'task_type': task['task_type'],
+                    'label': task['label'],
+                    'output': '\n'.join(task['output_lines']),
+                    'start_time': task['start_time'],
+                    'end_time': task['end_time'],
+                    'return_code': task['return_code'],
+                    'error': task['error'],
+                }
+            return result
+
+    def is_running(self, key):
+        """检查任务是否正在运行"""
+        with self._lock:
+            return key in self._tasks and self._tasks[key]['running']
 
 
-def _task_start(key):
-    """尝试启动一个任务，若已在运行则返回 False"""
-    with _running_tasks_lock:
-        if key in _running_tasks:
-            return False
-        _running_tasks.add(key)
-        return True
-
-
-def _task_end(key):
-    """标记任务结束"""
-    with _running_tasks_lock:
-        _running_tasks.discard(key)
+# 全局任务追踪器实例
+task_tracker = TaskTracker()
 
 
 class MyHandler(SimpleHTTPRequestHandler):
@@ -76,6 +130,16 @@ class MyHandler(SimpleHTTPRequestHandler):
         # API: 健康检查
         if parsed_path.path == '/health':
             self.send_json_response({'status': 'ok', 'message': 'Server is running'})
+            return
+
+        # API: 获取分析结果
+        if parsed_path.path.startswith('/api/analysis/'):
+            self.handle_get_analysis(parsed_path)
+            return
+
+        # API: 获取后台任务状态与日志
+        if parsed_path.path == '/api/task-status':
+            self.handle_get_task_status()
             return
 
         # 忽略 favicon 请求
@@ -269,7 +333,8 @@ class MyHandler(SimpleHTTPRequestHandler):
 
             # 并发锁：同一日期（+平台+分类）已有爬取任务在跑则拒绝，避免重复触发
             task_key = f"scrape:{date}:{platform or ''}:{category or ''}"
-            if not _task_start(task_key):
+            task_label = f"爬取 {date}"
+            if not task_tracker.try_start(task_key, task_type='scrape', label=task_label):
                 self.send_json_response({
                     'success': False,
                     'error': f'该日期的爬取任务正在运行中，请勿重复触发 (date={date})'
@@ -290,38 +355,48 @@ class MyHandler(SimpleHTTPRequestHandler):
 
                     print(f"🚀 启动爬取进程...")
                     print(f"   执行命令: {' '.join(cmd)}")
+                    task_tracker.append_output(task_key, f"🚀 开始爬取榜单数据")
+                    task_tracker.append_output(task_key, f"   日期: {date}")
+                    task_tracker.append_output(task_key, f"   命令: {' '.join(cmd)}")
 
-                    try:
-                        process = subprocess.Popen(
-                            cmd,
-                            stdout=subprocess.PIPE,
-                            stderr=subprocess.STDOUT,
-                            text=True,
-                            cwd=project_root,
-                            env=os.environ.copy(),
-                            bufsize=1
-                        )
+                    process = subprocess.Popen(
+                        cmd,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.STDOUT,
+                        text=True,
+                        cwd=project_root,
+                        env=os.environ.copy(),
+                        bufsize=1
+                    )
 
-                        print(f"\n📝 爬取进程输出 (PID: {process.pid}):")
-                        print(f"{'='*60}")
+                    print(f"\n📝 爬取进程输出 (PID: {process.pid}):")
+                    print(f"{'='*60}")
 
-                        for line in process.stdout:
-                            print(line, end='')
+                    for line in process.stdout:
+                        line_stripped = line.rstrip('\n')
+                        print(line_stripped)
+                        # 捕获到任务追踪器（只保留信息行，跳过空行）
+                        if line_stripped.strip():
+                            task_tracker.append_output(task_key, line_stripped)
 
-                        return_code = process.wait()
+                    return_code = process.wait()
 
-                        print(f"{'='*60}")
-                        if return_code == 0:
-                            print(f"✓ 爬取完成: {date}")
-                        else:
-                            print(f"✗ 爬取失败: {date} (返回码: {return_code})")
+                    print(f"{'='*60}")
+                    if return_code == 0:
+                        print(f"✓ 爬取完成: {date}")
+                        task_tracker.append_output(task_key, f"✅ 爬取完成！")
+                        task_tracker.finish(task_key, return_code=0)
+                    else:
+                        print(f"✗ 爬取失败: {date} (返回码: {return_code})")
+                        task_tracker.append_output(task_key, f"❌ 爬取失败 (返回码: {return_code})")
+                        task_tracker.finish(task_key, return_code=return_code)
 
-                    except Exception as e:
-                        print(f"\n✗ 爬取异常: {e}")
-                        import traceback
-                        print(traceback.format_exc())
-                finally:
-                    _task_end(task_key)
+                except Exception as e:
+                    print(f"\n✗ 爬取异常: {e}")
+                    import traceback
+                    print(traceback.format_exc())
+                    task_tracker.append_output(task_key, f"❌ 爬取异常: {e}")
+                    task_tracker.finish(task_key, return_code=-1, error=str(e))
 
             thread = threading.Thread(target=run_scrape, daemon=True)
             thread.start()
@@ -351,7 +426,8 @@ class MyHandler(SimpleHTTPRequestHandler):
 
             # 并发锁：检测任务同一时刻只允许一个在跑
             task_key = f"detect:{date or 'auto'}"
-            if not _task_start(task_key):
+            task_label = f"检测新上榜 {date or '最新'}"
+            if not task_tracker.try_start(task_key, task_type='detect', label=task_label):
                 self.send_json_response({
                     'success': False,
                     'error': '检测任务正在运行中，请勿重复触发'
@@ -372,38 +448,46 @@ class MyHandler(SimpleHTTPRequestHandler):
 
                     print(f"🚀 启动检测进程...")
                     print(f"   执行命令: {' '.join(cmd)}")
+                    task_tracker.append_output(task_key, f"🚀 开始检测新上榜产品")
+                    task_tracker.append_output(task_key, f"   命令: {' '.join(cmd)}")
 
-                    try:
-                        process = subprocess.Popen(
-                            cmd,
-                            stdout=subprocess.PIPE,
-                            stderr=subprocess.STDOUT,
-                            text=True,
-                            cwd=project_root,
-                            env=os.environ.copy(),
-                            bufsize=1
-                        )
+                    process = subprocess.Popen(
+                        cmd,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.STDOUT,
+                        text=True,
+                        cwd=project_root,
+                        env=os.environ.copy(),
+                        bufsize=1
+                    )
 
-                        print(f"\n📝 检测进程输出 (PID: {process.pid}):")
-                        print(f"{'='*60}")
+                    print(f"\n📝 检测进程输出 (PID: {process.pid}):")
+                    print(f"{'='*60}")
 
-                        for line in process.stdout:
-                            print(line, end='')
+                    for line in process.stdout:
+                        line_stripped = line.rstrip('\n')
+                        print(line_stripped)
+                        if line_stripped.strip():
+                            task_tracker.append_output(task_key, line_stripped)
 
-                        return_code = process.wait()
+                    return_code = process.wait()
 
-                        print(f"{'='*60}")
-                        if return_code == 0:
-                            print(f"✓ 检测完成")
-                        else:
-                            print(f"✗ 检测失败 (返回码: {return_code})")
+                    print(f"{'='*60}")
+                    if return_code == 0:
+                        print(f"✓ 检测完成")
+                        task_tracker.append_output(task_key, f"✅ 检测完成！")
+                        task_tracker.finish(task_key, return_code=0)
+                    else:
+                        print(f"✗ 检测失败 (返回码: {return_code})")
+                        task_tracker.append_output(task_key, f"❌ 检测失败 (返回码: {return_code})")
+                        task_tracker.finish(task_key, return_code=return_code)
 
-                    except Exception as e:
-                        print(f"\n✗ 检测异常: {e}")
-                        import traceback
-                        print(traceback.format_exc())
-                finally:
-                    _task_end(task_key)
+                except Exception as e:
+                    print(f"\n✗ 检测异常: {e}")
+                    import traceback
+                    print(traceback.format_exc())
+                    task_tracker.append_output(task_key, f"❌ 检测异常: {e}")
+                    task_tracker.finish(task_key, return_code=-1, error=str(e))
 
             thread = threading.Thread(target=run_detect, daemon=True)
             thread.start()
@@ -415,6 +499,14 @@ class MyHandler(SimpleHTTPRequestHandler):
 
         except Exception as e:
             print(f"✗ 处理检测请求失败: {e}")
+            self.send_json_response({'error': str(e)}, 500)
+
+    def handle_get_task_status(self):
+        """获取后台任务（爬取/检测）的运行状态和日志"""
+        try:
+            tasks = task_tracker.get_all()
+            self.send_json_response({'tasks': tasks})
+        except Exception as e:
             self.send_json_response({'error': str(e)}, 500)
 
     def handle_get_dates(self):

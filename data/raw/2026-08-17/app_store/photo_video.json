@@ -18,7 +18,7 @@
       "release_date": "2020/04/14",
       "rating": 4.61322,
       "rating_count": 1117794,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -33,7 +33,7 @@
       "release_date": "2023/03/26",
       "rating": 4.65904,
       "rating_count": 133956,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -48,7 +48,7 @@
       "release_date": "2010/10/06",
       "rating": 4.69058,
       "rating_count": 29374679,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -63,7 +63,7 @@
       "release_date": "2012/09/11",
       "rating": 4.66859,
       "rating_count": 48560185,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -78,7 +78,7 @@
       "release_date": "2011/07/13",
       "rating": 4.50548,
       "rating_count": 5905593,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -93,7 +93,7 @@
       "release_date": "2014/10/15",
       "rating": 4.87506,
       "rating_count": 3491622,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -108,7 +108,7 @@
       "release_date": "2015/05/28",
       "rating": 4.82921,
       "rating_count": 1500811,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -123,7 +123,7 @@
       "release_date": "2025/04/22",
       "rating": 4.78074,
       "rating_count": 76290,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -138,7 +138,7 @@
       "release_date": "2011/10/26",
       "rating": 4.72032,
       "rating_count": 2783524,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -153,7 +153,7 @@
       "release_date": "2015/10/12",
       "rating": 4.79297,
       "rating_count": 71801,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -168,7 +168,7 @@
       "release_date": "2017/10/17",
       "rating": 4.83179,
       "rating_count": 117110,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -183,7 +183,7 @@
       "release_date": "2012/04/19",
       "rating": 4.8676,
       "rating_count": 120758,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -198,7 +198,7 @@
       "release_date": "2013/01/02",
       "rating": 4.66598,
       "rating_count": 1194184,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -213,7 +213,7 @@
       "release_date": "2024/03/29",
       "rating": 4.4973,
       "rating_count": 25918,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -228,29 +228,14 @@
       "release_date": "2013/07/22",
       "rating": 4.76427,
       "rating_count": 602651,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.skylightframe.mobile",
-      "itunes_id": "1438779037",
-      "rank": 16,
-      "name": "Skylight App",
-      "developer": "Skylight Frame",
-      "store_url": "https://apps.apple.com/us/app/skylight-app/id1438779037?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/99/b2/b199b23a-eebb-f184-ed18-7c77131fdc21/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2018/10/15",
-      "rating": 4.80412,
-      "rating_count": 50203,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.adobe.lrmobilephone",
       "itunes_id": "878783582",
-      "rank": 17,
+      "rank": 16,
       "name": "Lightroom: AI Photo Editor",
       "developer": "Adobe Inc.",
       "store_url": "https://apps.apple.com/us/app/lightroom-ai-photo-editor/id878783582?uo=4",
@@ -258,7 +243,22 @@
       "release_date": "2014/06/21",
       "rating": 4.77524,
       "rating_count": 336266,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.skylightframe.mobile",
+      "itunes_id": "1438779037",
+      "rank": 17,
+      "name": "Skylight App",
+      "developer": "Skylight Frame",
+      "store_url": "https://apps.apple.com/us/app/skylight-app/id1438779037?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/99/b2/b199b23a-eebb-f184-ed18-7c77131fdc21/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2018/10/15",
+      "rating": 4.80412,
+      "rating_count": 50203,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -273,7 +273,7 @@
       "release_date": "2014/07/12",
       "rating": 4.0566,
       "rating_count": 25687,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -288,7 +288,7 @@
       "release_date": "2016/11/24",
       "rating": 4.61928,
       "rating_count": 374632,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -303,7 +303,7 @@
       "release_date": "2018/08/17",
       "rating": 4.75186,
       "rating_count": 112471,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -318,7 +318,7 @@
       "release_date": "2017/01/24",
       "rating": 4.72702,
       "rating_count": 1780280,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -333,44 +333,14 @@
       "release_date": "2020/03/31",
       "rating": 4.70661,
       "rating_count": 381626,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.amazon.CloudDrivePhotos",
-      "itunes_id": "621574163",
-      "rank": 23,
-      "name": "Amazon Photos: Photo & Video",
-      "developer": "AMZN Mobile LLC",
-      "store_url": "https://apps.apple.com/us/app/amazon-photos-photo-video/id621574163?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/81/fc/9381fcc3-6f40-9355-23ae-6d3a03d28e98/AppIconRelease-0-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
-      "release_date": "2013/05/09",
-      "rating": 4.80813,
-      "rating_count": 227650,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.dji.mimo",
-      "itunes_id": "1431720653",
-      "rank": 24,
-      "name": "DJI Mimo",
-      "developer": "DJI",
-      "store_url": "https://apps.apple.com/us/app/dji-mimo/id1431720653?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/91/d2/da91d2a7-665d-a5c9-656b-876de36a284a/AppIcon-0-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2018/12/11",
-      "rating": 4.56019,
-      "rating_count": 21339,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.xt.retouchoversea",
       "itunes_id": "1644042837",
-      "rank": 25,
+      "rank": 23,
       "name": "Hypic - Photo Editor & AI Art",
       "developer": "Bytedance Pte. Ltd",
       "store_url": "https://apps.apple.com/us/app/hypic-photo-editor-ai-art/id1644042837?uo=4",
@@ -378,7 +348,37 @@
       "release_date": "2023/01/03",
       "rating": 4.60361,
       "rating_count": 16991,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.amazon.CloudDrivePhotos",
+      "itunes_id": "621574163",
+      "rank": 24,
+      "name": "Amazon Photos: Photo & Video",
+      "developer": "AMZN Mobile LLC",
+      "store_url": "https://apps.apple.com/us/app/amazon-photos-photo-video/id621574163?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/81/fc/9381fcc3-6f40-9355-23ae-6d3a03d28e98/AppIconRelease-0-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.png",
+      "release_date": "2013/05/09",
+      "rating": 4.80813,
+      "rating_count": 227650,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.dji.mimo",
+      "itunes_id": "1431720653",
+      "rank": 25,
+      "name": "DJI Mimo",
+      "developer": "DJI",
+      "store_url": "https://apps.apple.com/us/app/dji-mimo/id1431720653?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/91/d2/da91d2a7-665d-a5c9-656b-876de36a284a/AppIcon-0-0-1x_U007emarketing-0-5-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2018/12/11",
+      "rating": 4.56019,
+      "rating_count": 21339,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -393,7 +393,7 @@
       "release_date": "2024/06/20",
       "rating": 4.83348,
       "rating_count": 37112,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -408,29 +408,14 @@
       "release_date": "2015/06/11",
       "rating": 4.84931,
       "rating_count": 2471586,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "io.lonepalm.Retro",
-      "itunes_id": "6443709020",
-      "rank": 28,
-      "name": "Retro — Photos with Friends",
-      "developer": "Lone Palm Labs, Inc.",
-      "store_url": "https://apps.apple.com/us/app/retro-photos-with-friends/id6443709020?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/cf/fe/89cffee8-390d-3738-242a-531fdbf19cad/AppIcon-Chrome-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2023/07/13",
-      "rating": 4.78928,
-      "rating_count": 11978,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.commsource.BeautyPlus",
       "itunes_id": "622434129",
-      "rank": 29,
+      "rank": 28,
       "name": "BeautyPlus-Selfie Photo Editor",
       "developer": "PIXOCIAL TECHNOLOGY (SINGAPORE) PTE. LTD.",
       "store_url": "https://apps.apple.com/us/app/beautyplus-selfie-photo-editor/id622434129?uo=4",
@@ -438,44 +423,14 @@
       "release_date": "2013/04/24",
       "rating": 4.815,
       "rating_count": 347185,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.niksoftware.snapseedforipad",
-      "itunes_id": "439438619",
-      "rank": 30,
-      "name": "Snapseed: Photo Editor",
-      "developer": "Google",
-      "store_url": "https://apps.apple.com/us/app/snapseed-photo-editor/id439438619?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/03/c4/1e03c40a-9949-3506-3fcb-9cdd90c6d79f/ProdAppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/100x100bb.png",
-      "release_date": "2011/06/06",
-      "rating": 4.85893,
-      "rating_count": 22485,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.ahaf.mshion",
-      "itunes_id": "1580668065",
-      "rank": 31,
-      "name": "ism: Retro Camera & Vintage",
-      "developer": "MWM",
-      "store_url": "https://apps.apple.com/us/app/ism-retro-camera-vintage/id1580668065?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/53/8e/8d538e4a-74b6-6569-d713-6f428323153f/rebrand_app_icon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "release_date": "2021/11/04",
-      "rating": 4.72681,
-      "rating_count": 10480,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.meitu.mtxx",
       "itunes_id": "416048305",
-      "rank": 32,
+      "rank": 29,
       "name": "Meitu AI Photo & Video Editor",
       "developer": "Xiamen Meitu Technology Co., Ltd.",
       "store_url": "https://apps.apple.com/us/app/meitu-ai-photo-video-editor/id416048305?uo=4",
@@ -483,29 +438,44 @@
       "release_date": "2011/02/14",
       "rating": 4.78613,
       "rating_count": 79341,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.aiarlabs.prequel",
-      "itunes_id": "1325756279",
-      "rank": 33,
-      "name": "Prequel: Photo & Video Editor",
-      "developer": "Prequel Inc.",
-      "store_url": "https://apps.apple.com/us/app/prequel-photo-video-editor/id1325756279?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/aa/9a/4faa9a95-0561-280f-bda4-9c77fcc115b8/AppIcon-0-0-1x_U007epad-0-1-0-P3-85-220.png/100x100bb.png",
-      "release_date": "2018/03/28",
-      "rating": 4.74218,
-      "rating_count": 340939,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "io.lonepalm.Retro",
+      "itunes_id": "6443709020",
+      "rank": 30,
+      "name": "Retro — Photos with Friends",
+      "developer": "Lone Palm Labs, Inc.",
+      "store_url": "https://apps.apple.com/us/app/retro-photos-with-friends/id6443709020?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/cf/fe/89cffee8-390d-3738-242a-531fdbf19cad/AppIcon-Chrome-0-0-1x_U007ephone-0-1-0-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2023/07/13",
+      "rating": 4.78928,
+      "rating_count": 11978,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.niksoftware.snapseedforipad",
+      "itunes_id": "439438619",
+      "rank": 31,
+      "name": "Snapseed: Photo Editor",
+      "developer": "Google",
+      "store_url": "https://apps.apple.com/us/app/snapseed-photo-editor/id439438619?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/03/c4/1e03c40a-9949-3506-3fcb-9cdd90c6d79f/ProdAppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2011/06/06",
+      "rating": 4.85893,
+      "rating_count": 22485,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.blackmagic-design.DaVinciCamera",
       "itunes_id": "6449580241",
-      "rank": 34,
+      "rank": 32,
       "name": "Blackmagic Camera",
       "developer": "Blackmagic Design Inc",
       "store_url": "https://apps.apple.com/us/app/blackmagic-camera/id6449580241?uo=4",
@@ -513,44 +483,44 @@
       "release_date": "2023/09/14",
       "rating": 4.82602,
       "rating_count": 21641,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "net.frameo.app",
-      "itunes_id": "1179744119",
-      "rank": 35,
-      "name": "Frameo",
-      "developer": "Frameo A/S",
-      "store_url": "https://apps.apple.com/us/app/frameo/id1179744119?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/1b/3e/0e1b3efc-6ff4-9c90-7faf-5be4bb69cea5/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
-      "release_date": "2016/12/08",
-      "rating": 4.88489,
-      "rating_count": 423452,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "com.ahaf.mshion",
+      "itunes_id": "1580668065",
+      "rank": 33,
+      "name": "ism: Retro Camera & Vintage",
+      "developer": "MWM",
+      "store_url": "https://apps.apple.com/us/app/ism-retro-camera-vintage/id1580668065?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/53/8e/8d538e4a-74b6-6569-d713-6f428323153f/rebrand_app_icon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2021/11/04",
+      "rating": 4.72681,
+      "rating_count": 10480,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.novadevelopment.freeprints",
-      "itunes_id": "518158653",
-      "rank": 36,
-      "name": "FreePrints – Print Photos",
-      "developer": "PlanetArt",
-      "store_url": "https://apps.apple.com/us/app/freeprints-print-photos/id518158653?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/fb/4c/2efb4cb1-71c5-4cdb-e4b4-20c7a5e1d83e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2012/08/07",
-      "rating": 4.8052,
-      "rating_count": 806561,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "com.aiarlabs.prequel",
+      "itunes_id": "1325756279",
+      "rank": 34,
+      "name": "Prequel: Photo & Video Editor",
+      "developer": "Prequel Inc.",
+      "store_url": "https://apps.apple.com/us/app/prequel-photo-video-editor/id1325756279?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/aa/9a/4faa9a95-0561-280f-bda4-9c77fcc115b8/AppIcon-0-0-1x_U007epad-0-1-0-P3-85-220.png/100x100bb.png",
+      "release_date": "2018/03/28",
+      "rating": 4.74218,
+      "rating_count": 340939,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.codespaceapps.you",
       "itunes_id": "6466298983",
-      "rank": 37,
+      "rank": 35,
       "name": "Retake AI Face & Selfie Editor",
       "developer": "DEEP FLOW SOFTWARE SERVICES",
       "store_url": "https://apps.apple.com/us/app/retake-ai-face-selfie-editor/id6466298983?uo=4",
@@ -558,7 +528,37 @@
       "release_date": "2023/10/01",
       "rating": 4.61118,
       "rating_count": 50752,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.optixai.creative.lab",
+      "itunes_id": "6760087183",
+      "rank": 36,
+      "name": "Muse AI: Photo to Video",
+      "developer": "志如 宋",
+      "store_url": "https://apps.apple.com/us/app/muse-ai-photo-to-video/id6760087183?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/2e/4a/d12e4a14-8724-458c-1e74-89e4d7d3bab2/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2026/03/12",
+      "rating": 3.17241,
+      "rating_count": 87,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.novadevelopment.freeprints",
+      "itunes_id": "518158653",
+      "rank": 37,
+      "name": "FreePrints – Print Photos",
+      "developer": "PlanetArt",
+      "store_url": "https://apps.apple.com/us/app/freeprints-print-photos/id518158653?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/fb/4c/2efb4cb1-71c5-4cdb-e4b4-20c7a5e1d83e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2012/08/07",
+      "rating": 4.8052,
+      "rating_count": 806561,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -573,59 +573,14 @@
       "release_date": "2015/10/07",
       "rating": 4.79715,
       "rating_count": 201579,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "jp.co.canon.ic.cameraconnect",
-      "itunes_id": "944097177",
-      "rank": 39,
-      "name": "Canon Camera Connect",
-      "developer": "Canon Inc.",
-      "store_url": "https://apps.apple.com/us/app/canon-camera-connect/id944097177?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/2f/5f/982f5ff1-aef3-7da0-bcba-f9bac426c45f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2015/01/06",
-      "rating": 4.75901,
-      "rating_count": 142004,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.optixai.creative.lab",
-      "itunes_id": "6760087183",
-      "rank": 40,
-      "name": "Muse AI: Photo to Video",
-      "developer": "志如 宋",
-      "store_url": "https://apps.apple.com/us/app/muse-ai-photo-to-video/id6760087183?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/2e/4a/d12e4a14-8724-458c-1e74-89e4d7d3bab2/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2026/03/12",
-      "rating": 3.17241,
-      "rating_count": 87,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.pushd.Framelord",
-      "itunes_id": "990062908",
-      "rank": 41,
-      "name": "Aura Frames",
-      "developer": "Aura Home, Inc.",
-      "store_url": "https://apps.apple.com/us/app/aura-frames/id990062908?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/8d/62/c28d6219-a1b7-b434-5e61-f20b1b18be04/Aura-icon-ios-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2016/06/17",
-      "rating": 4.84023,
-      "rating_count": 26620,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "org.videolan.vlc-ios",
       "itunes_id": "650377962",
-      "rank": 42,
+      "rank": 39,
       "name": "VLC media player",
       "developer": "VideoLAN",
       "store_url": "https://apps.apple.com/us/app/vlc-media-player/id650377962?uo=4",
@@ -633,7 +588,52 @@
       "release_date": "2013/07/19",
       "rating": 3.70526,
       "rating_count": 5812,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "jp.co.canon.ic.cameraconnect",
+      "itunes_id": "944097177",
+      "rank": 40,
+      "name": "Canon Camera Connect",
+      "developer": "Canon Inc.",
+      "store_url": "https://apps.apple.com/us/app/canon-camera-connect/id944097177?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/98/2f/5f/982f5ff1-aef3-7da0-bcba-f9bac426c45f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2015/01/06",
+      "rating": 4.75901,
+      "rating_count": 142004,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "net.frameo.app",
+      "itunes_id": "1179744119",
+      "rank": 41,
+      "name": "Frameo",
+      "developer": "Frameo A/S",
+      "store_url": "https://apps.apple.com/us/app/frameo/id1179744119?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0e/1b/3e/0e1b3efc-6ff4-9c90-7faf-5be4bb69cea5/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2016/12/08",
+      "rating": 4.88489,
+      "rating_count": 423452,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.pushd.Framelord",
+      "itunes_id": "990062908",
+      "rank": 42,
+      "name": "Aura Frames",
+      "developer": "Aura Home, Inc.",
+      "store_url": "https://apps.apple.com/us/app/aura-frames/id990062908?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/8d/62/c28d6219-a1b7-b434-5e61-f20b1b18be04/Aura-icon-ios-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2016/06/17",
+      "rating": 4.84023,
+      "rating_count": 26620,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -648,44 +648,14 @@
       "release_date": "2018/07/07",
       "rating": 4.74366,
       "rating_count": 46782,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.dr1ven.eraser",
-      "itunes_id": "1455009060",
-      "rank": 44,
-      "name": "Photoroom: AI Photo Editor",
-      "developer": "Photoroom",
-      "store_url": "https://apps.apple.com/us/app/photoroom-ai-photo-editor/id1455009060?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/51/6f/48516f30-9168-bf13-7702-8fd705abf066/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2019/03/26",
-      "rating": 4.82347,
-      "rating_count": 227760,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.flarialinteractive.glowify",
-      "itunes_id": "6751491972",
-      "rank": 45,
-      "name": "Glowify - AI Hairstyle Try On",
-      "developer": "Flarial Interactive",
-      "store_url": "https://apps.apple.com/us/app/glowify-ai-hairstyle-try-on/id6751491972?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/99/c7/a499c72b-8c96-08a4-dbe0-d98ba9477857/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "release_date": "2025/08/26",
-      "rating": 4.74273,
-      "rating_count": 11066,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "tv.medal.ios",
       "itunes_id": "1518008441",
-      "rank": 46,
+      "rank": 44,
       "name": "Medal - Game Clipping",
       "developer": "Medal B.V.",
       "store_url": "https://apps.apple.com/us/app/medal-game-clipping/id1518008441?uo=4",
@@ -693,14 +663,29 @@
       "release_date": "2020/12/03",
       "rating": 4.79301,
       "rating_count": 34263,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.dr1ven.eraser",
+      "itunes_id": "1455009060",
+      "rank": 45,
+      "name": "Photoroom: AI Photo Editor",
+      "developer": "Photoroom",
+      "store_url": "https://apps.apple.com/us/app/photoroom-ai-photo-editor/id1455009060?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/51/6f/48516f30-9168-bf13-7702-8fd705abf066/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2019/03/26",
+      "rating": 4.82347,
+      "rating_count": 227760,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "boomer.Smart-Video",
       "itunes_id": "1541407007",
-      "rank": 47,
+      "rank": 46,
       "name": "Captions: AI Edits Your Video",
       "developer": "Captions, LLC (US)",
       "store_url": "https://apps.apple.com/us/app/captions-ai-edits-your-video/id1541407007?uo=4",
@@ -708,44 +693,29 @@
       "release_date": "2020/12/01",
       "rating": 4.74464,
       "rating_count": 36975,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.romangic.wayshot",
-      "itunes_id": "6749303003",
-      "rank": 48,
-      "name": "WayShot:Aesthetic Photo Editor",
-      "developer": "Romangic Lab LLC",
-      "store_url": "https://apps.apple.com/us/app/wayshot-aesthetic-photo-editor/id6749303003?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/ae/9f/62ae9f42-a663-a478-c850-febc546e6365/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2025/08/10",
-      "rating": 4.71683,
-      "rating_count": 1289,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.kick.streaming",
-      "itunes_id": "6743709514",
-      "rank": 49,
-      "name": "KICK - Go Live",
-      "developer": "Kick Streaming",
-      "store_url": "https://apps.apple.com/us/app/kick-go-live/id6743709514?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/1d/11/381d11ea-db8e-ab5c-4b7f-573b6ff844b3/AppIcon_-_Release-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/100x100bb.png",
-      "release_date": "2025/12/15",
-      "rating": 3.62745,
-      "rating_count": 51,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "com.flarialinteractive.glowify",
+      "itunes_id": "6751491972",
+      "rank": 47,
+      "name": "Glowify - AI Hairstyle Try On",
+      "developer": "Flarial Interactive",
+      "store_url": "https://apps.apple.com/us/app/glowify-ai-hairstyle-try-on/id6751491972?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/99/c7/a499c72b-8c96-08a4-dbe0-d98ba9477857/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2025/08/26",
+      "rating": 4.74273,
+      "rating_count": 11066,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.meitu.wink",
       "itunes_id": "1594288016",
-      "rank": 50,
+      "rank": 48,
       "name": "Wink: Video Enhancer & Editor",
       "developer": "Xiamen Meitu Technology Co., Ltd.",
       "store_url": "https://apps.apple.com/us/app/wink-video-enhancer-editor/id1594288016?uo=4",
@@ -753,7 +723,37 @@
       "release_date": "2021/12/17",
       "rating": 4.72898,
       "rating_count": 49041,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.runwayml.mobiletest",
+      "itunes_id": "1665024375",
+      "rank": 49,
+      "name": "RunwayML",
+      "developer": "runwayml",
+      "store_url": "https://apps.apple.com/us/app/runwayml/id1665024375?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/ea/23/e4ea23e9-4315-49a5-eb87-1f6d79658080/runway-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.png",
+      "release_date": "2023/04/18",
+      "rating": 4.47023,
+      "rating_count": 13017,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.kick.streaming",
+      "itunes_id": "6743709514",
+      "rank": 50,
+      "name": "KICK - Go Live",
+      "developer": "Kick Streaming",
+      "store_url": "https://apps.apple.com/us/app/kick-go-live/id6743709514?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/1d/11/381d11ea-db8e-ab5c-4b7f-573b6ff844b3/AppIcon_-_Release-0-0-1x_U007ephone-0-0-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2025/12/15",
+      "rating": 3.62745,
+      "rating_count": 51,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -768,7 +768,7 @@
       "release_date": "2019/08/01",
       "rating": 4.61398,
       "rating_count": 349538,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -783,29 +783,14 @@
       "release_date": "2022/08/01",
       "rating": 4.78257,
       "rating_count": 45376,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.runwayml.mobiletest",
-      "itunes_id": "1665024375",
-      "rank": 53,
-      "name": "RunwayML",
-      "developer": "runwayml",
-      "store_url": "https://apps.apple.com/us/app/runwayml/id1665024375?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e4/ea/23/e4ea23e9-4315-49a5-eb87-1f6d79658080/runway-0-0-1x_U007ephone-0-1-P3-85-220.png/100x100bb.png",
-      "release_date": "2023/04/18",
-      "rating": 4.47023,
-      "rating_count": 13017,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.alightcreative.motion",
       "itunes_id": "1459833443",
-      "rank": 54,
+      "rank": 53,
       "name": "Alight Motion",
       "developer": "Bending Spoons Apps ApS",
       "store_url": "https://apps.apple.com/us/app/alight-motion/id1459833443?uo=4",
@@ -813,7 +798,22 @@
       "release_date": "2019/12/21",
       "rating": 4.41007,
       "rating_count": 72731,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.romangic.wayshot",
+      "itunes_id": "6749303003",
+      "rank": 54,
+      "name": "WayShot:Aesthetic Photo Editor",
+      "developer": "Romangic Lab LLC",
+      "store_url": "https://apps.apple.com/us/app/wayshot-aesthetic-photo-editor/id6749303003?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/ae/9f/62ae9f42-a663-a478-c850-febc546e6365/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2025/08/10",
+      "rating": 4.71683,
+      "rating_count": 1289,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -828,29 +828,14 @@
       "release_date": "2025/08/25",
       "rating": 2.88626,
       "rating_count": 211,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.cardinalblue.PicCollage",
-      "itunes_id": "448639966",
-      "rank": 56,
-      "name": "PicCollage: Magic Photo Editor",
-      "developer": "Cardinal Blue",
-      "store_url": "https://apps.apple.com/us/app/piccollage-magic-photo-editor/id448639966?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/2e/8e/8c2e8e87-2511-fe01-22d8-c49e70e54982/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2011/07/13",
-      "rating": 4.7943,
-      "rating_count": 1831197,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.meitu.myxj",
       "itunes_id": "592331499",
-      "rank": 57,
+      "rank": 56,
       "name": "BeautyCam-Digicam&Photo Editor",
       "developer": "Xiamen Meitu Technology Co., Ltd.",
       "store_url": "https://apps.apple.com/us/app/beautycam-digicam-photo-editor/id592331499?uo=4",
@@ -858,7 +843,22 @@
       "release_date": "2013/01/27",
       "rating": 4.76102,
       "rating_count": 21922,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "me.imgbase.intolive",
+      "itunes_id": "1061859052",
+      "rank": 57,
+      "name": "intoLive - Live Wallpapers",
+      "developer": "ImgBase, Inc.",
+      "store_url": "https://apps.apple.com/us/app/intolive-live-wallpapers/id1061859052?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/ae/07/6cae0799-d6cd-0cf3-3363-d46f75494198/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2015/12/04",
+      "rating": 4.60053,
+      "rating_count": 112639,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -873,22 +873,22 @@
       "release_date": "2025/09/30",
       "rating": 4.81954,
       "rating_count": 22592,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "me.imgbase.intolive",
-      "itunes_id": "1061859052",
+      "app_id": "com.cardinalblue.PicCollage",
+      "itunes_id": "448639966",
       "rank": 59,
-      "name": "intoLive - Live Wallpapers",
-      "developer": "ImgBase, Inc.",
-      "store_url": "https://apps.apple.com/us/app/intolive-live-wallpapers/id1061859052?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6c/ae/07/6cae0799-d6cd-0cf3-3363-d46f75494198/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2015/12/04",
-      "rating": 4.60053,
-      "rating_count": 112639,
-      "timestamp": "2026-08-17 18:11:07"
+      "name": "PicCollage: Magic Photo Editor",
+      "developer": "Cardinal Blue",
+      "store_url": "https://apps.apple.com/us/app/piccollage-magic-photo-editor/id448639966?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/2e/8e/8c2e8e87-2511-fe01-22d8-c49e70e54982/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2011/07/13",
+      "rating": 4.7943,
+      "rating_count": 1831197,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -903,29 +903,14 @@
       "release_date": "2022/09/11",
       "rating": 4.30427,
       "rating_count": 80658,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "co.visualsupply.cam",
-      "itunes_id": "588013838",
-      "rank": 61,
-      "name": "VSCO: Photo & Video Editor",
-      "developer": "Visual Supply Company",
-      "store_url": "https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/d0/79/80d07980-0a33-4f2d-2c44-991d9a2cfcf3/app-icon-production-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2013/06/06",
-      "rating": 4.69461,
-      "rating_count": 276698,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.frontrow.vlog",
       "itunes_id": "1343581380",
-      "rank": 62,
+      "rank": 61,
       "name": "VN: Photo & Video Editor",
       "developer": "Ubiquiti Labs, LLC",
       "store_url": "https://apps.apple.com/us/app/vn-photo-video-editor/id1343581380?uo=4",
@@ -933,29 +918,29 @@
       "release_date": "2018/04/21",
       "rating": 4.76617,
       "rating_count": 311517,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.mangolabs.fontmaker",
-      "itunes_id": "1573791613",
-      "rank": 63,
-      "name": "Fontmaker - Font Keyboard App",
-      "developer": "Sociaaal LLC",
-      "store_url": "https://apps.apple.com/us/app/fontmaker-font-keyboard-app/id1573791613?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/37/8c/62378c56-ac31-d178-49c7-530bc2d0dc83/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2021/07/26",
-      "rating": 4.43078,
-      "rating_count": 123793,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "co.visualsupply.cam",
+      "itunes_id": "588013838",
+      "rank": 62,
+      "name": "VSCO: Photo & Video Editor",
+      "developer": "Visual Supply Company",
+      "store_url": "https://apps.apple.com/us/app/vsco-photo-video-editor/id588013838?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/d0/79/80d07980-0a33-4f2d-2c44-991d9a2cfcf3/app-icon-production-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2013/06/06",
+      "rating": 4.69461,
+      "rating_count": 276698,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "io.elevenlabs.coreapp",
       "itunes_id": "6743162587",
-      "rank": 64,
+      "rank": 63,
       "name": "ElevenLabs: AI Generator",
       "developer": "ElevenLabs, Inc.",
       "store_url": "https://apps.apple.com/us/app/elevenlabs-ai-generator/id6743162587?uo=4",
@@ -963,14 +948,14 @@
       "release_date": "2025/06/24",
       "rating": 4.83993,
       "rating_count": 18523,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.snowcorp.epik",
       "itunes_id": "1577705074",
-      "rank": 65,
+      "rank": 64,
       "name": "EPIK - AI Photo & Video Editor",
       "developer": "SNOW Corporation",
       "store_url": "https://apps.apple.com/us/app/epik-ai-photo-video-editor/id1577705074?uo=4",
@@ -978,29 +963,29 @@
       "release_date": "2021/08/14",
       "rating": 4.72102,
       "rating_count": 54480,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.shutterfly.ShutterflyUploader",
-      "itunes_id": "309465525",
-      "rank": 66,
-      "name": "Shutterfly: Prints Cards Gifts",
-      "developer": "Shutterfly",
-      "store_url": "https://apps.apple.com/us/app/shutterfly-prints-cards-gifts/id309465525?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/db/0e/92db0e80-e2ca-e196-59d0-fc1beab2a301/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2009/04/04",
-      "rating": 4.68279,
-      "rating_count": 590004,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "com.mangolabs.fontmaker",
+      "itunes_id": "1573791613",
+      "rank": 65,
+      "name": "Fontmaker - Font Keyboard App",
+      "developer": "Sociaaal LLC",
+      "store_url": "https://apps.apple.com/us/app/fontmaker-font-keyboard-app/id1573791613?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/37/8c/62378c56-ac31-d178-49c7-530bc2d0dc83/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2021/07/26",
+      "rating": 4.43078,
+      "rating_count": 123793,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.prequelapp.esti",
       "itunes_id": "6457366208",
-      "rank": 67,
+      "rank": 66,
       "name": "Esti: Aesthetic Photo Editor",
       "developer": "Prequel Inc.",
       "store_url": "https://apps.apple.com/us/app/esti-aesthetic-photo-editor/id6457366208?uo=4",
@@ -1008,14 +993,14 @@
       "release_date": "2023/10/25",
       "rating": 4.62802,
       "rating_count": 17450,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.giphy.giphyformessenger",
       "itunes_id": "974748812",
-      "rank": 68,
+      "rank": 67,
       "name": "GIPHY: The GIF Search Engine",
       "developer": "Giphy, Inc.",
       "store_url": "https://apps.apple.com/us/app/giphy-the-gif-search-engine/id974748812?uo=4",
@@ -1023,29 +1008,14 @@
       "release_date": "2015/03/25",
       "rating": 4.77053,
       "rating_count": 714070,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.bigrowth.templates",
-      "itunes_id": "1638320348",
-      "rank": 69,
-      "name": "Muse: Reels Video Editor",
-      "developer": "Bigrowth",
-      "store_url": "https://apps.apple.com/us/app/muse-reels-video-editor/id1638320348?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c4/0e/bdc40ecd-c1f4-fe8f-d3d8-22c839e83ca6/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
-      "release_date": "2022/11/06",
-      "rating": 4.65184,
-      "rating_count": 3777,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.xpcapital.Celebs",
       "itunes_id": "1488127870",
-      "rank": 70,
+      "rank": 68,
       "name": "Celebs - Celebrity Look Alike",
       "developer": "Sociaaal LLC",
       "store_url": "https://apps.apple.com/us/app/celebs-celebrity-look-alike/id1488127870?uo=4",
@@ -1053,14 +1023,14 @@
       "release_date": "2019/12/06",
       "rating": 4.41465,
       "rating_count": 177896,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.lileping.photoframepro",
       "itunes_id": "509987785",
-      "rank": 71,
+      "rank": 69,
       "name": "Photo Collage Maker PicJointer",
       "developer": "Mosaic S.r.l.",
       "store_url": "https://apps.apple.com/us/app/photo-collage-maker-picjointer/id509987785?uo=4",
@@ -1068,7 +1038,37 @@
       "release_date": "2012/03/20",
       "rating": 4.54555,
       "rating_count": 134027,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.bigrowth.templates",
+      "itunes_id": "1638320348",
+      "rank": 70,
+      "name": "Muse: Reels Video Editor",
+      "developer": "Bigrowth",
+      "store_url": "https://apps.apple.com/us/app/muse-reels-video-editor/id1638320348?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/c4/0e/bdc40ecd-c1f4-fe8f-d3d8-22c839e83ca6/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2022/11/06",
+      "rating": 4.65184,
+      "rating_count": 3777,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.shutterfly.ShutterflyUploader",
+      "itunes_id": "309465525",
+      "rank": 71,
+      "name": "Shutterfly: Prints Cards Gifts",
+      "developer": "Shutterfly",
+      "store_url": "https://apps.apple.com/us/app/shutterfly-prints-cards-gifts/id309465525?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/db/0e/92db0e80-e2ca-e196-59d0-fc1beab2a301/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2009/04/04",
+      "rating": 4.68279,
+      "rating_count": 590004,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -1083,22 +1083,22 @@
       "release_date": "2020/01/16",
       "rating": 4.46196,
       "rating_count": 9254,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "ai.photo.enhancer.colorize.clear",
-      "itunes_id": "6447604690",
+      "app_id": "com.apple.FinalCutApp.companion",
+      "itunes_id": "6469552837",
       "rank": 73,
-      "name": "AI Photo Video Editor, Enhance",
-      "developer": "COOL SUMMER LIMITED",
-      "store_url": "https://apps.apple.com/us/app/ai-photo-video-editor-enhance/id6447604690?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/0d/d1/810dd1e0-26a9-c25e-92bd-e17ff61cdc04/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2023/04/27",
-      "rating": 4.56295,
-      "rating_count": 30763,
-      "timestamp": "2026-08-17 18:11:07"
+      "name": "Final Cut Camera",
+      "developer": "Apple",
+      "store_url": "https://apps.apple.com/us/app/final-cut-camera/id6469552837?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/e2/c2/11e2c2d3-0a16-d772-582e-1001ab35f987/finalcutcamera-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220-0.png/100x100bb.png",
+      "release_date": "2024/06/20",
+      "rating": 4.63518,
+      "rating_count": 3451,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -1113,74 +1113,14 @@
       "release_date": "2010/12/23",
       "rating": 4.5978,
       "rating_count": 427267,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.apple.FinalCutApp.companion",
-      "itunes_id": "6469552837",
-      "rank": 75,
-      "name": "Final Cut Camera",
-      "developer": "Apple",
-      "store_url": "https://apps.apple.com/us/app/final-cut-camera/id6469552837?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/e2/c2/11e2c2d3-0a16-d772-582e-1001ab35f987/finalcutcamera-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220-0.png/100x100bb.png",
-      "release_date": "2024/06/20",
-      "rating": 4.63518,
-      "rating_count": 3451,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.click2mobile.collagegrameFree",
-      "itunes_id": "530957474",
-      "rank": 76,
-      "name": "Collage Maker - LiveCollage",
-      "developer": "VIDEO EDITOR PTE. LTD.",
-      "store_url": "https://apps.apple.com/us/app/collage-maker-livecollage/id530957474?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/0d/9b/cc0d9b38-d8bf-d946-426f-0b0192920dca/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2012/06/15",
-      "rating": 4.78059,
-      "rating_count": 174518,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.heygen.mobile",
-      "itunes_id": "6711356409",
-      "rank": 77,
-      "name": "AI Video Generator - HeyGen",
-      "developer": "HeyGen Technology Inc",
-      "store_url": "https://apps.apple.com/us/app/ai-video-generator-heygen/id6711356409?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/a1/cf/a2a1cfcf-14d6-1f4d-6d62-af29f8a901f7/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2024/10/13",
-      "rating": 4.77438,
-      "rating_count": 20628,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.dji.golite",
-      "itunes_id": "1479649251",
-      "rank": 78,
-      "name": "DJI Fly",
-      "developer": "DJI",
-      "store_url": "https://apps.apple.com/us/app/dji-fly/id1479649251?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/18/16/72181631-2780-9b46-904f-7f5f69071615/Icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2019/11/10",
-      "rating": 3.61519,
-      "rating_count": 4649,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.wemagineai.citrus",
       "itunes_id": "1589210147",
-      "rank": 79,
+      "rank": 75,
       "name": "Citrus 1 Tap Photo Enhancer AI",
       "developer": "Wemagine.ai LLP",
       "store_url": "https://apps.apple.com/us/app/citrus-1-tap-photo-enhancer-ai/id1589210147?uo=4",
@@ -1188,44 +1128,59 @@
       "release_date": "2022/05/03",
       "rating": 4.76957,
       "rating_count": 15150,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "nami.ai.video.generator",
-      "itunes_id": "6745781406",
-      "rank": 80,
-      "name": "ReelMe: AI Photo & Video",
-      "developer": "TPC INVEST PTE.LTD",
-      "store_url": "https://apps.apple.com/us/app/reelme-ai-photo-video/id6745781406?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/1d/e2/501de24a-43f8-4c7d-7ac4-26f17be74353/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "release_date": "2025/05/21",
-      "rating": 4.4858,
-      "rating_count": 4154,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "com.heygen.mobile",
+      "itunes_id": "6711356409",
+      "rank": 76,
+      "name": "AI Video Generator - HeyGen",
+      "developer": "HeyGen Technology Inc",
+      "store_url": "https://apps.apple.com/us/app/ai-video-generator-heygen/id6711356409?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/a1/cf/a2a1cfcf-14d6-1f4d-6d62-af29f8a901f7/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2024/10/13",
+      "rating": 4.77438,
+      "rating_count": 20628,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.swishly.webtv",
-      "itunes_id": "999462129",
-      "rank": 81,
-      "name": "Cast Web Videos to TV - iWebTV",
-      "developer": "Swishly inc",
-      "store_url": "https://apps.apple.com/us/app/cast-web-videos-to-tv-iwebtv/id999462129?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/55/ae/8655ae6f-a3fa-81d7-e67d-583fe0873c2d/AppIcon-iwebtv-0-0-1x_U007epad-0-0-0-9-0-0-85-220.png/100x100bb.png",
-      "release_date": "2015/07/11",
-      "rating": 4.75349,
-      "rating_count": 171157,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "ai.photo.enhancer.colorize.clear",
+      "itunes_id": "6447604690",
+      "rank": 77,
+      "name": "AI Photo Video Editor, Enhance",
+      "developer": "COOL SUMMER LIMITED",
+      "store_url": "https://apps.apple.com/us/app/ai-photo-video-editor-enhance/id6447604690?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/0d/d1/810dd1e0-26a9-c25e-92bd-e17ff61cdc04/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2023/04/27",
+      "rating": 4.56295,
+      "rating_count": 30763,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.click2mobile.collagegrameFree",
+      "itunes_id": "530957474",
+      "rank": 78,
+      "name": "Collage Maker - LiveCollage",
+      "developer": "VIDEO EDITOR PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/collage-maker-livecollage/id530957474?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/0d/9b/cc0d9b38-d8bf-d946-426f-0b0192920dca/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2012/06/15",
+      "rating": 4.78059,
+      "rating_count": 174518,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.elven.video",
       "itunes_id": "6451396274",
-      "rank": 82,
+      "rank": 79,
       "name": "VideoGPT - AI Video Generator",
       "developer": "ElevenThirteen LLC",
       "store_url": "https://apps.apple.com/us/app/videogpt-ai-video-generator/id6451396274?uo=4",
@@ -1233,29 +1188,14 @@
       "release_date": "2024/01/31",
       "rating": 4.76301,
       "rating_count": 51239,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.camerasideas.Peachy",
-      "itunes_id": "1390423469",
-      "rank": 83,
-      "name": "Peachy - AI Face & Body Editor",
-      "developer": "SHANTANU PTE. LTD.",
-      "store_url": "https://apps.apple.com/us/app/peachy-ai-face-body-editor/id1390423469?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/b8/be/d1b8becd-4f4d-b25e-e72f-cfe1ef94fce1/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
-      "release_date": "2018/06/29",
-      "rating": 4.85332,
-      "rating_count": 173787,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.lyrebirdstudio.facelab",
       "itunes_id": "1530776865",
-      "rank": 84,
+      "rank": 80,
       "name": "FaceLab: Face Age, Hair Filter",
       "developer": "Lyrebird Studio",
       "store_url": "https://apps.apple.com/us/app/facelab-face-age-hair-filter/id1530776865?uo=4",
@@ -1263,14 +1203,29 @@
       "release_date": "2020/11/13",
       "rating": 4.57934,
       "rating_count": 50152,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.camerasideas.Peachy",
+      "itunes_id": "1390423469",
+      "rank": 81,
+      "name": "Peachy - AI Face & Body Editor",
+      "developer": "SHANTANU PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/peachy-ai-face-body-editor/id1390423469?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/b8/be/d1b8becd-4f4d-b25e-e72f-cfe1ef94fce1/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2018/06/29",
+      "rating": 4.85332,
+      "rating_count": 173787,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.cyberlink.youcammakeup",
       "itunes_id": "863844475",
-      "rank": 85,
+      "rank": 82,
       "name": "YouCam Makeup: Face Editor",
       "developer": "PERFECT MOBILE CORP.",
       "store_url": "https://apps.apple.com/us/app/youcam-makeup-face-editor/id863844475?uo=4",
@@ -1278,29 +1233,59 @@
       "release_date": "2014/08/12",
       "rating": 4.74361,
       "rating_count": 154693,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.gopro.GoPro",
-      "itunes_id": "561350520",
-      "rank": 86,
-      "name": "GoPro Quik",
-      "developer": "GoPro, Inc.",
-      "store_url": "https://apps.apple.com/us/app/gopro-quik/id561350520?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/d6/9c/d5d69c04-fb21-a475-bdf4-97ccbbb2a421/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2012/10/08",
-      "rating": 4.7805,
-      "rating_count": 833251,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "com.dji.golite",
+      "itunes_id": "1479649251",
+      "rank": 83,
+      "name": "DJI Fly",
+      "developer": "DJI",
+      "store_url": "https://apps.apple.com/us/app/dji-fly/id1479649251?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/18/16/72181631-2780-9b46-904f-7f5f69071615/Icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2019/11/10",
+      "rating": 3.61519,
+      "rating_count": 4649,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.swishly.webtv",
+      "itunes_id": "999462129",
+      "rank": 84,
+      "name": "Cast Web Videos to TV - iWebTV",
+      "developer": "Swishly inc",
+      "store_url": "https://apps.apple.com/us/app/cast-web-videos-to-tv-iwebtv/id999462129?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/55/ae/8655ae6f-a3fa-81d7-e67d-583fe0873c2d/AppIcon-iwebtv-0-0-1x_U007epad-0-0-0-9-0-0-85-220.png/100x100bb.png",
+      "release_date": "2015/07/11",
+      "rating": 4.75349,
+      "rating_count": 171157,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "nami.ai.video.generator",
+      "itunes_id": "6745781406",
+      "rank": 85,
+      "name": "ReelMe: AI Photo & Video",
+      "developer": "TPC INVEST PTE.LTD",
+      "store_url": "https://apps.apple.com/us/app/reelme-ai-photo-video/id6745781406?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/1d/e2/501de24a-43f8-4c7d-7ac4-26f17be74353/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2025/05/21",
+      "rating": 4.4858,
+      "rating_count": 4154,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.Prominent.AICatch",
       "itunes_id": "6739276631",
-      "rank": 87,
+      "rank": 86,
       "name": "AI Catch: AI Video Generator",
       "developer": "Prominent Fortune PTE. LTD",
       "store_url": "https://apps.apple.com/us/app/ai-catch-ai-video-generator/id6739276631?uo=4",
@@ -1308,29 +1293,29 @@
       "release_date": "2024/12/30",
       "rating": 4.27904,
       "rating_count": 1412,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.tactacam.reveal",
-      "itunes_id": "1515339989",
-      "rank": 88,
-      "name": "Tactacam REVEAL",
-      "developer": "Tactacam LLC",
-      "store_url": "https://apps.apple.com/us/app/tactacam-reveal/id1515339989?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/34/50/4b34507b-377b-5db7-746b-106d7aea3329/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2020/05/29",
-      "rating": 4.8669,
-      "rating_count": 162848,
-      "timestamp": "2026-08-17 18:11:07"
+      "app_id": "com.gopro.GoPro",
+      "itunes_id": "561350520",
+      "rank": 87,
+      "name": "GoPro Quik",
+      "developer": "GoPro, Inc.",
+      "store_url": "https://apps.apple.com/us/app/gopro-quik/id561350520?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/d6/9c/d5d69c04-fb21-a475-bdf4-97ccbbb2a421/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2012/10/08",
+      "rating": 4.7805,
+      "rating_count": 833251,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.adobe.PSMobile",
       "itunes_id": "331975235",
-      "rank": 89,
+      "rank": 88,
       "name": "Photoshop Express Photo Editor",
       "developer": "Adobe Inc.",
       "store_url": "https://apps.apple.com/us/app/photoshop-express-photo-editor/id331975235?uo=4",
@@ -1338,22 +1323,37 @@
       "release_date": "2009/10/08",
       "rating": 4.74783,
       "rating_count": 740696,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.vidure.6zhentan",
-      "itunes_id": "1489090807",
+      "app_id": "com.tickettothemoon.video.persona",
+      "itunes_id": "1561622206",
+      "rank": 89,
+      "name": "Persona: Beauty Camera",
+      "developer": "Ticket To The Moon, Inc.",
+      "store_url": "https://apps.apple.com/us/app/persona-beauty-camera/id1561622206?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/11/8a/32118ae6-83d3-fcb1-28d5-311eb126ab22/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
+      "release_date": "2021/04/20",
+      "rating": 4.76557,
+      "rating_count": 42797,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.shallwaystudio.nodevideo",
+      "itunes_id": "1467362169",
       "rank": 90,
-      "name": "Viidure",
-      "developer": "Shenzhen Xiaozhen Technology Co.,Ltd.",
-      "store_url": "https://apps.apple.com/us/app/viidure/id1489090807?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/8d/8d/d68d8de4-5bcc-f3e2-d217-d8650e3d8015/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "release_date": "2020/01/06",
-      "rating": 4.39594,
-      "rating_count": 12315,
-      "timestamp": "2026-08-17 18:11:07"
+      "name": "Node Video",
+      "developer": "小为 罗",
+      "store_url": "https://apps.apple.com/us/app/node-video/id1467362169?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/87/25/ae87258f-1623-52da-c2b5-2dd2a85cee08/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2020/02/08",
+      "rating": 4.67837,
+      "rating_count": 6181,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
@@ -1368,14 +1368,29 @@
       "release_date": "2025/09/05",
       "rating": 4.36639,
       "rating_count": 2511,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.vidure.6zhentan",
+      "itunes_id": "1489090807",
+      "rank": 92,
+      "name": "Viidure",
+      "developer": "Shenzhen Xiaozhen Technology Co.,Ltd.",
+      "store_url": "https://apps.apple.com/us/app/viidure/id1489090807?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/8d/8d/d68d8de4-5bcc-f3e2-d217-d8650e3d8015/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2020/01/06",
+      "rating": 4.39594,
+      "rating_count": 12315,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.jbinary.hujicam",
       "itunes_id": "781383622",
-      "rank": 92,
+      "rank": 93,
       "name": "Huji Cam",
       "developer": "Manhole, Inc.",
       "store_url": "https://apps.apple.com/us/app/huji-cam/id781383622?uo=4",
@@ -1383,89 +1398,14 @@
       "release_date": "2017/09/28",
       "rating": 4.21691,
       "rating_count": 11931,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.tickettothemoon.video.persona",
-      "itunes_id": "1561622206",
-      "rank": 93,
-      "name": "Persona: Beauty Camera",
-      "developer": "Ticket To The Moon, Inc.",
-      "store_url": "https://apps.apple.com/us/app/persona-beauty-camera/id1561622206?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/11/8a/32118ae6-83d3-fcb1-28d5-311eb126ab22/AppIcon-0-0-1x_U007emarketing-0-11-0-0-85-220.png/100x100bb.png",
-      "release_date": "2021/04/20",
-      "rating": 4.76557,
-      "rating_count": 42797,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.photomyne.photomyneapplite",
-      "itunes_id": "1037784828",
-      "rank": 94,
-      "name": "Photo Scan App by Photomyne",
-      "developer": "Photomyne LTD",
-      "store_url": "https://apps.apple.com/us/app/photo-scan-app-by-photomyne/id1037784828?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/48/65/a248656a-4165-c883-595b-2fc0f74e835b/AppIconLite-0-0-1x_U007emarketing-0-7-85-220.png/100x100bb.png",
-      "release_date": "2015/10/09",
-      "rating": 4.70211,
-      "rating_count": 94400,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "liit.photovideo.editor",
-      "itunes_id": "1547215938",
-      "rank": 95,
-      "name": "Liit - Photo & Video Editor",
-      "developer": "DAZZ PTE. LTD.",
-      "store_url": "https://apps.apple.com/us/app/liit-photo-video-editor/id1547215938?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/3c/ec/9d3cec2f-32ea-cfe9-64b1-6dcf36497c10/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2021/01/13",
-      "rating": 4.86027,
-      "rating_count": 3242,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "com.adobe.photoshop.ios",
-      "itunes_id": "1457771281",
-      "rank": 96,
-      "name": "Adobe Photoshop: Photo Editor",
-      "developer": "Adobe Inc.",
-      "store_url": "https://apps.apple.com/us/app/adobe-photoshop-photo-editor/id1457771281?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/d5/83/1bd5839c-5152-437e-bc2e-bdf5d282b293/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
-      "release_date": "2019/11/07",
-      "rating": 4.4581,
-      "rating_count": 92300,
-      "timestamp": "2026-08-17 18:11:07"
-    },
-    {
-      "platform": "App Store",
-      "category": "照片&视频",
-      "app_id": "EseeNetProj.juanvision.com",
-      "itunes_id": "1032277907",
-      "rank": 97,
-      "name": "EseeCloud(IP Pro, VR Cam)",
-      "developer": "Guangdong Juan Intelligent Technology Joint Stock Co., Ltd",
-      "store_url": "https://apps.apple.com/us/app/eseecloud-ip-pro-vr-cam/id1032277907?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/2b/05/f42b0551-65c0-a3df-6d76-83c6842aa747/AppIcon-0-0-1x_U007emarketing-0-9-0-0-0-85-220.png/100x100bb.png",
-      "release_date": "2015/09/01",
-      "rating": 3.96421,
-      "rating_count": 6008,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
       "app_id": "com.photo.beautytuneapp",
       "itunes_id": "1361012099",
-      "rank": 98,
+      "rank": 94,
       "name": "Facelab: Face & Body Editor",
       "developer": "IRONTECH LIMITED",
       "store_url": "https://apps.apple.com/us/app/facelab-face-body-editor/id1361012099?uo=4",
@@ -1473,37 +1413,97 @@
       "release_date": "2018/04/25",
       "rating": 4.64093,
       "rating_count": 86457,
-      "timestamp": "2026-08-17 18:11:07"
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "com.shallwaystudio.nodevideo",
-      "itunes_id": "1467362169",
+      "app_id": "com.adobe.photoshop.ios",
+      "itunes_id": "1457771281",
+      "rank": 95,
+      "name": "Adobe Photoshop: Photo Editor",
+      "developer": "Adobe Inc.",
+      "store_url": "https://apps.apple.com/us/app/adobe-photoshop-photo-editor/id1457771281?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/d5/83/1bd5839c-5152-437e-bc2e-bdf5d282b293/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2019/11/07",
+      "rating": 4.4581,
+      "rating_count": 92300,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.photomyne.photomyneapplite",
+      "itunes_id": "1037784828",
+      "rank": 96,
+      "name": "Photo Scan App by Photomyne",
+      "developer": "Photomyne LTD",
+      "store_url": "https://apps.apple.com/us/app/photo-scan-app-by-photomyne/id1037784828?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/48/65/a248656a-4165-c883-595b-2fc0f74e835b/AppIconLite-0-0-1x_U007emarketing-0-7-85-220.png/100x100bb.png",
+      "release_date": "2015/10/09",
+      "rating": 4.70211,
+      "rating_count": 94400,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "liit.photovideo.editor",
+      "itunes_id": "1547215938",
+      "rank": 97,
+      "name": "Liit - Photo & Video Editor",
+      "developer": "DAZZ PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/liit-photo-video-editor/id1547215938?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/3c/ec/9d3cec2f-32ea-cfe9-64b1-6dcf36497c10/AppIcon-0-0-1x_U007ephone-0-11-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2021/01/13",
+      "rating": 4.86027,
+      "rating_count": 3242,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.tactacam.reveal",
+      "itunes_id": "1515339989",
+      "rank": 98,
+      "name": "Tactacam REVEAL",
+      "developer": "Tactacam LLC",
+      "store_url": "https://apps.apple.com/us/app/tactacam-reveal/id1515339989?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/34/50/4b34507b-377b-5db7-746b-106d7aea3329/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2020/05/29",
+      "rating": 4.8669,
+      "rating_count": 162848,
+      "timestamp": "2026-08-17 18:44:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.abbynayeri.spectra",
+      "itunes_id": "6757448890",
       "rank": 99,
-      "name": "Node Video",
-      "developer": "小为 罗",
-      "store_url": "https://apps.apple.com/us/app/node-video/id1467362169?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/87/25/ae87258f-1623-52da-c2b5-2dd2a85cee08/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2020/02/08",
-      "rating": 4.67837,
-      "rating_count": 6181,
-      "timestamp": "2026-08-17 18:11:07"
+      "name": "Pecra: G7X Digital Camera",
+      "developer": "PECRAS Technologies Inc.",
+      "store_url": "https://apps.apple.com/us/app/pecra-g7x-digital-camera/id6757448890?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/ed/ca/62edcad6-86a2-9d95-df64-fd3784d14a34/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/01/17",
+      "rating": 4.23153,
+      "rating_count": 609,
+      "timestamp": "2026-08-17 18:44:45"
     },
     {
       "platform": "App Store",
       "category": "照片&视频",
-      "app_id": "ai.photo.editor.eraser",
-      "itunes_id": "6499191999",
+      "app_id": "com.aivideogenerator.app2025",
+      "itunes_id": "6740037376",
       "rank": 100,
-      "name": "AI Photo Editor - BgMaster™",
-      "developer": "COOL SUMMER LIMITED",
-      "store_url": "https://apps.apple.com/us/app/ai-photo-editor-bgmaster/id6499191999?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/03/c1/9e03c125-1efa-acc9-ccd1-63ef0316b818/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2024/05/01",
-      "rating": 4.60537,
-      "rating_count": 8745,
-      "timestamp": "2026-08-17 18:11:07"
+      "name": "MePic－AI Photo Video Generator",
+      "developer": "Ocean Float Mobile",
+      "store_url": "https://apps.apple.com/us/app/mepic-ai-photo-video-generator/id6740037376?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/4c/60/c04c6081-a069-4e6f-fb86-7c3b46802131/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2025/07/06",
+      "rating": 4.65176,
+      "rating_count": 4695,
+      "timestamp": "2026-08-17 18:44:45"
     }
   ]
 }

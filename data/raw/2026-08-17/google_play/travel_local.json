@@ -8,35 +8,35 @@
     {
       "platform": "Google Play",
       "category": "旅行与当地",
-      "app_id": "com.tripadvisor.tripadvisor",
-      "rank": 1,
-      "name": "Tripadvisor: Plan & Book Trips",
-      "developer": "Tripadvisor",
-      "store_url": "https://play.google.com/store/apps/details?id=com.tripadvisor.tripadvisor",
-      "icon_url": "https://play-lh.googleusercontent.com/SadHVg8ieqV-KQRjgukQJIVRtDAc9tGLUjOKecJtSLVdUHeENpQgzxgWZ__wSQ9ZWmHbJ2G-aqHRZdT7K8KPoJk",
-      "timestamp": "2026-08-17 18:04:35"
-    },
-    {
-      "platform": "Google Play",
-      "category": "旅行与当地",
       "app_id": "com.booking",
-      "rank": 2,
+      "rank": 1,
       "name": "Booking.com: Hotels & Travel",
       "developer": "Booking.com Hotels & Vacation Rentals",
       "store_url": "https://play.google.com/store/apps/details?id=com.booking",
       "icon_url": "https://play-lh.googleusercontent.com/ozdbI6WGLCrPRNmc2TqrxgOx_TBIOB7WSeLE5iPkCuBiLyB0tkBo2o3l-VRdD71aKaY-mTwzLQY8zpeo9rOLkwA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.expedia.bookings",
-      "rank": 3,
+      "rank": 2,
       "name": "Expedia: Hotels, Flights, Cars",
       "developer": "Expedia",
       "store_url": "https://play.google.com/store/apps/details?id=com.expedia.bookings",
       "icon_url": "https://play-lh.googleusercontent.com/xR9ID0uk8rgizV7V-GLpmWFEdEkbElLBCDMgauP1Svk_bh1JPpSSlL79X7NuN_tt34EOM1OFpLgA-eeboZUc9A",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
+    },
+    {
+      "platform": "Google Play",
+      "category": "旅行与当地",
+      "app_id": "ctrip.english",
+      "rank": 3,
+      "name": "Trip.com: Book Flights, Hotels",
+      "developer": "Trip.com",
+      "store_url": "https://play.google.com/store/apps/details?id=ctrip.english",
+      "icon_url": "https://play-lh.googleusercontent.com/vNZziIq3UAk5fRBofLa418ruaHqypKqyOh2vsgrV56ccQDdXkIV0v6WA11B3XlyEEPN4YrPvsqFDJEG3wqbi",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -47,18 +47,18 @@
       "developer": "Skyscanner Ltd",
       "store_url": "https://play.google.com/store/apps/details?id=net.skyscanner.android.main",
       "icon_url": "https://play-lh.googleusercontent.com/3U-xGT-HeIX65OvG9ZUp7lMDf3T51qtYm-ikjCkyHAjveiyc_Qtl11dqlx3cCMHszOdsycuAalGbUW78sMX7cw",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
-      "app_id": "ctrip.english",
+      "app_id": "com.ubercab",
       "rank": 5,
-      "name": "Trip.com: Book Flights, Hotels",
-      "developer": "Trip.com",
-      "store_url": "https://play.google.com/store/apps/details?id=ctrip.english",
-      "icon_url": "https://play-lh.googleusercontent.com/vNZziIq3UAk5fRBofLa418ruaHqypKqyOh2vsgrV56ccQDdXkIV0v6WA11B3XlyEEPN4YrPvsqFDJEG3wqbi",
-      "timestamp": "2026-08-17 18:04:35"
+      "name": "Uber - Request a ride",
+      "developer": "Uber Technologies, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ubercab",
+      "icon_url": "https://play-lh.googleusercontent.com/OXQnDlRtPa5ha6KCnKPqVmxHYBP7tjrAa7PXGNRqcwDC_J03HVeuEKcKrkcIqnfOqsF5uy3uwWxIXR067QHsNQ",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -69,271 +69,271 @@
       "developer": "Hopper Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.hopper.mountainview.play",
       "icon_url": "https://play-lh.googleusercontent.com/HbSywvR-AS9iEr4DlkaK-tTi861QzFFAFC7SMmiY_jJi5S3RuuCJHdO_WSkb2gjcgM1GXckSV5hhRp4W5ypZuAY",
-      "timestamp": "2026-08-17 18:04:35"
-    },
-    {
-      "platform": "Google Play",
-      "category": "旅行与当地",
-      "app_id": "com.ubercab",
-      "rank": 7,
-      "name": "Uber - Request a ride",
-      "developer": "Uber Technologies, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.ubercab",
-      "icon_url": "https://play-lh.googleusercontent.com/OXQnDlRtPa5ha6KCnKPqVmxHYBP7tjrAa7PXGNRqcwDC_J03HVeuEKcKrkcIqnfOqsF5uy3uwWxIXR067QHsNQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.kayak.android",
-      "rank": 8,
+      "rank": 7,
       "name": "KAYAK: Flights, Hotels & Cars",
       "developer": "KAYAK.com",
       "store_url": "https://play.google.com/store/apps/details?id=com.kayak.android",
       "icon_url": "https://play-lh.googleusercontent.com/fzR0RmuvM41UxDJMPpCySidIR5WeUKUX0GImQs64GJhV5IlGsnm20-O3BbA7LEI4r5cSkEiANEs0akxxOF8R8w",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.klook",
-      "rank": 9,
+      "rank": 8,
       "name": "Klook: Travel & Activities",
       "developer": "Klook Travel Technology Ltd.",
       "store_url": "https://play.google.com/store/apps/details?id=com.klook",
       "icon_url": "https://play-lh.googleusercontent.com/VMmLRNcYM21bePmsaTPyIyDz9kYIcM9IGsEgTgC3kY6TfIn1RolGRGZjT3BP3AaFaRoPdgo-8BR5zy8nxH-9tEM",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.agoda.mobile.consumer",
-      "rank": 10,
+      "rank": 9,
       "name": "Agoda: Cheap Flights & Hotels",
       "developer": "agoda.com",
       "store_url": "https://play.google.com/store/apps/details?id=com.agoda.mobile.consumer",
       "icon_url": "https://play-lh.googleusercontent.com/OnX2KsVpNq1vK-18zV86P8eBxep0IlwvC1SaafZtYcrAb7TbP6F2W87AKzqOAZQku9oBslCxfD8UEVC0abhqrQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.airbnb.android",
-      "rank": 11,
+      "rank": 10,
       "name": "Airbnb",
       "developer": "Airbnb",
       "store_url": "https://play.google.com/store/apps/details?id=com.airbnb.android",
       "icon_url": "https://play-lh.googleusercontent.com/PDPmzZUDSmFa33PmzoZ_OWLeIbj23UtGFE9fXVEVjfuyMGvPygT-v9N7bFsJwc8PojCmw72i8Xn45qHElm8b",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.trivago",
-      "rank": 12,
+      "rank": 11,
       "name": "trivago: Compare hotel prices",
       "developer": "trivago N.V.",
       "store_url": "https://play.google.com/store/apps/details?id=com.trivago",
       "icon_url": "https://play-lh.googleusercontent.com/MmtE8fh-QwtTh1u4vuekrxw85E4kjvh3JGDTcNRWUvvAPDaosuvx51uxU77Y4JPOzJsAVbBDTm4yqbING0x9",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "mapanim.travelmapanimation.routemap",
-      "rank": 13,
+      "rank": 12,
       "name": "Travel Map Animation - MapAnim",
       "developer": "Shenzhen Tapyin Technology Co., Ltd",
       "store_url": "https://play.google.com/store/apps/details?id=mapanim.travelmapanimation.routemap",
       "icon_url": "https://play-lh.googleusercontent.com/rHWEEY_l3dq_UMEFyEkkLmRrPXlYIbe-sgcfmG92iwNo9uS8AWDokbUNE-TtI44LP1A2Wg54Yp0LpLSFuUt3Dg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.trevel",
-      "rank": 14,
+      "rank": 13,
       "name": "Trevel Mobility",
       "developer": "Trevel",
       "store_url": "https://play.google.com/store/apps/details?id=com.trevel",
       "icon_url": "https://play-lh.googleusercontent.com/uzr3y6FhUMydG6D0qCBE9vj-o92tg2sqcITDxqfwjbIOqMBbVSs4tgiTMJp6v5eWakd3jhxaNVUHoyg6aCGPqA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.wanderlog.android",
-      "rank": 15,
+      "rank": 14,
       "name": "Wanderlog - Trip Planner App",
       "developer": "Wanderlog",
       "store_url": "https://play.google.com/store/apps/details?id=com.wanderlog.android",
       "icon_url": "https://play-lh.googleusercontent.com/9OTbI7bVQ6Bb6p0n1p3HmLfi-iuTvznPtX7NEd-TXWPVUax7KHSOVs9CEZUOQpwY94oGySjTq-iBv01zKoBRHg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.didiglobal.passenger",
-      "rank": 16,
+      "rank": 15,
       "name": "DiDi Rider: Affordable rides",
       "developer": "DiDi Global",
       "store_url": "https://play.google.com/store/apps/details?id=com.didiglobal.passenger",
       "icon_url": "https://play-lh.googleusercontent.com/w08P6Py2wtGkmuBbwQ6KDV6t9hqwy3nNI6SKrQg4wxT6j6vCY2evsDGzXk6q0KGeeTmX8ij9uoOxuH1YOIFtC7A",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.flightradar24free",
-      "rank": 17,
+      "rank": 16,
       "name": "Flightradar24 Flight Tracker",
       "developer": "Flightradar24 AB",
       "store_url": "https://play.google.com/store/apps/details?id=com.flightradar24free",
       "icon_url": "https://play-lh.googleusercontent.com/8KtIuiRHYtY0XJigXIl-iN6X6-ht85ELWXFiynenpCW40b6zNUnLFGKwIN0iITV_1L3sN3G53PaiNiWsn5RSIv8",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.marriott.mrt",
-      "rank": 18,
+      "rank": 17,
       "name": "Marriott Bonvoy: Book Hotels",
       "developer": "Marriott International",
       "store_url": "https://play.google.com/store/apps/details?id=com.marriott.mrt",
       "icon_url": "https://play-lh.googleusercontent.com/BXC7DufPjS1Oc7x7TDY3QyHfrkq-MQpSUHyuCsb1_PhY2aju4OAyZtmdPWJXoCTIQr-3t06y-jTGH4WcbYJvYQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.navitime.inbound.walk",
-      "rank": 19,
+      "rank": 18,
       "name": "Japan Travel–Trip,Transit&Rail",
       "developer": "NAVITIME JAPAN CO., LTD.",
       "store_url": "https://play.google.com/store/apps/details?id=com.navitime.inbound.walk",
       "icon_url": "https://play-lh.googleusercontent.com/EkFWFEcKUvRnEBo2K62JeNPAVPjd1IQMSV4-Ghw6pkpJOrGGyG1n0L7NP_hB9o5YFccK7hDSfxZBW_t1X0Vx4A",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "au.com.opal.travel",
-      "rank": 20,
+      "rank": 19,
       "name": "Opal Travel",
       "developer": "Transport for NSW",
       "store_url": "https://play.google.com/store/apps/details?id=au.com.opal.travel",
       "icon_url": "https://play-lh.googleusercontent.com/bSgEGQaPT4v82Ugy0g_KwDPnqtlI6In-Pucq5yziPNxQX5ZM5GtsJ1UrqJdqWki2supJBiaY_vND_6Cf40Ahig",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "in.redbus.android",
-      "rank": 21,
+      "rank": 20,
       "name": "redBus Book Bus, Train Tickets",
       "developer": "redBus - Bus, Ferry, Train, IRCTC Auth. Partner",
       "store_url": "https://play.google.com/store/apps/details?id=in.redbus.android",
       "icon_url": "https://play-lh.googleusercontent.com/43E5nFgmkuKssO6qMp8RVnhQFDKVUWiRj4onvTASAFV38f7UI1ywQ0xYRhq4CLVc2sWf8Glm8GRS5n4lj-aFyIg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.comuto",
-      "rank": 22,
+      "rank": 21,
       "name": "BlaBlaCar: Carpooling and Bus",
       "developer": "BlaBlaCar",
       "store_url": "https://play.google.com/store/apps/details?id=com.comuto",
       "icon_url": "https://play-lh.googleusercontent.com/iQr8MrRTu31OK2hFsu15b-tgWBe7Ui8uHZsBOjPtGbzRyvVHF3eUWCFINW7qj9b2mj86lBlq9RXvW9w0cmEGHw",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.traveloka.android",
-      "rank": 23,
+      "rank": 22,
       "name": "Traveloka: Book Hotel & Flight",
       "developer": "Traveloka",
       "store_url": "https://play.google.com/store/apps/details?id=com.traveloka.android",
       "icon_url": "https://play-lh.googleusercontent.com/bDzDECD9CXD9pIzmRsrX26qdwdOIUMyOBI2M3siuKvC2kIBXBsQdThlbSpMPWhVZWnweRJUlCL49DRb6O2eBvA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.rapido.passenger",
-      "rank": 24,
+      "rank": 23,
       "name": "Rapido: Bike-Taxi, Auto & Cabs",
       "developer": "Rapido Bike Taxi",
       "store_url": "https://play.google.com/store/apps/details?id=com.rapido.passenger",
       "icon_url": "https://play-lh.googleusercontent.com/94XgU5OUmk5HIyv6gn9ZVJWudLxUjeAunu8QcORlmEx3sG_bw8NArUjvKx3lSAXsJAOYf7qfz1Fi7E-xEN4O",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.united.mobile.android",
-      "rank": 25,
+      "rank": 24,
       "name": "United Airlines",
       "developer": "United Airlines",
       "store_url": "https://play.google.com/store/apps/details?id=com.united.mobile.android",
       "icon_url": "https://play-lh.googleusercontent.com/DViJ4gWGE-x8OQFuEqIEjXgyMLDWb6g2yLTo4Tf1xm2j4-myXGsz-uAjOOXRJTu0jNvGwmgkyaAoGMBDQZA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.withfaye.app",
-      "rank": 26,
+      "rank": 25,
       "name": "Faye Travel Insurance",
       "developer": "Zenner, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.withfaye.app",
       "icon_url": "https://play-lh.googleusercontent.com/anQ9Bdci2r_RBl2GSxpp_mVIy3R4bdTiApe02wdVYbYoySBY2PTg2JGB5VUqcJ-2nZZ2dR5qEBTKPcFuC3x37s8",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
-      "app_id": "com.tripit",
-      "rank": 27,
-      "name": "TripIt: Travel Planner",
-      "developer": "TripIt, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.tripit",
-      "icon_url": "https://play-lh.googleusercontent.com/PQGWdPWj9ZjPX4eYKdTnoZ8JdbV7m8mkQ8r7okc2M9zOtWFaVmUlfcSnDy1mpRl28sA6Z9vwDiDtnduN5skP",
-      "timestamp": "2026-08-17 18:04:35"
+      "app_id": "com.cheapflightsapp.flightbooking",
+      "rank": 26,
+      "name": "Cheap Flights App - FareFirst",
+      "developer": "Flight Booking App by FareFirst",
+      "store_url": "https://play.google.com/store/apps/details?id=com.cheapflightsapp.flightbooking",
+      "icon_url": "https://play-lh.googleusercontent.com/pgwN7M6ASC-IUsfcR7zxtoW1H5E5C90_cZo6qJ7TSKbDyvXFlLpLW4CyFYqkrnXG0zB0UxaGZTjW6HoiI4BIkw",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.ihg.apps.android",
-      "rank": 28,
+      "rank": 27,
       "name": "IHG One Rewards: Book Hotels",
       "developer": "IHG Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.ihg.apps.android",
       "icon_url": "https://play-lh.googleusercontent.com/k5xbpOdKBo2F4rs2GLOKWzDDaoEcdJD0lU0iMu-nKP8Bcw2T86ACziujXM0SYXEocdOukNuwfe8svQ3Etfk9fZU",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.southwestairlines.mobile",
-      "rank": 29,
+      "rank": 28,
       "name": "Southwest Airlines: Travel App",
       "developer": "Southwest Airlines",
       "store_url": "https://play.google.com/store/apps/details?id=com.southwestairlines.mobile",
       "icon_url": "https://play-lh.googleusercontent.com/-D-xjEOt0vm8p7gX3tbdTvgBTnHPS0SkK2sRxOuTHnT4Isz0BydJQHti1Wn8PQ6WGINfzH1SNWe1rPTxzHui",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.polarsteps",
-      "rank": 30,
+      "rank": 29,
       "name": "Polarsteps",
       "developer": "Polarsteps Travel",
       "store_url": "https://play.google.com/store/apps/details?id=com.polarsteps",
       "icon_url": "https://play-lh.googleusercontent.com/J_Id4KKYcRWgopP_rl2rwwyemVMI6KMbWdXv_-Xw4ZXS6LWskiQuLuLk40fyqLYX55GmpnFiLya3yoQxqjxy",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
+    },
+    {
+      "platform": "Google Play",
+      "category": "旅行与当地",
+      "app_id": "com.tripit",
+      "rank": 30,
+      "name": "TripIt: Travel Planner",
+      "developer": "TripIt, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.tripit",
+      "icon_url": "https://play-lh.googleusercontent.com/PQGWdPWj9ZjPX4eYKdTnoZ8JdbV7m8mkQ8r7okc2M9zOtWFaVmUlfcSnDy1mpRl28sA6Z9vwDiDtnduN5skP",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -344,7 +344,7 @@
       "developer": "Scoopz LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.zests.ai",
       "icon_url": "https://play-lh.googleusercontent.com/oZNihV5vV_MmfmBja-U5cHcHII1sYpsUapYF__0YJ6DOsqeqZT2cEV69s5yGCOpBoSfo7tCvDASGjvdW7Wx1QgM",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -355,7 +355,7 @@
       "developer": "Local Single",
       "store_url": "https://play.google.com/store/apps/details?id=app.local.single",
       "icon_url": "https://play-lh.googleusercontent.com/_9j_nWwpPDJjerZ31Emv1tCQAEB9GSY7Diwv2KXIAr9ADEs7ZQ0xPZMfHbRQVA0E6g7r0_CUMJzc5iY6I0WG",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -366,7 +366,7 @@
       "developer": "Google LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps",
       "icon_url": "https://play-lh.googleusercontent.com/B8pdO_2K5nBsF0g1h6dKwV_jQFLP-XombGDEQGtJT-mw1EUKCKJpa9lBGCF4rP_MwCsozSXyvI3z19g9R3J4",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -377,7 +377,7 @@
       "developer": "Tien Do Nam",
       "store_url": "https://play.google.com/store/apps/details?id=org.localsend.localsend_app",
       "icon_url": "https://play-lh.googleusercontent.com/M33xh7ahqjZnunTUOX1-p13D8z3ZX9R8Y41ooCm5SENNxtN_1htUR0t2M7RKjTL4UxuJ9GAsfBQVleL3g5mLMg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -388,7 +388,7 @@
       "developer": "Meta Platforms, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.facebook.lite",
       "icon_url": "https://play-lh.googleusercontent.com/HWNSz5n5jIISnAJDfnReYsNN565LJlEBfg8GoCsGWpS-rbt9txAwXCQCSJkpl8UObQLRqrGx2xi50epl1JfKP4o",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -399,7 +399,7 @@
       "developer": "Toast, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.toasttab.consumer",
       "icon_url": "https://play-lh.googleusercontent.com/iotvSveR5RVYOVu0yZ3MPvSqC-nOREpBBiYw3vZV1j2v8d_wDuAWzPU3bPObc7tVWFwhm5cMd8mASHKnG-dh",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -410,7 +410,7 @@
       "developer": "Truecaller",
       "store_url": "https://play.google.com/store/apps/details?id=com.truecaller",
       "icon_url": "https://play-lh.googleusercontent.com/kVMxXC3fV4cyG56MZunYS2-HYaHh3eM3YTWoDbYaN5-G9xIU2k235hHVQmRrm79tzBSzt0cZ6GsBbzGzGbbMwg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -421,7 +421,7 @@
       "developer": "Tinder LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.tinder",
       "icon_url": "https://play-lh.googleusercontent.com/VaExVMyjnrd9PkIAKchSBK6Eo7zb4A2rriDbD3pUvmveAy46StPS-Hs5mYVIP9upZV4YCJxRoQRnj77FAaQd2A",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -432,7 +432,7 @@
       "developer": "Google LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.magazines",
       "icon_url": "https://play-lh.googleusercontent.com/m2k0X_fhgmj2MjDn_9rStPF9ngsXMO-DsC1ZhG3bcYl7hvJ9rwAOo7cKs9j5wnl-RNuDh-sfCUtF2sYzjcgzIg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -443,18 +443,18 @@
       "developer": "Particle Media Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.particlenews.newsbreak",
       "icon_url": "https://play-lh.googleusercontent.com/i8olqrWdwlz5FwqujfNFdV-VELjIxBTZufvaTws8cgkaJUZCBIKGpiFgYn2B5-FUtxEdsm9qVagY17T7LUGVtg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
-      "app_id": "com.towneers.www",
+      "app_id": "com.weathergroup.localnow",
       "rank": 41,
-      "name": "Karrot: Buy & sell locally",
-      "developer": "Danggeun Market Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.towneers.www",
-      "icon_url": "https://play-lh.googleusercontent.com/VZw7xpXum12IRdCJQ_CbeJEGixGrJw9irWkqvIIgp78hQRt7tk_aPOzFRDKMqr3RgMhhzj8VFr7dFPU4GaHhXQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "name": "Local Now: News, Movies & TV",
+      "developer": "Weather Group, LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.weathergroup.localnow",
+      "icon_url": "https://play-lh.googleusercontent.com/nft3UsUiLm097Tg0XRWItQA7Sf8Ptk5lhBUkaW72viJlaxCuXcNpWSxyaXMQIU_5ojykCC_63DRH2izn42ksoQ",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -465,7 +465,7 @@
       "developer": "Waze",
       "store_url": "https://play.google.com/store/apps/details?id=com.waze",
       "icon_url": "https://play-lh.googleusercontent.com/d4dltd4baeDGnfJD1H-ut68ERsIynfywij9zHRL7ioB-PJW3ENw-bFgg08KGPo8zQfSyRW36e58xhlqQ0pE1gg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -476,7 +476,7 @@
       "developer": "happn",
       "store_url": "https://play.google.com/store/apps/details?id=com.ftw_and_co.happn",
       "icon_url": "https://play-lh.googleusercontent.com/dHnVDblktLoq6j5ZwbfQHxcPqb2RfoevV2tpzGc_CPXBySFe96a_RsGipMuy_snX3mGYaLkcU4tWWssW2jfITg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -487,7 +487,7 @@
       "developer": "Audiomack Music Apps",
       "store_url": "https://play.google.com/store/apps/details?id=com.audiomack",
       "icon_url": "https://play-lh.googleusercontent.com/7TBdEjil-lhQok7Y-jlpEDbgtS4cayV5l5j872slxL9pfvnGYAuHa8khiiQc9FVOQRLfU-vjPJeVm1yUDKsj",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -498,18 +498,18 @@
       "developer": "Grab Holdings",
       "store_url": "https://play.google.com/store/apps/details?id=com.grabtaxi.passenger",
       "icon_url": "https://play-lh.googleusercontent.com/aJZQVKfrmo-Kl7G3m-_8CrnqEQAsiojdE5yKcUTa8uKUZtcNWagCJJIFrTe1Vl64FvIcAJSZY4ynLsbJG4wa5xg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
-      "app_id": "com.weathergroup.localnow",
+      "app_id": "com.enflick.android.TextNow",
       "rank": 46,
-      "name": "Local Now: News, Movies & TV",
-      "developer": "Weather Group, LLC",
-      "store_url": "https://play.google.com/store/apps/details?id=com.weathergroup.localnow",
-      "icon_url": "https://play-lh.googleusercontent.com/nft3UsUiLm097Tg0XRWItQA7Sf8Ptk5lhBUkaW72viJlaxCuXcNpWSxyaXMQIU_5ojykCC_63DRH2izn42ksoQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "name": "TextNow: Call + Text Unlimited",
+      "developer": "TextNow, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.enflick.android.TextNow",
+      "icon_url": "https://play-lh.googleusercontent.com/dhPBaff_7shT1IF0fV0P1R0psaYknV9ppvu1IyNrj3f1uXET9F56C_7w5OvfT16nKdKIGJG8Q86QI0YsjU6tIA",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -520,18 +520,18 @@
       "developer": "HTVMA Solutions, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.hearst.android.tv",
       "icon_url": "https://play-lh.googleusercontent.com/WYAbdYFEiUUYPiUSVblnkPiSPBm4c3lNZQALszCoWxyZsxx44fMjnl_dEwqPQpsTqMLomuETwKdJd0up-Ezi30M",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
-      "app_id": "com.enflick.android.TextNow",
+      "app_id": "com.towneers.www",
       "rank": 48,
-      "name": "TextNow: Call + Text Unlimited",
-      "developer": "TextNow, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.enflick.android.TextNow",
-      "icon_url": "https://play-lh.googleusercontent.com/dhPBaff_7shT1IF0fV0P1R0psaYknV9ppvu1IyNrj3f1uXET9F56C_7w5OvfT16nKdKIGJG8Q86QI0YsjU6tIA",
-      "timestamp": "2026-08-17 18:04:35"
+      "name": "Karrot: Buy & sell locally",
+      "developer": "Danggeun Market Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.towneers.www",
+      "icon_url": "https://play-lh.googleusercontent.com/VZw7xpXum12IRdCJQ_CbeJEGixGrJw9irWkqvIIgp78hQRt7tk_aPOzFRDKMqr3RgMhhzj8VFr7dFPU4GaHhXQ",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -542,7 +542,7 @@
       "developer": "Fox Television Stations, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.fox.fts.android",
       "icon_url": "https://play-lh.googleusercontent.com/PvrLAzaP19_stHztxmmBgzcpnPmV9cCrblA53-kuJixh03X4lnJxRI3Mpm8w8GhV5etqF8Yd3_r8CzwTKuOl6w",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -553,7 +553,7 @@
       "developer": "Gametion",
       "store_url": "https://play.google.com/store/apps/details?id=com.ludo.king",
       "icon_url": "https://play-lh.googleusercontent.com/qSN0Eb6mDVPIX4PRggTB3PsEU1oyPorteUfiuJ709P9cZxdWP9Y-kV0htG7rtJNYywGE-3wlrC_7Gix0h0-Urw",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -564,7 +564,7 @@
       "developer": "Amazon Mobile LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping",
       "icon_url": "https://play-lh.googleusercontent.com/UIYZ9hTFNg-zZUg_uzLS9YdyDpvoo1VHNFb6VlzHy5JqNMq9Uq-p2S1VPwzXCipHTFacfGKhJkyAuKL19VVlcWA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -575,7 +575,7 @@
       "developer": "Enjoy Life Studio",
       "store_url": "https://play.google.com/store/apps/details?id=life.channel.accurate.local.weather.forecast",
       "icon_url": "https://play-lh.googleusercontent.com/HQ7QtLjzaILZb4DcCqEc91q1FJj1E3OIyFc7KnY-OVRKEqLVvRxy9H4XecVO2TIoUAapns4ObeJwKgeeCjmS",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -586,29 +586,29 @@
       "developer": "® SUOL INNOVATIONS LTD",
       "store_url": "https://play.google.com/store/apps/details?id=sinet.startup.inDriver",
       "icon_url": "https://play-lh.googleusercontent.com/xzaieq15Hxs7nhvtPGPHXzRTJduer8mICZQkTt2Ci9nA_7FAqtyj6ERvYGw5vYWfdLsGs9ZAmI5yYsupz4zoqGg",
-      "timestamp": "2026-08-17 18:04:35"
-    },
-    {
-      "platform": "Google Play",
-      "category": "旅行与当地",
-      "app_id": "com.ubercab.eats",
-      "rank": 54,
-      "name": "Uber Eats: Food and Grocery",
-      "developer": "Uber Technologies, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.ubercab.eats",
-      "icon_url": "https://play-lh.googleusercontent.com/nQpl8xd3y1dpvHp-VcZrQ7H8ikP5jDYi0tYdS-FzqKyb0qqBb-0FVzuC3eepETxYECADHSitC89yhvWkXxcy",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
       "category": "旅行与当地",
       "app_id": "com.quitestream.hypee",
-      "rank": 55,
+      "rank": 54,
       "name": "Local Match: Real Match Nearby",
       "developer": "FunStream",
       "store_url": "https://play.google.com/store/apps/details?id=com.quitestream.hypee",
       "icon_url": "https://play-lh.googleusercontent.com/_9jc19TWMXVAdo1F5DP23UOMaSchdZP_GATqP1rg5lOymq1eMVgf4dX0pxjuDIohUTEH3LxWmb5tHil7AuAH",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
+    },
+    {
+      "platform": "Google Play",
+      "category": "旅行与当地",
+      "app_id": "com.ubercab.eats",
+      "rank": 55,
+      "name": "Uber Eats: Food and Grocery",
+      "developer": "Uber Technologies, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ubercab.eats",
+      "icon_url": "https://play-lh.googleusercontent.com/nQpl8xd3y1dpvHp-VcZrQ7H8ikP5jDYi0tYdS-FzqKyb0qqBb-0FVzuC3eepETxYECADHSitC89yhvWkXxcy",
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -619,7 +619,7 @@
       "developer": "Dazad",
       "store_url": "https://play.google.com/store/apps/details?id=com.DazadGame.LocalWarfareRePortable",
       "icon_url": "https://play-lh.googleusercontent.com/Mqx4k9LoCOO6tLA41gyrW9zNuo8Ga3po_d8b5Go1v3CXE6N2WOWDbD4j71TFWGXPuOXM4ZFk5ywtBoeUtx_V",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -630,7 +630,7 @@
       "developer": "Sygic.",
       "store_url": "https://play.google.com/store/apps/details?id=com.sygic.aura",
       "icon_url": "https://play-lh.googleusercontent.com/1hl2BmWW2V1tnYEAmJppZBP4BuQho0m54SakoI7cCRdensUa3yVeEHNyV8vffYqPBiVH5q1UejGqz5GD8gEf3yY",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -641,7 +641,7 @@
       "developer": "Google LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.mapslite",
       "icon_url": "https://play-lh.googleusercontent.com/QbChsj3FLlSZC9FXGKXxc7ueNCfCep3H2dhEP-bBw7MAQHFKPGpKa25gZrUbqnpOQka12FzJxA9ZKzSiQiKYPg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -652,7 +652,7 @@
       "developer": "TomTom International BV",
       "store_url": "https://play.google.com/store/apps/details?id=com.tomtom.speedcams.android.map",
       "icon_url": "https://play-lh.googleusercontent.com/hBzutjAh0QE8m__FC540_z8onJzTxJIQdeBS9TPDxRXxjkLjty30Jn7N7IwtBaI-py3xjYjvKnnpXXywgdq-",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -663,7 +663,7 @@
       "developer": "Direct Cursus Computer Systems Trading LLC",
       "store_url": "https://play.google.com/store/apps/details?id=ru.yandex.yandexnavi",
       "icon_url": "https://play-lh.googleusercontent.com/032nEKkXdO-DXnOZbqN4eOLfOaFJoB-su8zcWttsEwc6e_eD6q-FjXpgv_jB0iP891UH691s41geCJ4ESFK7",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -674,7 +674,7 @@
       "developer": "Organic Maps",
       "store_url": "https://play.google.com/store/apps/details?id=app.organicmaps",
       "icon_url": "https://play-lh.googleusercontent.com/1LpoMi4dmPpEfbeR9YTgrLBDD7pW7Zcb2HSiMnx-SfaU5uxeMuBd9JkUd-3VlQlAx8n4ZL5R4RMKZ0c03hDJ",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -685,7 +685,7 @@
       "developer": "Direct Cursus Computer Systems Trading LLC",
       "store_url": "https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps",
       "icon_url": "https://play-lh.googleusercontent.com/obrv03_I11GJyQ8IGfclkeRl7hw6RZL45l6oJ_H3zZLhSW0jIOzgQuNpql-DL8pINkmSsbgVgSvPEHZ4JJDvtvc",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -696,7 +696,7 @@
       "developer": "NAVER Corp.",
       "store_url": "https://play.google.com/store/apps/details?id=com.nhn.android.nmap",
       "icon_url": "https://play-lh.googleusercontent.com/URf_NsdR_zz2jAQFWHQf2ArOPdAa7n0Exolkm0h4ydFvmUMxG4puOam19EahHIge16Ojl0_jNRnoH1LRVad_SQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -707,7 +707,7 @@
       "developer": "HERE Europe B.V.",
       "store_url": "https://play.google.com/store/apps/details?id=com.here.app.maps",
       "icon_url": "https://play-lh.googleusercontent.com/JEdi3LT71olhTgJ5sHhF203sw-VRz-q9vfnFaNpMfVkYht0AYii16szMznildictQriLTW0_nO45tEMuk6-f",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -718,7 +718,7 @@
       "developer": "Maps_Me",
       "store_url": "https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro",
       "icon_url": "https://play-lh.googleusercontent.com/5hxv4Qjfr3i_vZW3Ex9Slvv56U7IgksXjnMFnprTMAJ_BFu_zCUKzUUPlsMuRqRsVItqXlye9Kt1K1QG1Rhmvw",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -729,7 +729,7 @@
       "developer": "Prog Apps",
       "store_url": "https://play.google.com/store/apps/details?id=com.pineapps.navigation",
       "icon_url": "https://play-lh.googleusercontent.com/eCyMvqNNfuYGQzZQECv9aZ-gjOEtK_OXoeWrZR6Jzg1ea_98uBM3W8WAsNZSUXJScFlTW9kKL8M0h2v7VG99jA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -740,7 +740,7 @@
       "developer": "OsmAnd",
       "store_url": "https://play.google.com/store/apps/details?id=net.osmand",
       "icon_url": "https://play-lh.googleusercontent.com/kAhEm7IeqeqGZldBsjI9uE5Us922hBodCQr7Ih2EZYSyjg2toLEfwTuVzR-NIWVQjxzpRe93cz9Nz4hYb9yuIA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -751,7 +751,7 @@
       "developer": "GPS Navigation and Maps",
       "store_url": "https://play.google.com/store/apps/details?id=com.kartatech.karta.gps",
       "icon_url": "https://play-lh.googleusercontent.com/Y-Z4OXvuJo4y5J47N9eXcbE56pAEEHeviGho5kdjyXiI9nQyD46IrJ_Sz5CUA19Q1fcZSwB9X7W0DKyTUG_k",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -762,7 +762,7 @@
       "developer": "Magic Lane International BV",
       "store_url": "https://play.google.com/store/apps/details?id=com.generalmagic.magicearth",
       "icon_url": "https://play-lh.googleusercontent.com/8qOwvQSIj6nvX31xh1Q01lsYBnMuJIgvkdiBHoYiBiQyFi3R6AfeAtkGLY-V5OiDxXr5ybNYM6Zg57J4L0x6Egc",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -773,7 +773,7 @@
       "developer": "Seznam.cz, a.s.",
       "store_url": "https://play.google.com/store/apps/details?id=cz.seznam.mapy",
       "icon_url": "https://play-lh.googleusercontent.com/HDxpj_c6Nhf7wDAErKy6JknknJQLthDi4HKx1PRQno2RD28iuBv0b2eRcm1ZEdy_2r4FindeqVsdCU_5m1Bcbwc",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -784,7 +784,7 @@
       "developer": "Kakao Corp.",
       "store_url": "https://play.google.com/store/apps/details?id=net.daum.android.map",
       "icon_url": "https://play-lh.googleusercontent.com/X_lsQWulxVVAZlmOHW3NiffVwXh7yNVUQrAMv_mk1k6IBN5lYynxKGH4urz-DeOHQQnOlEID9NJg0fBCP7uqww",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -795,7 +795,7 @@
       "developer": "Petal Maps Team",
       "store_url": "https://play.google.com/store/apps/details?id=com.huawei.maps.app",
       "icon_url": "https://play-lh.googleusercontent.com/WBHbeYq1QUHbdVEOwhCxqlMXJ0rUHlYGItTfpCwfiIUG32txrutVLn-LlfZW8tHCBPkrpbIti6wD0sobYYad",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -806,7 +806,7 @@
       "developer": "Ilya Bogdanovich",
       "store_url": "https://play.google.com/store/apps/details?id=com.ilyabogdanovich.geotracker",
       "icon_url": "https://play-lh.googleusercontent.com/jh4DWSiWzMUb8k-zlWXecfjY-mEWPJE8g6wi9UdVvD79XsI-FtleHka2sPGpvxeWOvkZ9w1XEMmnlzBveFk4Ew8",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -817,7 +817,7 @@
       "developer": "Trucker Path",
       "store_url": "https://play.google.com/store/apps/details?id=com.sixdays.truckerpath",
       "icon_url": "https://play-lh.googleusercontent.com/ULvJUIjfKP8_HhogCvAvWuP0MzSQOcddwww8MyF3HUSRwN-po17TUzEnyE4bUQDEWJ84rkeFPRtZn4ah4U6hgg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -828,7 +828,7 @@
       "developer": "Smartwatch Studios",
       "store_url": "https://play.google.com/store/apps/details?id=smartwatchstudios.app.gears3navigation",
       "icon_url": "https://play-lh.googleusercontent.com/ZZGujaP4YAKl7nN6j4v0hTuhFkwNmdvsjRoZjzCPKYCmXruOf3rB8-106kYYG1Fsa5nCFkMtwww6pbngBnGy4UU",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -839,7 +839,7 @@
       "developer": "Garmin",
       "store_url": "https://play.google.com/store/apps/details?id=it.navionics.singleAppMarineLakesHD",
       "icon_url": "https://play-lh.googleusercontent.com/pSx0eyatFvh8nDawOYD_t6ebKAOhMLSrvl9_42l_ilGLZ7thFw3-6xZ8Z3sqLn2M4JkW6phyeT-KVMfa6XxV",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -850,7 +850,7 @@
       "developer": "MapFactor",
       "store_url": "https://play.google.com/store/apps/details?id=com.mapfactor.navigator",
       "icon_url": "https://play-lh.googleusercontent.com/G8TSpocttGgR4XEHwDe21R8WtkcXvEEmMvyfRTuzivtMKStKjSTK_olF6Ho1-f0QkX82wNRSGEfrjDtJdFh5SQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -861,7 +861,7 @@
       "developer": "CoMaps",
       "store_url": "https://play.google.com/store/apps/details?id=app.comaps.google",
       "icon_url": "https://play-lh.googleusercontent.com/R9nTZ2m_bqjUrH0yw1CU37UFPcbb5F-BhpAWopuX5m6vpiN0_Ok9nfoFSq7gtDLfRNAJv9cykYEaQKGfF7GT23w",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -872,7 +872,7 @@
       "developer": "TruckersReport.com",
       "store_url": "https://play.google.com/store/apps/details?id=com.truckersreport.hammer",
       "icon_url": "https://play-lh.googleusercontent.com/DjXyXIsh892Gti9AtQWaYQ5pBfu3qi2BvYyY07MWEAimeHhbD9ujV9yS28vnFFuaSxrLp6wJfbx2x_lINJCOLEY",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -883,7 +883,7 @@
       "developer": "Dynavix a.s.",
       "store_url": "https://play.google.com/store/apps/details?id=com.dynavix.navigation",
       "icon_url": "https://play-lh.googleusercontent.com/86wMAw5CBjCReXofNsiRz5OX8Rx56dCpRAiH-Hqv7UItqyfusI-jGJUcvLiKFEDpkzebO9LKi3dG2WNa0k6B",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -894,7 +894,7 @@
       "developer": "Prometheus Interactive LLC",
       "store_url": "https://play.google.com/store/apps/details?id=apps.r.compass",
       "icon_url": "https://play-lh.googleusercontent.com/6ef2vPrwdrHA1W2xQ-UNY6euVHEU1VCIHGvab1oL_VKew-B6QnO4QdYvtCJnlX5W78LG3q2tjW-iltZm6g3xGw",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -905,7 +905,7 @@
       "developer": "Google LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.google.earth",
       "icon_url": "https://play-lh.googleusercontent.com/LiMlRqQHaWo8hpN7T6U_OzJLJ0B1D3qnk1Hczd9yy7jsuGb2HacuS9bPFWSRMLNzcWrIlnySRaopDtOZFXousA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -916,7 +916,7 @@
       "developer": "Google LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.google.android.projection.gearhead",
       "icon_url": "https://play-lh.googleusercontent.com/TLgNKa2L8mlGrHfwAbjUNiSe3-G1ZfgkpbptXaqC8LRQHdVFVIKhtRHjms6bH7ILZe0mPSR4wG04sWGv-3zjjg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -927,7 +927,7 @@
       "developer": "Avenza Systems Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.Avenza",
       "icon_url": "https://play-lh.googleusercontent.com/je4j_1yu8ZpjlhbwggWBzQGIbdJe0GowqFXPY00JUts_2m17JX8syZPdTl-m1dYPWnJZdYgyBEJSDgy_-PW4l0s",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -938,7 +938,7 @@
       "developer": "XTools Pro",
       "store_url": "https://play.google.com/store/apps/details?id=com.dataeast.carrymap",
       "icon_url": "https://play-lh.googleusercontent.com/GEqwQM5jmE9L2dalcyMS0XagIi9tUWKysZd1CIwM3ZpHefyJZ-vGdCZfEgdDkrU5_D2p-JUDbgn2dguqFr7uqeg",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -949,7 +949,7 @@
       "developer": "AllTrails, LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.alltrails.alltrails",
       "icon_url": "https://play-lh.googleusercontent.com/VGEJRpXhcohBLp64CcZkufSHI97tfN1LQBJsvcNojlHZZTy6bQRFxr6xogqlEv-f5RwkLIcvVLiBAEfkZqrXqA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -960,7 +960,7 @@
       "developer": "Citymapper Limited",
       "store_url": "https://play.google.com/store/apps/details?id=com.citymapper.app.release",
       "icon_url": "https://play-lh.googleusercontent.com/U0baiS5SFsdl6hU6WW2Rq94xd5lIscxgwVZNw0rsN2G7Tqlg3m86KieOuhgR9GTQZMYngD_ilppCeot9lBuBPQ",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -971,7 +971,7 @@
       "developer": "Radarbot Company",
       "store_url": "https://play.google.com/store/apps/details?id=com.vialsoft.radarbot_free",
       "icon_url": "https://play-lh.googleusercontent.com/Jp2NpweSrh91mxtOM9cKw_-Q9KVvi7I-Fg9MRcYP_tMTkeboZTW80vsy2Yx1p6sp_7SIf77dEwfIhUDSTnuMrPo",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -982,7 +982,7 @@
       "developer": "OsmAnd",
       "store_url": "https://play.google.com/store/apps/details?id=net.osmand.plus",
       "icon_url": "https://play-lh.googleusercontent.com/NsZPwylUmRusxIRmcC3NyFnOyGWTTnTVNO0nAlL5UuYHngVez0ycwP3vy6VA0pSUSk_wI1m5hpaFlcFufj916g",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -993,7 +993,7 @@
       "developer": "theandroidseb",
       "store_url": "https://play.google.com/store/apps/details?id=com.exlyo.mapmarker",
       "icon_url": "https://play-lh.googleusercontent.com/AiGnTmdotxtXmkK82tVm1BGdcD07A17z1kTeDrFgUUSIUHqXy2zAt4NQly3u7PxYecE_VA51P24HSKANUnCm4ho",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1004,7 +1004,7 @@
       "developer": "whidev",
       "store_url": "https://play.google.com/store/apps/details?id=com.whidev.mapchart",
       "icon_url": "https://play-lh.googleusercontent.com/1jeWLBdVVvwC-k7ZSRY7W1Ra2ZwgAwiunyoJ9SOm9Zm7dUDxmsz1oQkdaj72Z44eZKpkFVVgnqlGgOHUTyi9P0M",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1015,7 +1015,7 @@
       "developer": "onXmaps",
       "store_url": "https://play.google.com/store/apps/details?id=onxmaps.offroad",
       "icon_url": "https://play-lh.googleusercontent.com/JDtHmCfEaSzwkyngEosX7TkRKoHPLDPeeo3vG3mfnpgEM3cVtByqPDkhp3V7aGXJ9ZDV1jbjp3Zp0ugTQj_r",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1026,7 +1026,7 @@
       "developer": "Evgen Bodunov",
       "store_url": "https://play.google.com/store/apps/details?id=com.bodunov.galileo",
       "icon_url": "https://play-lh.googleusercontent.com/0ou8FFB1A01-m1TX0BSxOxhsvxHMk9qT1lLRlnhvrqzesMZB1jJd5TeGCnWvuxfmPacjerQJY9CYKEudXcID",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1037,7 +1037,7 @@
       "developer": "高德地图",
       "store_url": "https://play.google.com/store/apps/details?id=com.autonavi.minimap",
       "icon_url": "https://play-lh.googleusercontent.com/qikNJ3JNtoE7VkFmLvyDBYCZ3ATHPSUuKdhpcIfrbL2c7kC7elzdFR8XoXf-tijeedIoA-uK6SqCtENMvUvgxWw",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1048,7 +1048,7 @@
       "developer": "SayGames Ltd",
       "store_url": "https://play.google.com/store/apps/details?id=com.master.hotelmaster",
       "icon_url": "https://play-lh.googleusercontent.com/LFGfYEgoPSU570A042YrKnkeKWwhM22K3Lo7SHkoaltHQKz1FvZX6lv1eS8yFxHKzkUXKD2mewOU9fQzQU1s",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1059,7 +1059,7 @@
       "developer": "HotelTonight",
       "store_url": "https://play.google.com/store/apps/details?id=com.hoteltonight.android.prod",
       "icon_url": "https://play-lh.googleusercontent.com/RcrySUiOr6ZPEn9aK3Fe0BrEaaN9lTuDnizvGesjlFRKnupELPmSBfJFZ1dIFvT2kBrX0jzHO7mN65BOlMzk4jY",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1070,7 +1070,7 @@
       "developer": "Hotels.com LP",
       "store_url": "https://play.google.com/store/apps/details?id=com.hcom.android",
       "icon_url": "https://play-lh.googleusercontent.com/SJGxA1qDo8I82Fcw3cTbI7MKAWp3t-3gvFsGbK4AQUL5AHLYnstc8Z91JN36saEWD_DtWU9XnNh3UnnCgm-LZUU",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1081,7 +1081,7 @@
       "developer": "Choice Hotels Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.choicehotels.android",
       "icon_url": "https://play-lh.googleusercontent.com/bxJ3xjtTUT-3QArhSSeck9wvS6NJXwA4jOHcuDzFkvxd3OXKjwKQr2Z2nU9_Ab_KlIekcx6OZiUjrZRZt9yL",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1092,7 +1092,7 @@
       "developer": "Codigames",
       "store_url": "https://play.google.com/store/apps/details?id=com.codigames.hotel.empire.tycoon.idle.game",
       "icon_url": "https://play-lh.googleusercontent.com/C-wWF-srImXL5L6iriIaStcDBNoP2JTQ4NCRiA4SMYsMhBdLGlNaGQe0ECjzl3O7OrRuagyzjg2izdIQwpdiUA",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     },
     {
       "platform": "Google Play",
@@ -1103,7 +1103,7 @@
       "developer": "priceline.com",
       "store_url": "https://play.google.com/store/apps/details?id=com.priceline.android.negotiator",
       "icon_url": "https://play-lh.googleusercontent.com/oI7cY0hD3T8w_t-bIw82TRwZ0aaV5jVD3ttu3tI1DwSZcD5isTkhwYY4zxbowaTOLuGF7-HVE82G1qz14-JVWw",
-      "timestamp": "2026-08-17 18:04:35"
+      "timestamp": "2026-08-17 18:45:53"
     }
   ]
 }

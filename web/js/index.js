@@ -200,55 +200,146 @@ document.addEventListener('DOMContentLoaded', () => {
     loadStats().catch(e => console.error('loadStats 失败:', e));
 });
 
+// 任务日志轮询
+let taskPollTimer = null;
+let taskPollKey = null;
+
+function showTaskLogPanel(title) {
+    const panel = document.getElementById('taskLogPanel');
+    document.getElementById('taskLogTitle').textContent = `📋 ${title}`;
+    document.getElementById('taskLogContent').textContent = '⏳ 等待任务启动...';
+    document.getElementById('taskLogStatus').textContent = '';
+    panel.style.display = 'block';
+}
+
+function hideTaskLogPanel() {
+    if (taskPollTimer) {
+        clearInterval(taskPollTimer);
+        taskPollTimer = null;
+    }
+    document.getElementById('taskLogPanel').style.display = 'none';
+}
+
+async function pollTaskStatus() {
+    try {
+        const resp = await fetch('/api/task-status');
+        const data = await resp.json();
+        const tasks = data.tasks || {};
+
+        // 找到我们关心的任务
+        let found = false;
+        for (const [key, task] of Object.entries(tasks)) {
+            if (key === taskPollKey || (taskPollKey && key.startsWith(taskPollKey))) {
+                found = true;
+                const logEl = document.getElementById('taskLogContent');
+                const statusEl = document.getElementById('taskLogStatus');
+
+                // 更新日志内容
+                logEl.textContent = task.output || '(暂无输出)';
+                logEl.scrollTop = logEl.scrollHeight;
+
+                // 更新状态
+                if (task.running) {
+                    const elapsed = Math.round((Date.now() / 1000) - task.start_time);
+                    statusEl.innerHTML = `<span style="color:#3b82f6;">⏳ 运行中 (${elapsed}秒)</span>`;
+                } else if (task.return_code === 0) {
+                    statusEl.innerHTML = '<span style="color:#10b981;">✅ 已完成</span>';
+                    doneTask(task);
+                } else {
+                    statusEl.innerHTML = `<span style="color:#ef4444;">❌ 失败 (返回码: ${task.return_code})</span>`;
+                    doneTask(task);
+                }
+                break;
+            }
+        }
+        if (!found && taskPollTimer) {
+            // 任务还没出现在追踪器中，继续等待
+            document.getElementById('taskLogContent').textContent = '⏳ 正在启动任务进程...';
+        }
+    } catch (e) {
+        console.error('轮询任务状态失败:', e);
+    }
+}
+
+function doneTask(task) {
+    // 停止轮询
+    if (taskPollTimer) {
+        clearInterval(taskPollTimer);
+        taskPollTimer = null;
+    }
+    // 恢复按钮
+    const btnScrape = document.getElementById('btn-scrape');
+    const btnDetect = document.getElementById('btn-detect');
+    btnScrape.disabled = false;
+    btnScrape.textContent = '📦 爬取榜单数据';
+    btnDetect.disabled = false;
+    btnDetect.textContent = '🔍 检测新上榜产品';
+    // 刷新统计
+    if (task.task_type === 'detect' || task.task_type === 'scrape') {
+        loadStats();
+    }
+}
+
 // 触发爬取榜单数据
 async function triggerScrape() {
     const btn = document.getElementById('btn-scrape');
-    const status = document.getElementById('action-status');
+    const btnDetect = document.getElementById('btn-detect');
     btn.disabled = true;
+    btnDetect.disabled = true;
     btn.textContent = '⏳ 正在爬取...';
-    status.textContent = '正在后台爬取 App Store 和 Google Play 榜单数据，请稍候...';
-    status.style.color = '#3b82f6';
+
     try {
         const resp = await fetch('/api/scrape', { method: 'POST' });
         const result = await resp.json();
         if (result.success) {
-            status.textContent = '✅ 爬取任务已启动！完成后刷新页面即可看到最新数据。';
-            status.style.color = '#10b981';
+            showTaskLogPanel('爬取榜单数据');
+            taskPollKey = 'scrape:';
+            taskPollTimer = setInterval(pollTaskStatus, 2000);
+            pollTaskStatus();
         } else {
-            status.textContent = '❌ 启动失败: ' + (result.error || '未知错误');
-            status.style.color = '#ef4444';
+            document.getElementById('action-status').textContent = '❌ ' + (result.error || '未知错误');
+            document.getElementById('action-status').style.color = '#ef4444';
+            btn.disabled = false;
+            btnDetect.disabled = false;
+            btn.textContent = '📦 爬取榜单数据';
         }
     } catch (e) {
-        status.textContent = '❌ 请求失败，请确认服务器已启动。';
-        status.style.color = '#ef4444';
+        document.getElementById('action-status').textContent = '❌ 请求失败，请确认服务器已启动。';
+        document.getElementById('action-status').style.color = '#ef4444';
+        btn.disabled = false;
+        btnDetect.disabled = false;
+        btn.textContent = '📦 爬取榜单数据';
     }
-    btn.disabled = false;
-    btn.textContent = '📦 爬取榜单数据';
 }
 
 // 触发检测新上榜产品
 async function triggerDetect() {
     const btn = document.getElementById('btn-detect');
-    const status = document.getElementById('action-status');
+    const btnScrape = document.getElementById('btn-scrape');
     btn.disabled = true;
+    btnScrape.disabled = true;
     btn.textContent = '⏳ 正在检测...';
-    status.textContent = '正在对比榜单数据，识别新上榜产品...';
-    status.style.color = '#3b82f6';
+
     try {
         const resp = await fetch('/api/detect', { method: 'POST' });
         const result = await resp.json();
         if (result.success) {
-            status.textContent = '✅ 检测完成！点击"查看新上榜产品"查看结果。';
-            status.style.color = '#10b981';
-            loadStats();
+            showTaskLogPanel('检测新上榜产品');
+            taskPollKey = 'detect:';
+            taskPollTimer = setInterval(pollTaskStatus, 2000);
+            pollTaskStatus();
         } else {
-            status.textContent = '❌ 检测失败: ' + (result.error || '未知错误');
-            status.style.color = '#ef4444';
+            document.getElementById('action-status').textContent = '❌ ' + (result.error || '未知错误');
+            document.getElementById('action-status').style.color = '#ef4444';
+            btn.disabled = false;
+            btnScrape.disabled = false;
+            btn.textContent = '🔍 检测新上榜产品';
         }
     } catch (e) {
-        status.textContent = '❌ 请求失败，请确认服务器已启动。';
-        status.style.color = '#ef4444';
+        document.getElementById('action-status').textContent = '❌ 请求失败，请确认服务器已启动。';
+        document.getElementById('action-status').style.color = '#ef4444';
+        btn.disabled = false;
+        btnScrape.disabled = false;
+        btn.textContent = '🔍 检测新上榜产品';
     }
-    btn.disabled = false;
-    btn.textContent = '🔍 检测新上榜产品';
 }
