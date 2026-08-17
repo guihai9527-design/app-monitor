@@ -108,7 +108,7 @@ async function getNewAppsDate() {
         }
 
         // 如果dates.json不存在，尝试使用API获取（适用于本地开发服务器）
-        const response = await fetch('/api/detector/dates');
+        const response = await fetch(API_BASE + '/api/detector/dates');
         if (response.ok) {
             const contentType = response.headers.get('content-type');
             if (contentType && contentType.includes('application/json')) {
@@ -239,8 +239,8 @@ function renderDetectorTable(platformName, categoryName) {
                             </td>
                             <td><div class="app-developer">${app.developer}</div></td>
                             <td>${app.release_date || '-'}</td>
-                            <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
-                            <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
+                            <td>${app.rating != null && app.rating > 0 ? Number(app.rating).toFixed(1) + ' ⭐' : '-'}</td>
+                            <td>${app.rating_count ? Number(app.rating_count).toLocaleString() : '-'}</td>
                             <td><a href="${app.store_url}" target="_blank">查看</a></td>
                         </tr>
                     `).join('')}
@@ -357,7 +357,7 @@ async function addToQueue() {
     showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
 
     try {
-        const response = await fetch('/api/analyze', {
+        const response = await fetch(API_BASE + '/api/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -405,7 +405,7 @@ async function analyzeNow() {
     showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
 
     try {
-        const response = await fetch('/api/analyze', {
+        const response = await fetch(API_BASE + '/api/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

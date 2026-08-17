@@ -123,6 +123,11 @@ class GooglePlayScraper:
                 if app_info:
                     apps.append(app_info)
 
+            # 获取详细信息（评分、评价数、上架时间）
+            if apps:
+                self.logger.info(f"正在获取 {category_name} 详细信息...")
+                self._enrich_apps(apps)
+
             self.logger.info(f"{category_name} 爬取成功，共 {len(apps)} 个应用")
             time.sleep(self.delay)  # 延迟避免请求过快
             return apps
@@ -150,6 +155,7 @@ class GooglePlayScraper:
             developer = app_data.get("developer", "")
             icon_url = app_data.get("icon", "")
             store_url = f"https://play.google.com/store/apps/details?id={app_id}"
+            score = app_data.get("score", 0)
 
             return {
                 "platform": "Google Play",
@@ -160,12 +166,44 @@ class GooglePlayScraper:
                 "developer": developer,
                 "store_url": store_url,
                 "icon_url": icon_url,
+                "rating": score if score else 0,
+                "rating_count": 0,
+                "release_date": "",
                 "timestamp": timestamp
             }
 
         except Exception as e:
             print(f"    解析应用数据失败: {e}")
             return None
+
+    def _enrich_apps(self, apps: List[Dict]):
+        """批量获取应用详细信息（评分、评价数、上架时间）"""
+        fail_count = 0
+        for i, app_info in enumerate(apps):
+            app_id = app_info.get("app_id", "")
+            if not app_id:
+                continue
+            for retry in range(3):
+                try:
+                    time.sleep(0.2)
+                    detail = app(app_id, lang="en", country=self.country)
+                    if detail:
+                        app_info["rating"] = detail.get("score", 0) or 0
+                        app_info["rating_count"] = detail.get("ratings", 0) or 0
+                        if detail.get("released"):
+                            try:
+                                dt = datetime.strptime(detail.get("released"), "%b %d, %Y")
+                                app_info["release_date"] = dt.strftime("%Y/%m/%d")
+                            except ValueError:
+                                app_info["release_date"] = detail.get("released")
+                    break
+                except Exception as e:
+                    if retry == 2:
+                        fail_count += 1
+                        self.logger.warning(f"  获取详情失败 {app_id} (重试3次): {e}")
+                    time.sleep(0.5)
+        if fail_count:
+            self.logger.warning(f"  共 {fail_count} 个应用获取详情失败")
 
 
 if __name__ == "__main__":

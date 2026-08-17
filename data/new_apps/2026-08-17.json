@@ -1,52 +1,7 @@
 {
   "date": "2026-08-17",
   "compare_date": "2026-08-14",
-  "total_count": 4,
-  "new_apps": [
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.trevel",
-      "rank": 97,
-      "name": "Trevel Mobility",
-      "developer": "Trevel",
-      "store_url": "https://play.google.com/store/apps/details?id=com.trevel",
-      "icon_url": "https://play-lh.googleusercontent.com/uzr3y6FhUMydG6D0qCBE9vj-o92tg2sqcITDxqfwjbIOqMBbVSs4tgiTMJp6v5eWakd3jhxaNVUHoyg6aCGPqA",
-      "timestamp": "2026-08-17 18:45:18"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.wanderlog.android",
-      "rank": 98,
-      "name": "Wanderlog - Trip Planner App",
-      "developer": "Wanderlog",
-      "store_url": "https://play.google.com/store/apps/details?id=com.wanderlog.android",
-      "icon_url": "https://play-lh.googleusercontent.com/9OTbI7bVQ6Bb6p0n1p3HmLfi-iuTvznPtX7NEd-TXWPVUax7KHSOVs9CEZUOQpwY94oGySjTq-iBv01zKoBRHg",
-      "timestamp": "2026-08-17 18:45:18"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.didiglobal.passenger",
-      "rank": 99,
-      "name": "DiDi Rider: Affordable rides",
-      "developer": "DiDi Global",
-      "store_url": "https://play.google.com/store/apps/details?id=com.didiglobal.passenger",
-      "icon_url": "https://play-lh.googleusercontent.com/w08P6Py2wtGkmuBbwQ6KDV6t9hqwy3nNI6SKrQg4wxT6j6vCY2evsDGzXk6q0KGeeTmX8ij9uoOxuH1YOIFtC7A",
-      "timestamp": "2026-08-17 18:45:18"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.flightradar24free",
-      "rank": 100,
-      "name": "Flightradar24 Flight Tracker",
-      "developer": "Flightradar24 AB",
-      "store_url": "https://play.google.com/store/apps/details?id=com.flightradar24free",
-      "icon_url": "https://play-lh.googleusercontent.com/8KtIuiRHYtY0XJigXIl-iN6X6-ht85ELWXFiynenpCW40b6zNUnLFGKwIN0iITV_1L3sN3G53PaiNiWsn5RSIv8",
-      "timestamp": "2026-08-17 18:45:18"
-    }
-  ],
-  "generated_at": "2026-08-17 18:46:23"
+  "total_count": 0,
+  "new_apps": [],
+  "generated_at": "2026-08-17 19:15:35"
 }

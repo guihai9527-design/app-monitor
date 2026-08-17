@@ -224,7 +224,7 @@ async function scraperAddToQueue() {
     showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
 
     try {
-        const response = await fetch('/api/analyze', {
+        const response = await fetch(API_BASE + '/api/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -268,7 +268,7 @@ async function scraperAnalyzeNow() {
     showToast(`⚡ 正在启动分析 "${appName}"...`, 'info');
 
     try {
-        const response = await fetch('/api/analyze', {
+        const response = await fetch(API_BASE + '/api/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -387,8 +387,8 @@ function renderApps() {
                             </td>
                             <td><div class="app-developer">${app.developer || '-'}</div></td>
                             <td>${app.release_date || '-'}</td>
-                            <td>${app.rating ? app.rating.toFixed(1) + ' ⭐' : '-'}</td>
-                            <td>${app.rating_count ? app.rating_count.toLocaleString() : '-'}</td>
+                            <td>${app.rating != null && app.rating > 0 ? Number(app.rating).toFixed(1) + ' ⭐' : '-'}</td>
+                            <td>${app.rating_count ? Number(app.rating_count).toLocaleString() : '-'}</td>
                             <td><a href="${app.store_url}" target="_blank">查看</a></td>
                         </tr>
                     `).join('')}

@@ -32,7 +32,7 @@ async function init() {
 async function loadAnalysisResult(appId, platform, date) {
     try {
         // 通过API或直接文件加载（两种方式都支持）
-        let response = await fetch(`http://localhost:8000/api/analysis/${appId}?platform=${encodeURIComponent(platform)}&date=${date}`);
+        let response = await fetch(API_BASE + `/api/analysis/${appId}?platform=${encodeURIComponent(platform)}&date=${date}`);
 
         // 如果API失败，尝试直接读取文件
         if (!response.ok) {
@@ -146,7 +146,7 @@ async function startAnalysis() {
     btn.textContent = '⏳ 正在启动...';
 
     try {
-        const response = await fetch('http://localhost:8000/api/analyze', {
+        const response = await fetch(API_BASE + '/api/analyze', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

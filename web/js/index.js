@@ -222,7 +222,7 @@ function hideTaskLogPanel() {
 
 async function pollTaskStatus() {
     try {
-        const resp = await fetch('/api/task-status');
+        const resp = await fetch(API_BASE + '/api/task-status');
         const data = await resp.json();
         const tasks = data.tasks || {};
 
@@ -289,7 +289,7 @@ async function triggerScrape() {
     btn.textContent = '⏳ 正在爬取...';
 
     try {
-        const resp = await fetch('/api/scrape', { method: 'POST' });
+        const resp = await fetch(API_BASE + '/api/scrape', { method: 'POST' });
         const result = await resp.json();
         if (result.success) {
             showTaskLogPanel('爬取榜单数据');
@@ -321,7 +321,7 @@ async function triggerDetect() {
     btn.textContent = '⏳ 正在检测...';
 
     try {
-        const resp = await fetch('/api/detect', { method: 'POST' });
+        const resp = await fetch(API_BASE + '/api/detect', { method: 'POST' });
         const result = await resp.json();
         if (result.success) {
             showTaskLogPanel('检测新上榜产品');

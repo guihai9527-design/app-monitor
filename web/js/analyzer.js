@@ -200,7 +200,7 @@ async function startAnalysis(appId, platform) {
 
     try {
         // 调用API触发分析
-        const response = await fetch('http://localhost:8000/api/analyze', {
+        const response = await fetch(API_BASE + '/api/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -243,7 +243,7 @@ async function pollAnalysisResult(appId, platform, appName) {
 
         try {
             const today = getTodayString();
-            const response = await fetch(`http://localhost:8000/api/analysis/${appId}?platform=${encodeURIComponent(platform)}&date=${today}`);
+            const response = await fetch(API_BASE + '/api/analysis/${appId}?platform=${encodeURIComponent(platform)}&date=${today}`);
 
             if (response.ok) {
                 // 分析完成
@@ -549,7 +549,7 @@ async function analyzeFromStoreLink() {
 
     try {
         // 调用分析API
-        const response = await fetch('/api/analyze', {
+        const response = await fetch(API_BASE + '/api/analyze', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -670,7 +670,7 @@ function startPollingForResult(app_id, platform) {
         pollCount++;
 
         try {
-            const response = await fetch(`/api/analysis/${app_id}?platform=${encodeURIComponent(platform)}&date=${today}`);
+            const response = await fetch(API_BASE + `/api/analysis/${app_id}?platform=${encodeURIComponent(platform)}&date=${today}`);
 
             if (response.ok) {
                 // 分析完成
