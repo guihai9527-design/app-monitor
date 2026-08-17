@@ -6,8 +6,11 @@ async function getAvailableDates() {
         // 使用 API 获取实际存在的日期
         const response = await fetch('/api/dates');
         if (response.ok) {
-            const data = await response.json();
-            return data.dates || [];
+            const contentType = response.headers.get('content-type');
+            if (contentType && contentType.includes('application/json')) {
+                const data = await response.json();
+                return data.dates || [];
+            }
         }
         return [];
     } catch (error) {
@@ -31,7 +34,12 @@ async function loadJSON(path) {
     try {
         const response = await fetch(path);
         if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+            return null;
+        }
+        // 检查 Content-Type 避免将 HTML 页面当作 JSON 解析
+        const contentType = response.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+            return null;
         }
         return await response.json();
     } catch (error) {

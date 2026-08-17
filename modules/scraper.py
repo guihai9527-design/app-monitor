@@ -59,6 +59,7 @@ class RankingMonitorScraper:
                 limit=google_play_config["limit"],
                 delay=google_play_config["delay"],
                 timeout=SCRAPER_CONFIG["timeout"],
+                proxy=google_play_config.get("proxy"),
                 logger=self.logger
             )
         else:

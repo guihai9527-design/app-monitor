@@ -3,5 +3,9 @@
 
 cd "$(dirname "$0")/.."
 
-# 启动Web服务器（直接使用虚拟环境的Python）
-./venv/bin/python simple_server.py
+# 启动Web服务器（优先使用venv，否则使用系统python3）
+if [ -f "./venv/bin/python" ]; then
+    ./venv/bin/python simple_server.py
+else
+    python3 simple_server.py
+fi

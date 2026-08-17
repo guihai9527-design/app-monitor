@@ -11,7 +11,12 @@ const scraperCategories = {
         'health_fitness': '健康与健身',
         'social': '社交网络',
         'lifestyle': '生活方式',
-        'games': '游戏'
+        'games': '游戏',
+        'productivity': '生产力',
+        'utilities': '生活实用',
+        'entertainment': '娱乐',
+        'photo_video': '照片&视频',
+        'travel': '旅行'
     },
     'google_play': {
         'health_fitness': '健康与健身',
@@ -19,7 +24,10 @@ const scraperCategories = {
         'lifestyle': '生活方式',
         'games': '游戏',
         'dating': '约会',
-        'tools': '工具'
+        'tools': '工具',
+        'travel_local': '旅行与当地',
+        'productivity': '生产力',
+        'entertainment': '娱乐'
     }
 };
 
@@ -67,12 +75,14 @@ async function scraperLoadData() {
         const url = `../data/raw/${scraperCurrentDate}/${scraperCurrentPlatform}/${scraperCurrentCategory}.json`;
         console.log('加载数据:', url);
         const data = await loadJSON(url);
-        
+
         if (data && data.apps) {
             currentApps = data.apps;
             renderApps();
         } else {
-            showToast('加载数据失败', 'error');
+            currentApps = [];
+            renderApps();
+            showToast('该分类暂无数据，请先运行爬虫', 'info');
         }
     } catch (error) {
         console.error('加载数据失败:', error);
@@ -424,9 +434,12 @@ async function getAvailableDates() {
         // 优先尝试从dates.json读取（适用于GitHub Pages）
         const datesResponse = await fetch('../data/raw/dates.json');
         if (datesResponse.ok) {
-            const datesData = await datesResponse.json();
-            console.log('从dates.json读取日期:', datesData.dates);
-            return datesData.dates;
+            const contentType = datesResponse.headers.get('content-type');
+            if (contentType && contentType.includes('application/json')) {
+                const datesData = await datesResponse.json();
+                console.log('从dates.json读取日期:', datesData.dates);
+                return datesData.dates;
+            }
         }
         
         // 如果dates.json不存在，尝试获取目录列表（适用于本地开发服务器）
@@ -455,10 +468,15 @@ async function getAvailableDates() {
 async function loadJSON(url) {
     try {
         const response = await fetch(url);
-        if (response.ok) {
-            return await response.json();
+        if (!response.ok) {
+            return null;
         }
-        return null;
+        // 检查 Content-Type 避免将 HTML 页面当作 JSON 解析
+        const contentType = response.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+            return null;
+        }
+        return await response.json();
     } catch (error) {
         console.error('加载 JSON 失败:', url, error);
         return null;

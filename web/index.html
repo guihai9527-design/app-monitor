@@ -21,7 +21,7 @@
                         <span class="module-icon">📦</span>
                         <h2>模块1：榜单数据爬取</h2>
                     </div>
-                    <p class="module-desc">查看每日爬取的应用商店榜单数据，支持 App Store 和 Google Play 共10个分类。</p>
+                    <p class="module-desc">查看每日爬取的应用商店榜单数据，支持 App Store 和 Google Play 共18个分类。</p>
                     <div class="module-stats">
                         <div class="stat">
                             <span class="stat-label">最新日期</span>
@@ -33,7 +33,7 @@
                         </div>
                         <div class="stat">
                             <span class="stat-label">分类</span>
-                            <span class="stat-value">10个</span>
+                            <span class="stat-value">18个</span>
                         </div>
                     </div>
                     <button class="btn btn-primary" onclick="checkAndGoToScraper()">查看榜单数据 →</button>
@@ -111,39 +111,18 @@
                 </div>
             </div>
 
-            <!-- 使用指南 -->
+            <!-- 一键操作 -->
             <div class="guide-section">
-                <h3>🚀 快速开始</h3>
-                <div class="guide-steps">
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>启动Web服务</h4>
-                            <code>bash scripts/start_web.sh</code>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>模块1-爬取数据</h4>
-                            <code>python modules/scraper.py</code>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>模块2-检测新品</h4>
-                            <code>python modules/detector.py</code>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">4</div>
-                        <div class="step-content">
-                            <h4>模块3-AI分析</h4>
-                            <code>python modules/analyzer.py</code>
-                        </div>
-                    </div>
+                <h3>⚡ 一键刷新数据</h3>
+                <div class="action-buttons">
+                    <button class="btn btn-action" id="btn-scrape" onclick="triggerScrape()">
+                        📦 爬取榜单数据
+                    </button>
+                    <button class="btn btn-action" id="btn-detect" onclick="triggerDetect()">
+                        🔍 检测新上榜产品
+                    </button>
                 </div>
+                <p id="action-status" style="text-align:center;margin-top:12px;color:#6b7280;"></p>
             </div>
         </main>
 
@@ -153,7 +132,7 @@
         </footer>
     </div>
 
-    <script src="js/common.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/common.js?v=5"></script>
+    <script src="js/index.js?v=5"></script>
 </body>
 </html>

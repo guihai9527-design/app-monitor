@@ -37,11 +37,16 @@
 
 #### 榜单分类
 
-**App Store（4 个分类）**：
+**App Store（9 个分类）**：
 - 健康与健身 (Health & Fitness)
 - 社交网络 (Social Networking)
 - 生活方式 (Lifestyle)
 - 游戏 (Games)
+- 生产力 (Productivity)
+- 生活实用 (Utilities)
+- 娱乐 (Entertainment)
+- 照片&视频 (Photo & Video)
+- 旅行 (Travel)
 
 **Google Play（6 个分类）**：
 - 健康与健身 (Health & Fitness)

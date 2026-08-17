@@ -31,6 +31,36 @@ APP_STORE_CATEGORIES = {
         "name_en": "Games",
         "genre_id": "6014",
         "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6014/json"
+    },
+    "生产力": {
+        "name_cn": "生产力",
+        "name_en": "Productivity",
+        "genre_id": "6007",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6007/json"
+    },
+    "生活实用": {
+        "name_cn": "生活实用",
+        "name_en": "Utilities",
+        "genre_id": "6002",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6002/json"
+    },
+    "娱乐": {
+        "name_cn": "娱乐",
+        "name_en": "Entertainment",
+        "genre_id": "6016",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6016/json"
+    },
+    "照片&视频": {
+        "name_cn": "照片&视频",
+        "name_en": "Photo & Video",
+        "genre_id": "6008",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6008/json"
+    },
+    "旅行": {
+        "name_cn": "旅行",
+        "name_en": "Travel",
+        "genre_id": "6003",
+        "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6003/json"
     }
 }
 
@@ -68,6 +98,21 @@ GOOGLE_PLAY_CATEGORIES = {
         "name_cn": "工具",
         "name_en": "Tools",
         "category_id": "TOOLS"
+    },
+    "旅行与当地": {
+        "name_cn": "旅行与当地",
+        "name_en": "Travel & Local",
+        "category_id": "TRAVEL_AND_LOCAL"
+    },
+    "生产力": {
+        "name_cn": "生产力",
+        "name_en": "Productivity",
+        "category_id": "PRODUCTIVITY"
+    },
+    "娱乐": {
+        "name_cn": "娱乐",
+        "name_en": "Entertainment",
+        "category_id": "ENTERTAINMENT"
     }
 }
 

@@ -12,7 +12,12 @@ const categories = {
         'health_fitness': '健康与健身',
         'social': '社交网络',
         'lifestyle': '生活方式',
-        'games': '游戏'
+        'games': '游戏',
+        'productivity': '生产力',
+        'utilities': '生活实用',
+        'entertainment': '娱乐',
+        'photo_video': '照片&视频',
+        'travel': '旅行'
     },
     'google_play': {
         'health_fitness': '健康与健身',
@@ -20,7 +25,10 @@ const categories = {
         'lifestyle': '生活方式',
         'games': '游戏',
         'dating': '约会',
-        'tools': '工具'
+        'tools': '工具',
+        'travel_local': '旅行与当地',
+        'productivity': '生产力',
+        'entertainment': '娱乐'
     }
 };
 
@@ -91,16 +99,22 @@ async function getNewAppsDate() {
         // 优先尝试从dates.json读取（适用于GitHub Pages）
         const datesResponse = await fetch('../data/new_apps/dates.json');
         if (datesResponse.ok) {
-            const datesData = await datesResponse.json();
-            dates.push(...(datesData.dates || []));
-            return dates;
+            const contentType = datesResponse.headers.get('content-type');
+            if (contentType && contentType.includes('application/json')) {
+                const datesData = await datesResponse.json();
+                dates.push(...(datesData.dates || []));
+                return dates;
+            }
         }
-        
+
         // 如果dates.json不存在，尝试使用API获取（适用于本地开发服务器）
         const response = await fetch('/api/detector/dates');
         if (response.ok) {
-            const data = await response.json();
-            dates.push(...(data.dates || []));
+            const contentType = response.headers.get('content-type');
+            if (contentType && contentType.includes('application/json')) {
+                const data = await response.json();
+                dates.push(...(data.dates || []));
+            }
         }
     } catch (e) {
         // 忽略错误

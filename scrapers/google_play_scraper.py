@@ -3,7 +3,9 @@ Google Play 爬虫模块
 使用 google-play-scraper 库获取榜单数据
 """
 
+import os
 import time
+import urllib.request
 from typing import List, Dict, Optional
 from datetime import datetime
 import logging
@@ -19,7 +21,8 @@ except ImportError:
 class GooglePlayScraper:
     """Google Play 爬虫类"""
 
-    def __init__(self, country="us", collection="TOP_FREE", limit=100, delay=3, timeout=30, logger=None):
+    def __init__(self, country="us", collection="TOP_FREE", limit=100, delay=3,
+                 timeout=30, proxy=None, logger=None):
         """
         初始化爬虫
 
@@ -29,6 +32,7 @@ class GooglePlayScraper:
             limit: 每个分类爬取数量（默认 100）
             delay: 请求延迟（秒）
             timeout: 请求超时时间（秒）
+            proxy: 代理地址（如 http://127.0.0.1:7890），Google Play 需要代理
             logger: 日志记录器（可选）
         """
         if not GOOGLE_PLAY_AVAILABLE:
@@ -40,6 +44,21 @@ class GooglePlayScraper:
         self.delay = delay
         self.timeout = timeout
         self.logger = logger or logging.getLogger(__name__)
+
+        # google-play-scraper 使用 urllib，需要单独配置代理
+        self._proxy = proxy
+        if self._proxy:
+            self._setup_proxy()
+
+    def _setup_proxy(self):
+        """配置 urllib 代理（仅影响 Google Play 爬虫的 urllib 请求）"""
+        proxy_handler = urllib.request.ProxyHandler({
+            'https': self._proxy,
+            'http': self._proxy
+        })
+        opener = urllib.request.build_opener(proxy_handler)
+        urllib.request.install_opener(opener)
+        self.logger.info(f"Google Play 代理已配置: {self._proxy}")
 
     def scrape_category(self, category_key: str, category_name: str) -> List[Dict]:
         """
@@ -55,35 +74,51 @@ class GooglePlayScraper:
         try:
             self.logger.info(f"正在爬取 Google Play - {category_name}...")
 
-            # 使用 search 方法搜索该分类的热门应用
-            # 注意：google-play-scraper 没有官方榜单API，通过搜索热门关键词获取
-
-            # 根据分类搜索相关热门应用
+            # 每个分类使用多组关键词，合并结果以确保获取足够多的应用
             category_keywords = {
-                "HEALTH_AND_FITNESS": "fitness workout health",
-                "SOCIAL": "social chat messaging",
-                "LIFESTYLE": "lifestyle",
-                "GAME": "game",
-                "DATING": "dating meet",
-                "TOOLS": "tools utility"
+                "HEALTH_AND_FITNESS": ["fitness", "workout", "health", "running", "yoga", "meditation", "weight loss", "sleep", "nutrition", "exercise"],
+                "SOCIAL": ["social", "chat", "messaging", "dating", "friends", "community", "video call", "live stream", "social media", "group chat"],
+                "LIFESTYLE": ["lifestyle", "shopping", "food", "travel", "home", "fashion", "beauty", "design", "decor", "DIY"],
+                "GAME": ["game", "puzzle", "racing", "adventure", "action", "RPG", "strategy", "casual", "simulation", "sports game"],
+                "DATING": ["dating", "meet", "match", "romance", "singles", "love", "chat date", "relationship", "social date", "find friends"],
+                "TOOLS": ["tools", "utility", "file manager", "cleaner", "browser", "keyboard", "launcher", "wallpaper", "security", "backup"],
+                "TRAVEL_AND_LOCAL": ["travel", "local", "navigation", "maps", "hotel", "flight", "booking", "tourism", "restaurant", "transport"],
+                "PRODUCTIVITY": ["productivity", "notes", "tasks", "calendar", "document", "scanner", "collaboration", "office", "email", "cloud"],
+                "ENTERTAINMENT": ["entertainment", "streaming", "movies", "music", "podcast", "comics", "books", "TV shows", "videos", "anime"]
             }
 
-            keyword = category_keywords.get(category_key, category_name)
-            apps_data = search(
-                keyword,
-                lang="en",
-                country=self.country,
-                n_hits=self.limit
-            )
+            keywords_list = category_keywords.get(category_key, [category_name])
+            all_apps = {}
+            rank = 0
 
-            if not apps_data:
+            for keyword in keywords_list[:10]:  # 最多10组关键词
+                try:
+                    apps_data = search(
+                        keyword,
+                        lang="en",
+                        country=self.country,
+                        n_hits=50
+                    )
+                    for app_data in (apps_data or []):
+                        app_id = app_data.get("appId", "")
+                        if app_id and app_id not in all_apps:
+                            rank += 1
+                            all_apps[app_id] = (rank, app_data)
+                            if len(all_apps) >= self.limit:
+                                break
+                except Exception:
+                    pass
+                if len(all_apps) >= self.limit:
+                    break
+
+            if not all_apps:
                 self.logger.warning(f"{category_name} 未获取到数据")
                 return []
 
             apps = []
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-            for rank, app_data in enumerate(apps_data, start=1):
+            for rank, app_data in all_apps.values():
                 app_info = self._parse_app_data(app_data, rank, category_name, timestamp)
                 if app_info:
                     apps.append(app_info)

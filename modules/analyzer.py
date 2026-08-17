@@ -14,6 +14,10 @@ from typing import Dict, List, Optional
 # 添加项目根目录到sys.path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# 加载 .env 环境变量（API Key 等），须在 import anthropic 之前
+from utils.env_loader import load_env
+load_env()
+
 from utils.logger import setup_logger
 from utils.data_storage import save_to_json, load_from_json
 import anthropic
@@ -23,6 +27,9 @@ import anthropic
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs")
 LOG_FILE = os.path.join(LOG_DIR, "analyzer.log")
+
+# 分析使用的模型（可通过 .env 的 ANALYZER_MODEL 覆盖）
+MODEL = os.environ.get("ANALYZER_MODEL", "deepseek-v4-pro")
 
 # 确保日志目录存在
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -135,12 +142,12 @@ def analyze_app(app: Dict) -> Optional[Dict]:
 
         # 调用Claude API
         logger.info("调用Claude API...")
-        logger.info(f"  模型: claude-sonnet-4-5-20250929")
+        logger.info(f"  模型: {MODEL}")
         logger.info(f"  最大Token: 4000")
 
         try:
             message = client.messages.create(
-                model="claude-sonnet-4-5-20250929",
+                model=MODEL,
                 max_tokens=4000,
                 messages=[
                     {"role": "user", "content": prompt}
@@ -151,7 +158,7 @@ def analyze_app(app: Dict) -> Optional[Dict]:
             logger.error(f"✗ API权限错误: {e}")
             logger.error(f"  错误类型: PermissionDeniedError (403)")
             logger.error(f"  可能原因:")
-            logger.error(f"    1. API Key 没有访问 claude-sonnet-4-5-20250929 模型的权限")
+            logger.error(f"    1. API Key 没有访问 {MODEL} 模型的权限")
             logger.error(f"    2. API Key 已过期或被禁用")
             logger.error(f"    3. 账户余额不足")
             logger.error(f"  建议: 请检查 Anthropic 控制台的 API Key 权限设置")
@@ -160,8 +167,12 @@ def analyze_app(app: Dict) -> Optional[Dict]:
             logger.error(f"✗ API调用失败: {e}")
             raise
 
-        # 提取分析结果
-        analysis_markdown = message.content[0].text
+        # 提取分析结果（新版模型可能返回 ThinkingBlock，需拼接所有文本块）
+        text_parts = [
+            block.text for block in message.content
+            if getattr(block, 'type', None) == 'text'
+        ]
+        analysis_markdown = '\n'.join(text_parts)
         logger.info(f"✓ 获得分析结果，长度: {len(analysis_markdown)} 字符")
 
         # Token使用统计

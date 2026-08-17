@@ -100,11 +100,14 @@ function showAnalyzingState(appId, platform) {
     markdownContent.innerHTML = `
         <div style="text-align: center; padding: 60px 20px;">
             <div style="font-size: 4em; margin-bottom: 20px;">🤖</div>
-            <h2 style="color: #3b82f6; margin-bottom: 15px;">AI正在分析中...</h2>
+            <h2 style="color: #3b82f6; margin-bottom: 15px;" id="analyzingTitle">AI正在分析中...</h2>
             <p style="color: #6b7280; font-size: 1.1em; margin-bottom: 30px;">
-                正在使用Claude Sonnet 4.5进行深度分析<br>
+                正在使用AI进行深度分析<br>
                 预计需要1-2分钟，请稍候
             </p>
+            <button id="startAnalyzeBtn" class="btn btn-primary" onclick="startAnalysis()" style="display: none; margin: 0 auto 30px;">
+                🚀 开始分析
+            </button>
             <div style="margin: 30px auto; width: 50px; height: 50px; border: 4px solid #e5e7eb; border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite;"></div>
             <p style="color: #9ca3af; font-size: 0.95em; margin-top: 30px;">
                 页面会每5秒自动刷新，分析完成后立即显示结果
@@ -117,12 +120,57 @@ function showAnalyzingState(appId, platform) {
         </style>
     `;
 
+    // 如果应用不在分析队列中（尚未触发分析），显示"开始分析"按钮
+    const appInQueue = queue.some(item => item.app_id === appId && item.platform === platform);
+    if (!appInQueue) {
+        document.getElementById('analyzingTitle').textContent = '该应用尚未分析';
+        document.getElementById('startAnalyzeBtn').style.display = 'inline-block';
+    }
+
     // 启动自动刷新（每5秒检查一次）
     if (!refreshInterval) {
         refreshInterval = setInterval(() => {
             console.log('检查分析是否完成...');
             loadAnalysisResult(currentParams.app_id, currentParams.platform, currentParams.date);
         }, 5000);
+    }
+}
+
+// 从详情页直接触发分析
+async function startAnalysis() {
+    const params = currentParams;
+    if (!params.app_id || !params.platform) return;
+
+    const btn = document.getElementById('startAnalyzeBtn');
+    btn.disabled = true;
+    btn.textContent = '⏳ 正在启动...';
+
+    try {
+        const response = await fetch('http://localhost:8000/api/analyze', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                app_id: params.app_id,
+                platform: params.platform
+            })
+        });
+
+        const data = await response.json();
+        if (response.ok) {
+            showToast('✓ 分析任务已启动', 'success');
+            // 切换为"分析中"状态并继续轮询
+            btn.style.display = 'none';
+            document.getElementById('analyzingTitle').textContent = 'AI正在分析中...';
+        } else {
+            showToast(`✗ 启动分析失败: ${data.error || '未知错误'}`, 'error');
+            btn.disabled = false;
+            btn.textContent = '🚀 开始分析';
+        }
+    } catch (error) {
+        console.error('启动分析失败:', error);
+        showToast(`✗ 启动分析失败: ${error.message}`, 'error');
+        btn.disabled = false;
+        btn.textContent = '🚀 开始分析';
     }
 }
 

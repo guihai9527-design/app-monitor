@@ -83,7 +83,7 @@ async function loadStats() {
             let totalApps = 0;
 
             // App Store
-            const appStoreCategories = ['health_fitness', 'social', 'lifestyle', 'games'];
+            const appStoreCategories = ['health_fitness', 'social', 'lifestyle', 'games', 'productivity', 'utilities', 'entertainment', 'photo_video', 'travel'];
             for (const category of appStoreCategories) {
                 const data = await loadJSON(`../data/raw/${latestDate}/app_store/${category}.json`);
                 if (data && data.apps) {
@@ -93,7 +93,7 @@ async function loadStats() {
             }
 
             // Google Play
-            const googlePlayCategories = ['health_fitness', 'social', 'lifestyle', 'games', 'dating', 'tools'];
+            const googlePlayCategories = ['health_fitness', 'social', 'lifestyle', 'games', 'dating', 'tools', 'travel_local', 'productivity', 'entertainment'];
             for (const category of googlePlayCategories) {
                 const data = await loadJSON(`../data/raw/${latestDate}/google_play/${category}.json`);
                 if (data && data.apps) {
@@ -146,9 +146,12 @@ async function getAvailableDates() {
         // 优先尝试从dates.json读取（适用于GitHub Pages）
         const datesResponse = await fetch('../data/raw/dates.json');
         if (datesResponse.ok) {
-            const datesData = await datesResponse.json();
-            console.log('从dates.json读取日期:', datesData.dates);
-            return datesData.dates;
+            const contentType = datesResponse.headers.get('content-type');
+            if (contentType && contentType.includes('application/json')) {
+                const datesData = await datesResponse.json();
+                console.log('从dates.json读取日期:', datesData.dates);
+                return datesData.dates;
+            }
         }
         
         // 如果dates.json不存在，尝试获取目录列表（适用于本地开发服务器）
@@ -177,10 +180,15 @@ async function getAvailableDates() {
 async function loadJSON(url) {
     try {
         const response = await fetch(url);
-        if (response.ok) {
-            return await response.json();
+        if (!response.ok) {
+            return null;
         }
-        return null;
+        // 检查 Content-Type 避免将 HTML 页面当作 JSON 解析
+        const contentType = response.headers.get('content-type');
+        if (!contentType || !contentType.includes('application/json')) {
+            return null;
+        }
+        return await response.json();
     } catch (error) {
         console.error('加载 JSON 失败:', url, error);
         return null;
@@ -189,5 +197,58 @@ async function loadJSON(url) {
 
 // 页面加载完成后执行
 document.addEventListener('DOMContentLoaded', () => {
-    loadStats();
+    loadStats().catch(e => console.error('loadStats 失败:', e));
 });
+
+// 触发爬取榜单数据
+async function triggerScrape() {
+    const btn = document.getElementById('btn-scrape');
+    const status = document.getElementById('action-status');
+    btn.disabled = true;
+    btn.textContent = '⏳ 正在爬取...';
+    status.textContent = '正在后台爬取 App Store 和 Google Play 榜单数据，请稍候...';
+    status.style.color = '#3b82f6';
+    try {
+        const resp = await fetch('/api/scrape', { method: 'POST' });
+        const result = await resp.json();
+        if (result.success) {
+            status.textContent = '✅ 爬取任务已启动！完成后刷新页面即可看到最新数据。';
+            status.style.color = '#10b981';
+        } else {
+            status.textContent = '❌ 启动失败: ' + (result.error || '未知错误');
+            status.style.color = '#ef4444';
+        }
+    } catch (e) {
+        status.textContent = '❌ 请求失败，请确认服务器已启动。';
+        status.style.color = '#ef4444';
+    }
+    btn.disabled = false;
+    btn.textContent = '📦 爬取榜单数据';
+}
+
+// 触发检测新上榜产品
+async function triggerDetect() {
+    const btn = document.getElementById('btn-detect');
+    const status = document.getElementById('action-status');
+    btn.disabled = true;
+    btn.textContent = '⏳ 正在检测...';
+    status.textContent = '正在对比榜单数据，识别新上榜产品...';
+    status.style.color = '#3b82f6';
+    try {
+        const resp = await fetch('/api/detect', { method: 'POST' });
+        const result = await resp.json();
+        if (result.success) {
+            status.textContent = '✅ 检测完成！点击"查看新上榜产品"查看结果。';
+            status.style.color = '#10b981';
+            loadStats();
+        } else {
+            status.textContent = '❌ 检测失败: ' + (result.error || '未知错误');
+            status.style.color = '#ef4444';
+        }
+    } catch (e) {
+        status.textContent = '❌ 请求失败，请确认服务器已启动。';
+        status.style.color = '#ef4444';
+    }
+    btn.disabled = false;
+    btn.textContent = '🔍 检测新上榜产品';
+}

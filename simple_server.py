@@ -8,9 +8,36 @@
 import os
 import json
 import subprocess
+
+# 加载 .env 环境变量（API Key 等）
+try:
+    from utils.env_loader import load_env
+    load_env()
+except Exception as e:
+    print(f"⚠️  加载 .env 失败: {e}")
 import threading
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
+
+
+# 后台任务并发锁：记录正在运行的任务 key，避免重复触发
+_running_tasks = set()
+_running_tasks_lock = threading.Lock()
+
+
+def _task_start(key):
+    """尝试启动一个任务，若已在运行则返回 False"""
+    with _running_tasks_lock:
+        if key in _running_tasks:
+            return False
+        _running_tasks.add(key)
+        return True
+
+
+def _task_end(key):
+    """标记任务结束"""
+    with _running_tasks_lock:
+        _running_tasks.discard(key)
 
 
 class MyHandler(SimpleHTTPRequestHandler):
@@ -85,9 +112,7 @@ class MyHandler(SimpleHTTPRequestHandler):
         """处理分析请求"""
         try:
             # 读取请求数据
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
-            data = json.loads(post_data.decode('utf-8'))
+            data = self.read_json_body()
 
             app_id = data.get('app_id')
             platform = data.get('platform')
@@ -105,8 +130,38 @@ class MyHandler(SimpleHTTPRequestHandler):
             # 在后台线程中执行分析
             def run_analysis():
                 project_root = os.path.dirname(os.path.abspath(__file__))
-                venv_python = os.path.join(project_root, 'venv', 'bin', 'python')
                 analyzer_script = os.path.join(project_root, 'modules', 'analyzer.py')
+
+                # 自动检测 Python 可执行文件路径
+                def find_python():
+                    candidates = [
+                        # 1. 项目虚拟环境
+                        os.path.join(project_root, 'venv', 'bin', 'python'),
+                        os.path.join(project_root, 'venv', 'bin', 'python3'),
+                        os.path.join(project_root, '.venv', 'bin', 'python'),
+                        os.path.join(project_root, '.venv', 'bin', 'python3'),
+                    ]
+                    # 2. 系统 PATH 中的 python3 和 python
+                    import shutil
+                    for name in ['python3', 'python']:
+                        found = shutil.which(name)
+                        if found:
+                            candidates.append(found)
+                    # 3. 常见系统路径
+                    candidates.extend([
+                        '/Library/Frameworks/Python.framework/Versions/3.12/bin/python3',
+                        '/usr/local/bin/python3',
+                        '/usr/bin/python3',
+                    ])
+                    for candidate in candidates:
+                        if os.path.exists(candidate):
+                            return candidate
+                    return None
+
+                venv_python = find_python()
+                if not venv_python:
+                    print("❌ 未找到 Python 可执行文件，请安装 Python 3 或创建虚拟环境")
+                    return
 
                 # 确保logs目录存在
                 log_dir = os.path.join(project_root, 'logs')
@@ -194,17 +249,16 @@ class MyHandler(SimpleHTTPRequestHandler):
     def handle_scrape(self):
         """处理爬取请求"""
         try:
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
-            data = json.loads(post_data.decode('utf-8'))
+            data = self.read_json_body()
 
             date = data.get('date')
             platform = data.get('platform')
             category = data.get('category')
 
+            # 未指定日期时默认使用今天
             if not date:
-                self.send_json_response({'error': '缺少date参数'}, 400)
-                return
+                from datetime import datetime
+                date = datetime.now().strftime('%Y-%m-%d')
 
             print(f"\n{'='*60}")
             print(f"📥 收到爬取请求:")
@@ -213,49 +267,61 @@ class MyHandler(SimpleHTTPRequestHandler):
             print(f"   Category: {category or '全部'}")
             print(f"{'='*60}\n")
 
+            # 并发锁：同一日期（+平台+分类）已有爬取任务在跑则拒绝，避免重复触发
+            task_key = f"scrape:{date}:{platform or ''}:{category or ''}"
+            if not _task_start(task_key):
+                self.send_json_response({
+                    'success': False,
+                    'error': f'该日期的爬取任务正在运行中，请勿重复触发 (date={date})'
+                }, 409)
+                return
+
             def run_scrape():
-                project_root = os.path.dirname(os.path.abspath(__file__))
-                venv_python = os.path.join(project_root, 'venv', 'bin', 'python')
-                scraper_script = os.path.join(project_root, 'modules', 'scraper.py')
-
-                cmd = [venv_python, scraper_script, '--date', date]
-                if platform:
-                    cmd.extend(['--platform', platform])
-                if category:
-                    cmd.extend(['--category', category])
-
-                print(f"🚀 启动爬取进程...")
-                print(f"   执行命令: {' '.join(cmd)}")
-
                 try:
-                    process = subprocess.Popen(
-                        cmd,
-                        stdout=subprocess.PIPE,
-                        stderr=subprocess.STDOUT,
-                        text=True,
-                        cwd=project_root,
-                        env=os.environ.copy(),
-                        bufsize=1
-                    )
+                    project_root = os.path.dirname(os.path.abspath(__file__))
+                    venv_python = os.path.join(project_root, 'venv', 'bin', 'python')
+                    scraper_script = os.path.join(project_root, 'modules', 'scraper.py')
 
-                    print(f"\n📝 爬取进程输出 (PID: {process.pid}):")
-                    print(f"{'='*60}")
+                    cmd = [venv_python, scraper_script, '--date', date]
+                    if platform:
+                        cmd.extend(['--platform', platform])
+                    if category:
+                        cmd.extend(['--category', category])
 
-                    for line in process.stdout:
-                        print(line, end='')
+                    print(f"🚀 启动爬取进程...")
+                    print(f"   执行命令: {' '.join(cmd)}")
 
-                    return_code = process.wait()
+                    try:
+                        process = subprocess.Popen(
+                            cmd,
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.STDOUT,
+                            text=True,
+                            cwd=project_root,
+                            env=os.environ.copy(),
+                            bufsize=1
+                        )
 
-                    print(f"{'='*60}")
-                    if return_code == 0:
-                        print(f"✓ 爬取完成: {date}")
-                    else:
-                        print(f"✗ 爬取失败: {date} (返回码: {return_code})")
+                        print(f"\n📝 爬取进程输出 (PID: {process.pid}):")
+                        print(f"{'='*60}")
 
-                except Exception as e:
-                    print(f"\n✗ 爬取异常: {e}")
-                    import traceback
-                    print(traceback.format_exc())
+                        for line in process.stdout:
+                            print(line, end='')
+
+                        return_code = process.wait()
+
+                        print(f"{'='*60}")
+                        if return_code == 0:
+                            print(f"✓ 爬取完成: {date}")
+                        else:
+                            print(f"✗ 爬取失败: {date} (返回码: {return_code})")
+
+                    except Exception as e:
+                        print(f"\n✗ 爬取异常: {e}")
+                        import traceback
+                        print(traceback.format_exc())
+                finally:
+                    _task_end(task_key)
 
             thread = threading.Thread(target=run_scrape, daemon=True)
             thread.start()
@@ -272,9 +338,7 @@ class MyHandler(SimpleHTTPRequestHandler):
     def handle_detect(self):
         """处理检测请求"""
         try:
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
-            data = json.loads(post_data.decode('utf-8'))
+            data = self.read_json_body()
 
             date = data.get('date')
             force = data.get('force', False)
@@ -285,49 +349,61 @@ class MyHandler(SimpleHTTPRequestHandler):
             print(f"   Force: {force}")
             print(f"{'='*60}\n")
 
+            # 并发锁：检测任务同一时刻只允许一个在跑
+            task_key = f"detect:{date or 'auto'}"
+            if not _task_start(task_key):
+                self.send_json_response({
+                    'success': False,
+                    'error': '检测任务正在运行中，请勿重复触发'
+                }, 409)
+                return
+
             def run_detect():
-                project_root = os.path.dirname(os.path.abspath(__file__))
-                venv_python = os.path.join(project_root, 'venv', 'bin', 'python')
-                detector_script = os.path.join(project_root, 'modules', 'detector.py')
-
-                cmd = [venv_python, detector_script]
-                if date:
-                    cmd.extend(['--date', date])
-                if force:
-                    cmd.append('--force')
-
-                print(f"🚀 启动检测进程...")
-                print(f"   执行命令: {' '.join(cmd)}")
-
                 try:
-                    process = subprocess.Popen(
-                        cmd,
-                        stdout=subprocess.PIPE,
-                        stderr=subprocess.STDOUT,
-                        text=True,
-                        cwd=project_root,
-                        env=os.environ.copy(),
-                        bufsize=1
-                    )
+                    project_root = os.path.dirname(os.path.abspath(__file__))
+                    venv_python = os.path.join(project_root, 'venv', 'bin', 'python')
+                    detector_script = os.path.join(project_root, 'modules', 'detector.py')
 
-                    print(f"\n📝 检测进程输出 (PID: {process.pid}):")
-                    print(f"{'='*60}")
+                    cmd = [venv_python, detector_script]
+                    if date:
+                        cmd.extend(['--date', date])
+                    if force:
+                        cmd.append('--force')
 
-                    for line in process.stdout:
-                        print(line, end='')
+                    print(f"🚀 启动检测进程...")
+                    print(f"   执行命令: {' '.join(cmd)}")
 
-                    return_code = process.wait()
+                    try:
+                        process = subprocess.Popen(
+                            cmd,
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.STDOUT,
+                            text=True,
+                            cwd=project_root,
+                            env=os.environ.copy(),
+                            bufsize=1
+                        )
 
-                    print(f"{'='*60}")
-                    if return_code == 0:
-                        print(f"✓ 检测完成")
-                    else:
-                        print(f"✗ 检测失败 (返回码: {return_code})")
+                        print(f"\n📝 检测进程输出 (PID: {process.pid}):")
+                        print(f"{'='*60}")
 
-                except Exception as e:
-                    print(f"\n✗ 检测异常: {e}")
-                    import traceback
-                    print(traceback.format_exc())
+                        for line in process.stdout:
+                            print(line, end='')
+
+                        return_code = process.wait()
+
+                        print(f"{'='*60}")
+                        if return_code == 0:
+                            print(f"✓ 检测完成")
+                        else:
+                            print(f"✗ 检测失败 (返回码: {return_code})")
+
+                    except Exception as e:
+                        print(f"\n✗ 检测异常: {e}")
+                        import traceback
+                        print(traceback.format_exc())
+                finally:
+                    _task_end(task_key)
 
             thread = threading.Thread(target=run_detect, daemon=True)
             thread.start()
@@ -453,11 +529,31 @@ class MyHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(json.dumps(data, ensure_ascii=False).encode('utf-8'))
 
+    def read_json_body(self):
+        """安全读取请求体并解析JSON，空请求体返回空字典"""
+        content_length = self.headers.get('Content-Length')
+        if not content_length:
+            return {}
+        try:
+            content_length = int(content_length)
+        except (ValueError, TypeError):
+            return {}
+        if content_length <= 0:
+            return {}
+        post_data = self.rfile.read(content_length)
+        if not post_data or not post_data.strip():
+            return {}
+        return json.loads(post_data.decode('utf-8'))
+
     def end_headers(self):
-        """添加CORS头"""
+        """添加CORS头和禁用缓存"""
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        # 禁用缓存，确保浏览器始终获取最新文件
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
         super().end_headers()
 
 

@@ -31,6 +31,31 @@ APP_STORE_CATEGORIES = {
         "name_cn": "游戏",
         "name_en": "Games",
         "genre_id": "6014"
+    },
+    "productivity": {
+        "name_cn": "生产力",
+        "name_en": "Productivity",
+        "genre_id": "6007"
+    },
+    "utilities": {
+        "name_cn": "生活实用",
+        "name_en": "Utilities",
+        "genre_id": "6002"
+    },
+    "entertainment": {
+        "name_cn": "娱乐",
+        "name_en": "Entertainment",
+        "genre_id": "6016"
+    },
+    "photo_video": {
+        "name_cn": "照片&视频",
+        "name_en": "Photo & Video",
+        "genre_id": "6008"
+    },
+    "travel": {
+        "name_cn": "旅行",
+        "name_en": "Travel",
+        "genre_id": "6003"
     }
 }
 
@@ -59,6 +84,18 @@ GOOGLE_PLAY_CATEGORIES = {
     "tools": {
         "name_cn": "工具",
         "name_en": "TOOLS"
+    },
+    "travel_local": {
+        "name_cn": "旅行与当地",
+        "name_en": "TRAVEL_AND_LOCAL"
+    },
+    "productivity": {
+        "name_cn": "生产力",
+        "name_en": "PRODUCTIVITY"
+    },
+    "entertainment": {
+        "name_cn": "娱乐",
+        "name_en": "ENTERTAINMENT"
     }
 }
 
@@ -73,7 +110,8 @@ SCRAPER_CONFIG = {
         "country": "us",
         "collection": "TOP_FREE",
         "limit": 100,
-        "delay": 3  # 请求延迟（秒）
+        "delay": 3,  # 请求延迟（秒）
+        "proxy": ""  # 如需代理填如 http://127.0.0.1:7890
     },
     "retry_times": 3,  # 失败重试次数
     "timeout": 30  # 请求超时时间（秒）

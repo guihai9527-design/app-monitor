@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-17",
+  "compare_date": "2026-08-14",
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "Google Play",
+      "category": "约会",
+      "app_id": "com.lumiereent.android.bott",
+      "rank": 85,
+      "name": "Bride of the Twilight:Romance",
+      "developer": "Lumiere Entertainment Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lumiereent.android.bott",
+      "icon_url": "https://play-lh.googleusercontent.com/zq-1vKumiB84VNDleK88c1vlf0uTBEBOFCh1ivFLV2iKUw2bg-hdTLOwgCDBtEG-X6VLQHf8axNxBS2yRlnc8w",
+      "timestamp": "2026-08-17 18:04:04"
+    },
+    {
+      "platform": "Google Play",
+      "category": "工具",
+      "app_id": "co.appnation.phonecleaner",
+      "rank": 100,
+      "name": "Swipe Photo Cleaner - Clean AI",
+      "developer": "HEYOS",
+      "store_url": "https://play.google.com/store/apps/details?id=co.appnation.phonecleaner",
+      "icon_url": "https://play-lh.googleusercontent.com/Ii2P2rCfqXaBX1Z0qxflAh9UJRVSztQKcmvkn-UZPDviV7eeN1ilL5Kq0bfztB_1QCugSKekFth5HTkxR-0doB0",
+      "timestamp": "2026-08-17 18:04:21"
+    }
+  ],
+  "generated_at": "2026-08-17 18:10:35"
+}
