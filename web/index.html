@@ -111,10 +111,10 @@
                 </div>
             </div>
 
-            <!-- 一键操作 -->
-            <div class="guide-section">
+            <!-- 一键操作（仅本地服务器可用） -->
+            <div class="guide-section" id="actionSection">
                 <h3>⚡ 一键刷新数据</h3>
-                <div class="action-buttons">
+                <div class="action-buttons" id="actionButtons">
                     <button class="btn btn-action" id="btn-scrape" onclick="triggerScrape()">
                         📦 爬取榜单数据
                     </button>
@@ -123,6 +123,9 @@
                     </button>
                 </div>
                 <p id="action-status" style="text-align:center;margin-top:12px;color:#6b7280;"></p>
+                <p id="github-pages-notice" style="display:none;text-align:center;margin-top:12px;color:#6b7280;">
+                    📊 数据由 <strong>GitHub Actions</strong> 每日自动更新（UTC 00:00），无需手动操作
+                </p>
             </div>
 
             <!-- 任务日志面板 -->
@@ -145,7 +148,7 @@
         </footer>
     </div>
 
-    <script src="js/common.js?v=6"></script>
-    <script src="js/index.js?v=6"></script>
+    <script src="js/common.js?v=7"></script>
+    <script src="js/index.js?v=7"></script>
 </body>
 </html>

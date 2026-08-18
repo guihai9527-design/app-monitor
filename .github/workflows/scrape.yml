@@ -2,16 +2,15 @@ name: 定期爬取榜单数据（模块1和模块2）
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # 每天 UTC 00:00（北京时间 08:00）
+  workflow_dispatch:      # 支持手动触发
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
-    
+
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -19,43 +18,56 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
           persist-credentials: true
-      
+
       - name: 设置 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      
+
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml google-play-scraper
-      
+          pip install requests google-play-scraper
+
       - name: 运行模块1：爬取榜单数据
         run: |
-          echo "开始爬取榜单数据..."
-          python modules/scraper.py --date $(date +'%Y-%m-%d')
-      
+          TODAY=$(date +'%Y-%m-%d')
+          echo "📦 开始爬取榜单数据: $TODAY"
+          python modules/scraper.py --date "$TODAY"
+        timeout-minutes: 30
+
       - name: 运行模块2：检测新上榜产品
         if: success()
         run: |
-          echo "检测新上榜产品..."
-          python modules/detector.py --date $(date +'%Y-%m-%d')
-      
-      - name: 提交数据
+          TODAY=$(date +'%Y-%m-%d')
+          echo "🔍 检测新上榜产品: $TODAY"
+          python modules/detector.py --date "$TODAY"
+
+      - name: 提交数据变更
         if: success()
-        continue-on-error: true
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
+          # 拉取最新代码，避免冲突
+          git pull --rebase origin ${GITHUB_REF_NAME} || true
+
           git add data/
+
           if git diff --staged --quiet; then
-            echo "没有数据变更，跳过提交"
+            echo "ℹ️  没有数据变更，跳过提交"
           else
-            git commit -m "自动更新：爬取榜单数据 $(date +'%Y-%m-%d')"
-            if git push; then
-              echo "✅ 数据提交成功"
-            else
-              echo "⚠️  数据提交失败，可能是权限问题"
-              echo "⚠️  数据已在本地生成，但未推送到仓库"
-            fi
+            TODAY=$(date +'%Y-%m-%d')
+            git commit -m "自动更新：爬取榜单数据 $TODAY"
+            # 重试 push 最多 3 次（处理并发冲突）
+            for i in 1 2 3; do
+              if git push; then
+                echo "✅ 数据已推送到仓库"
+                exit 0
+              fi
+              echo "⚠️  推送失败，第 ${i} 次重试..."
+              git pull --rebase origin ${GITHUB_REF_NAME} || true
+              sleep 5
+            done
+            echo "❌ 推送失败，请手动检查"
           fi

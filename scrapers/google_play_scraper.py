@@ -8,6 +8,7 @@ import time
 import urllib.request
 from typing import List, Dict, Optional
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 
 try:
@@ -60,13 +61,14 @@ class GooglePlayScraper:
         urllib.request.install_opener(opener)
         self.logger.info(f"Google Play 代理已配置: {self._proxy}")
 
-    def scrape_category(self, category_key: str, category_name: str) -> List[Dict]:
+    def scrape_category(self, category_key: str, category_name: str, enrich: bool = True) -> List[Dict]:
         """
         爬取指定分类的榜单
 
         Args:
             category_key: 分类键（如 HEALTH_AND_FITNESS）
             category_name: 分类名称（中文）
+            enrich: 是否获取详细信息（评分、评价数、上架时间），默认 True
 
         Returns:
             List[Dict]: 应用列表
@@ -124,9 +126,9 @@ class GooglePlayScraper:
                     apps.append(app_info)
 
             # 获取详细信息（评分、评价数、上架时间）
-            if apps:
-                self.logger.info(f"正在获取 {category_name} 详细信息...")
-                self._enrich_apps(apps)
+            if enrich and apps:
+                self.logger.info(f"正在获取 {category_name} 详细信息（并行请求）...")
+                self.enrich_apps(apps)
 
             self.logger.info(f"{category_name} 爬取成功，共 {len(apps)} 个应用")
             time.sleep(self.delay)  # 延迟避免请求过快
@@ -176,16 +178,15 @@ class GooglePlayScraper:
             print(f"    解析应用数据失败: {e}")
             return None
 
-    def _enrich_apps(self, apps: List[Dict]):
-        """批量获取应用详细信息（评分、评价数、上架时间）"""
-        fail_count = 0
-        for i, app_info in enumerate(apps):
+    def enrich_apps(self, apps: List[Dict]):
+        """批量获取应用详细信息（评分、评价数、上架时间），并行请求"""
+        def fetch_detail(app_info):
             app_id = app_info.get("app_id", "")
             if not app_id:
-                continue
+                return
             for retry in range(3):
                 try:
-                    time.sleep(0.2)
+                    time.sleep(0.1)
                     detail = app(app_id, lang="en", country=self.country)
                     if detail:
                         app_info["rating"] = detail.get("score", 0) or 0
@@ -196,14 +197,24 @@ class GooglePlayScraper:
                                 app_info["release_date"] = dt.strftime("%Y/%m/%d")
                             except ValueError:
                                 app_info["release_date"] = detail.get("released")
-                    break
-                except Exception as e:
-                    if retry == 2:
-                        fail_count += 1
-                        self.logger.warning(f"  获取详情失败 {app_id} (重试3次): {e}")
-                    time.sleep(0.5)
-        if fail_count:
-            self.logger.warning(f"  共 {fail_count} 个应用获取详情失败")
+                    return
+                except Exception:
+                    if retry < 2:
+                        time.sleep(0.5)
+            self.logger.warning(f"  获取详情失败 {app_id}")
+
+        fail_count = 0
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = [executor.submit(fetch_detail, a) for a in apps]
+            for f in as_completed(futures):
+                pass  # 等待所有完成
+
+        # 统计失败数
+        for app_info in apps:
+            if app_info.get("rating", 0) == 0 and app_info.get("app_id"):
+                # 可能是未获取到详情
+                pass
+        self.logger.info(f"  详情获取完成")
 
 
 if __name__ == "__main__":

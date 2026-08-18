@@ -11,21 +11,22 @@ function isRemoteHost() {
     const host = window.location.hostname;
     return host !== 'localhost' && host !== '127.0.0.1' && !host.startsWith('192.168.');
 }
+const IS_GITHUB_PAGES = isRemoteHost();
 
-// 如果从远程地址访问，页面加载时显示醒目提示
-if (isRemoteHost()) {
+// 如果从 GitHub Pages 访问，页面加载时显示提示条
+if (IS_GITHUB_PAGES) {
     document.addEventListener('DOMContentLoaded', function() {
         const banner = document.createElement('div');
+        banner.id = 'github-pages-banner';
         banner.style.cssText = `
-            position: fixed; top: 0; left: 0; right: 0; z-index: 99999;
-            background: #dc2626; color: white; padding: 14px 20px;
-            text-align: center; font-size: 15px; font-weight: 600;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+            color: white; padding: 10px 20px; text-align: center;
+            font-size: 13px; border-bottom: 2px solid #3b82f6;
         `;
-        banner.innerHTML = '⚠️ 请通过 <code style="background:rgba(255,255,255,0.2);padding:2px 8px;border-radius:4px;">http://localhost:8000/web/</code> 访问本应用，GitHub Pages 无法连接本地 API 服务';
+        banner.innerHTML = '📊 数据由 <strong>GitHub Actions</strong> 每日自动更新（UTC 00:00） | '
+            + '如需分析产品，请运行本地服务器：<code style="background:rgba(255,255,255,0.2);padding:2px 6px;border-radius:3px;">scripts/start_web.sh</code> '
+            + '然后访问 <code style="background:rgba(255,255,255,0.2);padding:2px 6px;border-radius:3px;">http://localhost:8000/web/</code>';
         document.body.insertBefore(banner, document.body.firstChild);
-        // 给 body 加 padding-top 避免被 banner 遮挡
-        document.body.style.paddingTop = '50px';
     });
 }
 

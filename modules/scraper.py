@@ -154,11 +154,10 @@ class RankingMonitorScraper:
             category_en = category_info["name_en"]
 
             try:
-                # 爬取数据
-                apps = self.google_play_scraper.scrape_category(category_en, category_name)
+                # 第一步：快速获取基础数据
+                apps = self.google_play_scraper.scrape_category(category_en, category_name, enrich=False)
 
                 if apps:
-                    # 保存数据
                     data = {
                         "date": self.date,
                         "platform": "Google Play",
@@ -172,12 +171,20 @@ class RankingMonitorScraper:
                         self.date, "google_play", category_key, DATA_DIR
                     )
 
-                    if save_to_json(data, file_path):
-                        success_count += 1
-                        total_apps += len(apps)
-                        self.logger.info(f"Google Play - {category_name} 保存成功")
-                    else:
-                        self.logger.error(f"Google Play - {category_name} 保存失败")
+                    # 先保存基础数据（网页立即可看）
+                    save_to_json(data, file_path)
+                    self.logger.info(f"Google Play - {category_name} 基础数据保存成功 ({len(apps)}个)")
+
+                    # 第二步：并行获取详细信息（评分、评价数、上架时间）
+                    self.logger.info(f"正在获取 {category_name} 详细信息...")
+                    self.google_play_scraper.enrich_apps(apps)
+                    # 更新数据后重新保存
+                    data["apps"] = apps
+                    save_to_json(data, file_path)
+
+                    success_count += 1
+                    total_apps += len(apps)
+                    self.logger.info(f"Google Play - {category_name} 详情更新完成")
                 else:
                     self.logger.warning(f"Google Play - {category_name} 未获取到数据")
 

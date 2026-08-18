@@ -198,6 +198,16 @@ async function loadJSON(url) {
 // 页面加载完成后执行
 document.addEventListener('DOMContentLoaded', () => {
     loadStats().catch(e => console.error('loadStats 失败:', e));
+
+    // GitHub Pages 模式：隐藏操作按钮，显示自动更新提示
+    if (typeof IS_GITHUB_PAGES !== 'undefined' && IS_GITHUB_PAGES) {
+        const btnScrape = document.getElementById('btn-scrape');
+        const btnDetect = document.getElementById('btn-detect');
+        const notice = document.getElementById('github-pages-notice');
+        if (btnScrape) btnScrape.style.display = 'none';
+        if (btnDetect) btnDetect.style.display = 'none';
+        if (notice) notice.style.display = 'block';
+    }
 });
 
 // 任务日志轮询
