@@ -1,36 +1,7 @@
 {
   "date": "2026-08-18",
   "compare_date": "2026-08-17",
-  "total_count": 2,
-  "new_apps": [
-    {
-      "platform": "Google Play",
-      "category": "工具",
-      "app_id": "com.amaze.fileutilities",
-      "rank": 81,
-      "name": "Amaze File Utilities",
-      "developer": "Team Amaze",
-      "store_url": "https://play.google.com/store/apps/details?id=com.amaze.fileutilities",
-      "icon_url": "https://play-lh.googleusercontent.com/_ZAYFmFFNYYWVM1zAYkJe8qdvY1RNxfPhkMBlR-QFeoDfDjGkjAL1z27k1H_9LMVgdQKCvLsHfzdGFx06jOR_A",
-      "rating": 4.16,
-      "rating_count": 751,
-      "release_date": "2022/04/08",
-      "timestamp": "2026-08-18 02:53:22"
-    },
-    {
-      "platform": "Google Play",
-      "category": "娱乐",
-      "app_id": "com.king.candycrushsaga",
-      "rank": 29,
-      "name": "Candy Crush Saga",
-      "developer": "King",
-      "store_url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga",
-      "icon_url": "https://play-lh.googleusercontent.com/JvMhIxuwArVmcMReJQB8PIEB1MIQNMGf9j5i914JtkBrHrA55K-nMUIVlYCa7SXAdHtzLtsycEo6NpXeHFxLwvI",
-      "rating": 4.628091,
-      "rating_count": 38919347,
-      "release_date": "2012/11/15",
-      "timestamp": "2026-08-18 02:53:47"
-    }
-  ],
-  "generated_at": "2026-08-18 02:53:54"
+  "total_count": 0,
+  "new_apps": [],
+  "generated_at": "2026-08-18 03:02:15"
 }
