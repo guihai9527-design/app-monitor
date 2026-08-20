@@ -18,7 +18,7 @@
       "release_date": "2023/07/05",
       "rating": 4.63582,
       "rating_count": 2173852,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -33,7 +33,7 @@
       "release_date": "2009/05/03",
       "rating": 4.68512,
       "rating_count": 18433179,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -48,7 +48,7 @@
       "release_date": "2010/09/25",
       "rating": 4.72021,
       "rating_count": 1559079,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -63,7 +63,7 @@
       "release_date": "2019/02/05",
       "rating": 4.52504,
       "rating_count": 27888356,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -78,7 +78,7 @@
       "release_date": "2013/08/14",
       "rating": 4.00955,
       "rating_count": 277386,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -93,7 +93,7 @@
       "release_date": "2010/08/10",
       "rating": 4.78977,
       "rating_count": 3011811,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -108,7 +108,7 @@
       "release_date": "2015/05/21",
       "rating": 4.69916,
       "rating_count": 3517606,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -123,7 +123,7 @@
       "release_date": "2012/08/07",
       "rating": 4.72499,
       "rating_count": 61778,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -138,7 +138,7 @@
       "release_date": "2021/08/16",
       "rating": 3.89508,
       "rating_count": 49705,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -153,7 +153,7 @@
       "release_date": "2011/08/09",
       "rating": 4.66118,
       "rating_count": 13335274,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -168,7 +168,7 @@
       "release_date": "2016/09/01",
       "rating": 4.7595,
       "rating_count": 2332434,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -183,7 +183,7 @@
       "release_date": "2014/07/29",
       "rating": 4.73732,
       "rating_count": 1074179,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -198,29 +198,14 @@
       "release_date": "2009/05/06",
       "rating": 4.78728,
       "rating_count": 915949,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "sg.bigo.live",
-      "itunes_id": "1077137248",
-      "rank": 14,
-      "name": "BIGO LIVE-Live Stream, Go Live",
-      "developer": "BIGO TECHNOLOGY PTE. LTD.",
-      "store_url": "https://apps.apple.com/us/app/bigo-live-live-stream-go-live/id1077137248?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/9b/e4/909be4c5-89a0-e6fc-a2c1-69f0a2e7330e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2016/03/11",
-      "rating": 4.47659,
-      "rating_count": 227878,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.locket.Locket",
       "itunes_id": "1600525061",
-      "rank": 15,
+      "rank": 14,
       "name": "Locket Widget",
       "developer": "Locket Labs, Inc.",
       "store_url": "https://apps.apple.com/us/app/locket-widget/id1600525061?uo=4",
@@ -228,7 +213,22 @@
       "release_date": "2021/12/30",
       "rating": 4.76082,
       "rating_count": 551675,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "sg.bigo.live",
+      "itunes_id": "1077137248",
+      "rank": 15,
+      "name": "BIGO LIVE-Live Stream, Go Live",
+      "developer": "BIGO TECHNOLOGY PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/bigo-live-live-stream-go-live/id1077137248?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/9b/e4/909be4c5-89a0-e6fc-a2c1-69f0a2e7330e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2016/03/11",
+      "rating": 4.47659,
+      "rating_count": 227878,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -243,44 +243,14 @@
       "release_date": "2025/12/11",
       "rating": 4.74234,
       "rating_count": 1894,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.facebook.agora",
-      "itunes_id": "6758308862",
-      "rank": 17,
-      "name": "Forum, a Facebook app",
-      "developer": "Meta Platforms, Inc.",
-      "store_url": "https://apps.apple.com/us/app/forum-a-facebook-app/id6758308862?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/c0/df/74c0dfea-6bb2-b5db-3cf3-c0839bd729f4/ember-app-icon-05062026-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2026/05/21",
-      "rating": 4.69644,
-      "rating_count": 2665,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.recoapp",
-      "itunes_id": "6742024490",
-      "rank": 18,
-      "name": "Reco Social",
-      "developer": "Reco Social, Inc.",
-      "store_url": "https://apps.apple.com/us/app/reco-social/id6742024490?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/b8/0f/a8b80fb2-e689-eed4-7be8-1e4de4eaa1e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "release_date": "2025/03/12",
-      "rating": 4.72028,
-      "rating_count": 24796,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "io.omgapp.eng",
       "itunes_id": "6504218505",
-      "rank": 19,
+      "rank": 17,
       "name": "Peek: Secret Compliment",
       "developer": "Dyve Studios Inc.",
       "store_url": "https://apps.apple.com/us/app/peek-secret-compliment/id6504218505?uo=4",
@@ -288,7 +258,37 @@
       "release_date": "2024/08/24",
       "rating": 4.68225,
       "rating_count": 7317,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.facebook.agora",
+      "itunes_id": "6758308862",
+      "rank": 18,
+      "name": "Forum, a Facebook app",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://apps.apple.com/us/app/forum-a-facebook-app/id6758308862?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/c0/df/74c0dfea-6bb2-b5db-3cf3-c0839bd729f4/ember-app-icon-05062026-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/05/21",
+      "rating": 4.69644,
+      "rating_count": 2665,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.recoapp",
+      "itunes_id": "6742024490",
+      "rank": 19,
+      "name": "Reco Social",
+      "developer": "Reco Social, Inc.",
+      "store_url": "https://apps.apple.com/us/app/reco-social/id6742024490?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/b8/0f/a8b80fb2-e689-eed4-7be8-1e4de4eaa1e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/03/12",
+      "rating": 4.72028,
+      "rating_count": 24796,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -303,59 +303,14 @@
       "release_date": "2010/12/14",
       "rating": 4.67551,
       "rating_count": 597635,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.newsclapper.video",
-      "itunes_id": "1522122685",
-      "rank": 21,
-      "name": "Clapper: Video, Live, Chat",
-      "developer": "CLAPPER MEDIA GROUP INC.",
-      "store_url": "https://apps.apple.com/us/app/clapper-video-live-chat/id1522122685?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/dd/27/2edd2785-adc0-f23b-7c55-8f57cbdbc5c8/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2020/07/10",
-      "rating": 4.63827,
-      "rating_count": 81798,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.noahiarrobino.carrier-pigeon",
-      "itunes_id": "6762161637",
-      "rank": 22,
-      "name": "carrier pidge",
-      "developer": "Noah Iarrobino",
-      "store_url": "https://apps.apple.com/us/app/carrier-pidge/id6762161637?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/bf/5d/8abf5de4-18c6-bd8d-c004-a5cace62d27c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "release_date": "2026/04/19",
-      "rating": 4.48357,
-      "rating_count": 213,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.tencent.xin",
-      "itunes_id": "414478124",
-      "rank": 23,
-      "name": "WeChat",
-      "developer": "WeChat",
-      "store_url": "https://apps.apple.com/us/app/wechat/id414478124?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/4f/16/e44f16cb-0a64-464e-13f2-05091f930c79/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
-      "release_date": "2011/01/20",
-      "rating": 3.93795,
-      "rating_count": 80662,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.textmeinc.textme2",
       "itunes_id": "514485964",
-      "rank": 24,
+      "rank": 21,
       "name": "Text Me - Phone Call + Texting",
       "developer": "TextMe, Inc.",
       "store_url": "https://apps.apple.com/us/app/text-me-phone-call-texting/id514485964?uo=4",
@@ -363,14 +318,29 @@
       "release_date": "2012/05/22",
       "rating": 4.70292,
       "rating_count": 670437,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.newsclapper.video",
+      "itunes_id": "1522122685",
+      "rank": 22,
+      "name": "Clapper: Video, Live, Chat",
+      "developer": "CLAPPER MEDIA GROUP INC.",
+      "store_url": "https://apps.apple.com/us/app/clapper-video-live-chat/id1522122685?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/dd/27/2edd2785-adc0-f23b-7c55-8f57cbdbc5c8/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2020/07/10",
+      "rating": 4.63827,
+      "rating_count": 81798,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.interactive.zangi",
       "itunes_id": "549493839",
-      "rank": 25,
+      "rank": 23,
       "name": "Zangi - Private Messenger",
       "developer": "Secret Phone, Inc",
       "store_url": "https://apps.apple.com/us/app/zangi-private-messenger/id549493839?uo=4",
@@ -378,7 +348,37 @@
       "release_date": "2012/08/08",
       "rating": 3.97534,
       "rating_count": 8879,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.noahiarrobino.carrier-pigeon",
+      "itunes_id": "6762161637",
+      "rank": 24,
+      "name": "carrier pidge",
+      "developer": "Noah Iarrobino",
+      "store_url": "https://apps.apple.com/us/app/carrier-pidge/id6762161637?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/bf/5d/8abf5de4-18c6-bd8d-c004-a5cace62d27c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/04/19",
+      "rating": 4.48357,
+      "rating_count": 213,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.tencent.xin",
+      "itunes_id": "414478124",
+      "rank": 25,
+      "name": "WeChat",
+      "developer": "WeChat",
+      "store_url": "https://apps.apple.com/us/app/wechat/id414478124?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/4f/16/e44f16cb-0a64-464e-13f2-05091f930c79/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2011/01/20",
+      "rating": 3.93795,
+      "rating_count": 80662,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -393,7 +393,7 @@
       "release_date": "2023/05/14",
       "rating": 3.83174,
       "rating_count": 731,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -408,7 +408,7 @@
       "release_date": "2016/03/15",
       "rating": 4.81982,
       "rating_count": 88269,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -423,7 +423,7 @@
       "release_date": "2016/02/20",
       "rating": 4.87436,
       "rating_count": 6033,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -438,7 +438,7 @@
       "release_date": "2019/02/24",
       "rating": 4.19578,
       "rating_count": 302497,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -453,29 +453,14 @@
       "release_date": "2009/02/24",
       "rating": 4.19829,
       "rating_count": 371907,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.widgetable.theme",
-      "itunes_id": "1641107226",
-      "rank": 31,
-      "name": "Widgetable: Besties & Couples",
-      "developer": "Widgetable,Inc.",
-      "store_url": "https://apps.apple.com/us/app/widgetable-besties-couples/id1641107226?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/7d/62/8e7d6214-5508-f8fe-c190-154c54fadb24/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
-      "release_date": "2022/08/27",
-      "rating": 4.91834,
-      "rating_count": 381813,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.burbn.moonshot",
       "itunes_id": "6756442328",
-      "rank": 32,
+      "rank": 31,
       "name": "Instants, an Instagram app",
       "developer": "Instagram, Inc.",
       "store_url": "https://apps.apple.com/us/app/instants-an-instagram-app/id6756442328?uo=4",
@@ -483,22 +468,37 @@
       "release_date": "2026/05/12",
       "rating": 4.74066,
       "rating_count": 17560,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "app.zyng",
-      "itunes_id": "1477248221",
+      "app_id": "com.widgetable.theme",
+      "itunes_id": "1641107226",
+      "rank": 32,
+      "name": "Widgetable: Besties & Couples",
+      "developer": "Widgetable,Inc.",
+      "store_url": "https://apps.apple.com/us/app/widgetable-besties-couples/id1641107226?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/7d/62/8e7d6214-5508-f8fe-c190-154c54fadb24/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+      "release_date": "2022/08/27",
+      "rating": 4.91834,
+      "rating_count": 381813,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.telmate.gettingoutff",
+      "itunes_id": "907226423",
       "rank": 33,
-      "name": "Howbout: shared calendar",
-      "developer": "Howbout Ltd.",
-      "store_url": "https://apps.apple.com/us/app/howbout-shared-calendar/id1477248221?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/0d/48/320d48ac-e564-513c-2088-929a3604ae9a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "release_date": "2019/11/30",
-      "rating": 4.83084,
-      "rating_count": 48646,
-      "timestamp": "2026-08-20 01:23:42"
+      "name": "GettingOut",
+      "developer": "Telmate, LLC",
+      "store_url": "https://apps.apple.com/us/app/gettingout/id907226423?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/3a/72/5a3a72b9-ac9c-aa4b-3709-aed1492db96b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2014/08/14",
+      "rating": 1.92527,
+      "rating_count": 2101,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -513,37 +513,37 @@
       "release_date": "2010/06/12",
       "rating": 4.71683,
       "rating_count": 272622,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "com.xingin.discover",
-      "itunes_id": "741292507",
+      "app_id": "app.zyng",
+      "itunes_id": "1477248221",
       "rank": 35,
-      "name": "rednote",
-      "developer": "Xingin",
-      "store_url": "https://apps.apple.com/us/app/rednote/id741292507?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/7f/ea/267fea44-0e21-67a0-7801-3b742e518f32/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
-      "release_date": "2013/12/04",
-      "rating": 4.86491,
-      "rating_count": 267847,
-      "timestamp": "2026-08-20 01:23:42"
+      "name": "Howbout: shared calendar",
+      "developer": "Howbout Ltd.",
+      "store_url": "https://apps.apple.com/us/app/howbout-shared-calendar/id1477248221?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/0d/48/320d48ac-e564-513c-2088-929a3604ae9a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2019/11/30",
+      "rating": 4.83084,
+      "rating_count": 48646,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "com.telmate.gettingoutff",
-      "itunes_id": "907226423",
+      "app_id": "net.securustech.videoclient",
+      "itunes_id": "1059629706",
       "rank": 36,
-      "name": "GettingOut",
-      "developer": "Telmate, LLC",
-      "store_url": "https://apps.apple.com/us/app/gettingout/id907226423?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/3a/72/5a3a72b9-ac9c-aa4b-3709-aed1492db96b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2014/08/14",
-      "rating": 1.92527,
-      "rating_count": 2101,
-      "timestamp": "2026-08-20 01:23:42"
+      "name": "Securus Mobile",
+      "developer": "SECURUS TECHNOLOGIES LLC",
+      "store_url": "https://apps.apple.com/us/app/securus-mobile/id1059629706?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/79/7f/54797fa6-9d7e-225a-9061-067cf97b3563/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
+      "release_date": "2016/01/20",
+      "rating": 4.56468,
+      "rating_count": 44412,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -558,29 +558,14 @@
       "release_date": "2020/03/16",
       "rating": 4.16202,
       "rating_count": 7943,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "net.securustech.videoclient",
-      "itunes_id": "1059629706",
-      "rank": 38,
-      "name": "Securus Mobile",
-      "developer": "SECURUS TECHNOLOGIES LLC",
-      "store_url": "https://apps.apple.com/us/app/securus-mobile/id1059629706?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/79/7f/54797fa6-9d7e-225a-9061-067cf97b3563/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/100x100bb.png",
-      "release_date": "2016/01/20",
-      "rating": 4.56468,
-      "rating_count": 44412,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.zeemee.ZeeMee",
       "itunes_id": "1044878258",
-      "rank": 39,
+      "rank": 38,
       "name": "ZeeMee: Meet College Friends",
       "developer": "ZeeMee",
       "store_url": "https://apps.apple.com/us/app/zeemee-meet-college-friends/id1044878258?uo=4",
@@ -588,7 +573,22 @@
       "release_date": "2015/12/10",
       "rating": 4.74446,
       "rating_count": 27166,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.xingin.discover",
+      "itunes_id": "741292507",
+      "rank": 39,
+      "name": "rednote",
+      "developer": "Xingin",
+      "store_url": "https://apps.apple.com/us/app/rednote/id741292507?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/26/7f/ea/267fea44-0e21-67a0-7801-3b742e518f32/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2013/12/04",
+      "rating": 4.86491,
+      "rating_count": 267847,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -603,7 +603,7 @@
       "release_date": "2009/06/24",
       "rating": 4.45119,
       "rating_count": 386022,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -618,7 +618,7 @@
       "release_date": "2015/10/11",
       "rating": 4.51891,
       "rating_count": 371704,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -633,7 +633,7 @@
       "release_date": "2026/04/27",
       "rating": 4.82615,
       "rating_count": 1461,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -648,59 +648,14 @@
       "release_date": "2019/04/11",
       "rating": 4.7714,
       "rating_count": 149595,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "jp.naver.line",
-      "itunes_id": "443904275",
-      "rank": 44,
-      "name": "LINE",
-      "developer": "LINE Corporation",
-      "store_url": "https://apps.apple.com/us/app/line/id443904275?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/50/bb/a250bbb1-5c03-e5b3-1d4b-ea6f2c24a934/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-0-85-220.png/100x100bb.png",
-      "release_date": "2011/06/22",
-      "rating": 3.2116,
-      "rating_count": 18195,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "im.talkme.talkmeim",
-      "itunes_id": "397648381",
-      "rank": 45,
-      "name": "Talkatone: WiFi Text & Calls",
-      "developer": "TALKATONE, INC.",
-      "store_url": "https://apps.apple.com/us/app/talkatone-wifi-text-calls/id397648381?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/33/85/c333851f-fd3f-29f5-663a-0321dc70f789/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2010/10/27",
-      "rating": 4.70024,
-      "rating_count": 141712,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.viber",
-      "itunes_id": "382617920",
-      "rank": 46,
-      "name": "Rakuten Viber Messenger",
-      "developer": "Viber Media SARL.",
-      "store_url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/14/a9/1c14a925-3f61-47cb-7982-f71374076f41/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
-      "release_date": "2010/12/02",
-      "rating": 4.59766,
-      "rating_count": 830965,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.affinityapps.twozerofour",
       "itunes_id": "1499137942",
-      "rank": 47,
+      "rank": 44,
       "name": "Upward Dating: Meet Singles",
       "developer": "Affinity Apps, LLC",
       "store_url": "https://apps.apple.com/us/app/upward-dating-meet-singles/id1499137942?uo=4",
@@ -708,29 +663,14 @@
       "release_date": "2020/03/04",
       "rating": 4.34582,
       "rating_count": 160456,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.super-smash.bumpy",
-      "itunes_id": "1455336523",
-      "rank": 48,
-      "name": "Bumpy – International Dating",
-      "developer": "Bumpy Inc.",
-      "store_url": "https://apps.apple.com/us/app/bumpy-international-dating/id1455336523?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/b0/eb/35b0ebf7-6a3a-c066-2a2c-4fe021bf32bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2019/08/01",
-      "rating": 4.53953,
-      "rating_count": 38400,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.telmate.govisits",
       "itunes_id": "1342522622",
-      "rank": 49,
+      "rank": 45,
       "name": "GettingOut Visits",
       "developer": "Telmate, LLC",
       "store_url": "https://apps.apple.com/us/app/gettingout-visits/id1342522622?uo=4",
@@ -738,7 +678,67 @@
       "release_date": "2018/07/27",
       "rating": 2.275,
       "rating_count": 40,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "im.talkme.talkmeim",
+      "itunes_id": "397648381",
+      "rank": 46,
+      "name": "Talkatone: WiFi Text & Calls",
+      "developer": "TALKATONE, INC.",
+      "store_url": "https://apps.apple.com/us/app/talkatone-wifi-text-calls/id397648381?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c3/33/85/c333851f-fd3f-29f5-663a-0321dc70f789/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2010/10/27",
+      "rating": 4.70024,
+      "rating_count": 141712,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "jp.naver.line",
+      "itunes_id": "443904275",
+      "rank": 47,
+      "name": "LINE",
+      "developer": "LINE Corporation",
+      "store_url": "https://apps.apple.com/us/app/line/id443904275?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/50/bb/a250bbb1-5c03-e5b3-1d4b-ea6f2c24a934/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2011/06/22",
+      "rating": 3.2116,
+      "rating_count": 18195,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.viber",
+      "itunes_id": "382617920",
+      "rank": 48,
+      "name": "Rakuten Viber Messenger",
+      "developer": "Viber Media SARL.",
+      "store_url": "https://apps.apple.com/us/app/rakuten-viber-messenger/id382617920?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/14/a9/1c14a925-3f61-47cb-7982-f71374076f41/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+      "release_date": "2010/12/02",
+      "rating": 4.59766,
+      "rating_count": 830965,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.super-smash.bumpy",
+      "itunes_id": "1455336523",
+      "rank": 49,
+      "name": "Bumpy – International Dating",
+      "developer": "Bumpy Inc.",
+      "store_url": "https://apps.apple.com/us/app/bumpy-international-dating/id1455336523?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/b0/eb/35b0ebf7-6a3a-c066-2a2c-4fe021bf32bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2019/08/01",
+      "rating": 4.53953,
+      "rating_count": 38400,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -753,7 +753,7 @@
       "release_date": "2019/11/13",
       "rating": 4.32024,
       "rating_count": 23369,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -768,29 +768,14 @@
       "release_date": "2016/12/07",
       "rating": 4.74769,
       "rating_count": 284255,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "co.benx.weverse",
-      "itunes_id": "1456559188",
-      "rank": 52,
-      "name": "Weverse: Connect with Artists",
-      "developer": "WEVERSE COMPANY Inc.",
-      "store_url": "https://apps.apple.com/us/app/weverse-connect-with-artists/id1456559188?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/2f/39/a22f3908-e725-88ec-d9d0-e608a13b12a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2019/06/14",
-      "rating": 4.68349,
-      "rating_count": 55060,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.pof.mobileapp.iphone",
       "itunes_id": "389638243",
-      "rank": 53,
+      "rank": 52,
       "name": "Plenty of Fish : Dating App",
       "developer": "PlentyOfFish",
       "store_url": "https://apps.apple.com/us/app/plenty-of-fish-dating-app/id389638243?uo=4",
@@ -798,29 +783,14 @@
       "release_date": "2010/09/16",
       "rating": 4.28559,
       "rating_count": 1807851,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "app.nicegram",
-      "itunes_id": "1608870673",
-      "rank": 54,
-      "name": "Nicegram: AI for Telegram X",
-      "developer": "Appvillis",
-      "store_url": "https://apps.apple.com/us/app/nicegram-ai-for-telegram-x/id1608870673?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/15/c8/8915c8f8-ad00-ac98-cc5c-682bbf0c9ba4/PrimaryIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2022/03/08",
-      "rating": 4.64918,
-      "rating_count": 21273,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "co.openvine.app",
       "itunes_id": "6747959501",
-      "rank": 55,
+      "rank": 53,
       "name": "Divine Video",
       "developer": "Verse Communications Inc",
       "store_url": "https://apps.apple.com/us/app/divine-video/id6747959501?uo=4",
@@ -828,14 +798,14 @@
       "release_date": "2026/04/29",
       "rating": 4.26923,
       "rating_count": 130,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.match.match.com",
       "itunes_id": "305939712",
-      "rank": 56,
+      "rank": 54,
       "name": "Match Dating App : Chat & Meet",
       "developer": "Match Group Americas, LLC",
       "store_url": "https://apps.apple.com/us/app/match-dating-app-chat-meet/id305939712?uo=4",
@@ -843,14 +813,29 @@
       "release_date": "2009/03/26",
       "rating": 3.8698,
       "rating_count": 235592,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "co.benx.weverse",
+      "itunes_id": "1456559188",
+      "rank": 55,
+      "name": "Weverse: Connect with Artists",
+      "developer": "WEVERSE COMPANY Inc.",
+      "store_url": "https://apps.apple.com/us/app/weverse-connect-with-artists/id1456559188?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/2f/39/a22f3908-e725-88ec-d9d0-e608a13b12a9/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2019/06/14",
+      "rating": 4.68349,
+      "rating_count": 55060,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.taimi.ios",
       "itunes_id": "1282966364",
-      "rank": 57,
+      "rank": 56,
       "name": "Taimi: LGBTQ+ Dating & Meet Up",
       "developer": "Social Impact Inc.",
       "store_url": "https://apps.apple.com/us/app/taimi-lgbtq-dating-meet-up/id1282966364?uo=4",
@@ -858,7 +843,22 @@
       "release_date": "2017/09/18",
       "rating": 4.42113,
       "rating_count": 209176,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "app.nicegram",
+      "itunes_id": "1608870673",
+      "rank": 57,
+      "name": "Nicegram: AI for Telegram X",
+      "developer": "Appvillis",
+      "store_url": "https://apps.apple.com/us/app/nicegram-ai-for-telegram-x/id1608870673?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/15/c8/8915c8f8-ad00-ac98-cc5c-682bbf0c9ba4/PrimaryIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2022/03/08",
+      "rating": 4.64918,
+      "rating_count": 21273,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -873,44 +873,14 @@
       "release_date": "2017/08/07",
       "rating": 4.5734,
       "rating_count": 551503,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.navercorp.article.ios",
-      "itunes_id": "6745533235",
-      "rank": 59,
-      "name": "ThingsBook",
-      "developer": "Naver U.Hub Inc.",
-      "store_url": "https://apps.apple.com/us/app/thingsbook/id6745533235?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/c7/da/51c7dacd-1140-e906-5694-8219fdfa28b8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "release_date": "2026/01/25",
-      "rating": 4.6044,
-      "rating_count": 1044,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.presence.gracechat",
-      "itunes_id": "1658972379",
-      "rank": 60,
-      "name": "GraceChat",
-      "developer": "AI FANTASY INC",
-      "store_url": "https://apps.apple.com/us/app/gracechat/id1658972379?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/aa/54/e4aa5429-532b-8cc7-7ed0-ab1dbe0800cc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2022/12/20",
-      "rating": 4.41651,
-      "rating_count": 23128,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "io.Linehop",
       "itunes_id": "960804043",
-      "rank": 61,
+      "rank": 59,
       "name": "LineLeap",
       "developer": "LineLeap",
       "store_url": "https://apps.apple.com/us/app/lineleap/id960804043?uo=4",
@@ -918,7 +888,37 @@
       "release_date": "2015/02/04",
       "rating": 4.58605,
       "rating_count": 2266,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.navercorp.article.ios",
+      "itunes_id": "6745533235",
+      "rank": 60,
+      "name": "ThingsBook",
+      "developer": "Naver U.Hub Inc.",
+      "store_url": "https://apps.apple.com/us/app/thingsbook/id6745533235?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/c7/da/51c7dacd-1140-e906-5694-8219fdfa28b8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/01/25",
+      "rating": 4.6044,
+      "rating_count": 1044,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.presence.gracechat",
+      "itunes_id": "1658972379",
+      "rank": 61,
+      "name": "GraceChat",
+      "developer": "AI FANTASY INC",
+      "store_url": "https://apps.apple.com/us/app/gracechat/id1658972379?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/aa/54/e4aa5429-532b-8cc7-7ed0-ab1dbe0800cc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2022/12/20",
+      "rating": 4.41651,
+      "rating_count": 23128,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -933,7 +933,7 @@
       "release_date": "2021/07/25",
       "rating": 2.97643,
       "rating_count": 1273,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -948,7 +948,7 @@
       "release_date": "2019/02/01",
       "rating": 4.45512,
       "rating_count": 4056,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -963,14 +963,29 @@
       "release_date": "2017/11/16",
       "rating": 4.53224,
       "rating_count": 373119,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.facebook.talk",
+      "itunes_id": "1285713171",
+      "rank": 65,
+      "name": "Messenger Kids",
+      "developer": "Meta Platforms, Inc.",
+      "store_url": "https://apps.apple.com/us/app/messenger-kids/id1285713171?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/cb/ef/17cbef74-2656-3629-77c4-d5189ea8569e/icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2017/12/04",
+      "rating": 4.25657,
+      "rating_count": 115146,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "AlexisBarreyat.BeReal",
       "itunes_id": "1459645446",
-      "rank": 65,
+      "rank": 66,
       "name": "BeReal: Photos & Friends Daily",
       "developer": "BeReal",
       "store_url": "https://apps.apple.com/us/app/bereal-photos-friends-daily/id1459645446?uo=4",
@@ -978,22 +993,7 @@
       "release_date": "2020/01/08",
       "rating": 4.77276,
       "rating_count": 1153943,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.bsrykt.profileview",
-      "itunes_id": "1481469888",
-      "rank": 66,
-      "name": "Reports+ Unfollowers Follower",
-      "developer": "Deep Vision Labs",
-      "store_url": "https://apps.apple.com/us/app/reports-unfollowers-follower/id1481469888?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/82/9f/e4829f17-ae7b-8187-724d-8b44d194a292/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2020/08/07",
-      "rating": 4.56386,
-      "rating_count": 486032,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -1008,14 +1008,29 @@
       "release_date": "2022/09/26",
       "rating": 4.59907,
       "rating_count": 12718,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.bsrykt.profileview",
+      "itunes_id": "1481469888",
+      "rank": 68,
+      "name": "Reports+ Unfollowers Follower",
+      "developer": "Deep Vision Labs",
+      "store_url": "https://apps.apple.com/us/app/reports-unfollowers-follower/id1481469888?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/82/9f/e4829f17-ae7b-8187-724d-8b44d194a292/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2020/08/07",
+      "rating": 4.56386,
+      "rating_count": 486032,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.scopely.monopolygo.companion",
       "itunes_id": "6747054496",
-      "rank": 68,
+      "rank": 69,
       "name": "MONOPOLY GO!Chat",
       "developer": "Scopely, Inc.",
       "store_url": "https://apps.apple.com/us/app/monopoly-go-chat/id6747054496?uo=4",
@@ -1023,44 +1038,14 @@
       "release_date": "2026/03/30",
       "rating": 4.12676,
       "rating_count": 213,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "social.hunch.app",
-      "itunes_id": "6444654663",
-      "rank": 69,
-      "name": "Hunch Dating App: Vibe & Meet",
-      "developer": "INKS TECHNOLOGY SERVICES PTE. LTD.",
-      "store_url": "https://apps.apple.com/us/app/hunch-dating-app-vibe-meet/id6444654663?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/42/8c/4d428c8b-bb56-ca0f-5ba8-5fc9cc00dfcf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2022/12/20",
-      "rating": 3.6935,
-      "rating_count": 5230,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.facebook.talk",
-      "itunes_id": "1285713171",
-      "rank": 70,
-      "name": "Messenger Kids",
-      "developer": "Meta Platforms, Inc.",
-      "store_url": "https://apps.apple.com/us/app/messenger-kids/id1285713171?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/cb/ef/17cbef74-2656-3629-77c4-d5189ea8569e/icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2017/12/04",
-      "rating": 4.25657,
-      "rating_count": 115146,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "ee.linktr.admin",
       "itunes_id": "1593515263",
-      "rank": 71,
+      "rank": 70,
       "name": "Linktree: Link in Bio Creator",
       "developer": "Linktree",
       "store_url": "https://apps.apple.com/us/app/linktree-link-in-bio-creator/id1593515263?uo=4",
@@ -1068,29 +1053,29 @@
       "release_date": "2022/07/11",
       "rating": 4.81837,
       "rating_count": 60354,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "com.igtracker.insights",
-      "itunes_id": "1499924074",
-      "rank": 72,
-      "name": "Reports Unfollowers Followers+",
-      "developer": "BYTECORE MOBILITY LIMITED",
-      "store_url": "https://apps.apple.com/us/app/reports-unfollowers-followers/id1499924074?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/4a/58/c64a581c-b47e-f803-0c67-d2afa8156493/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
-      "release_date": "2020/03/06",
-      "rating": 4.45542,
-      "rating_count": 130303,
-      "timestamp": "2026-08-20 01:23:42"
+      "app_id": "social.hunch.app",
+      "itunes_id": "6444654663",
+      "rank": 71,
+      "name": "Hunch Dating App: Vibe & Meet",
+      "developer": "INKS TECHNOLOGY SERVICES PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/hunch-dating-app-vibe-meet/id6444654663?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/42/8c/4d428c8b-bb56-ca0f-5ba8-5fc9cc00dfcf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2022/12/20",
+      "rating": 3.6935,
+      "rating_count": 5230,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "co.happybits.marcopolo",
       "itunes_id": "912561374",
-      "rank": 73,
+      "rank": 72,
       "name": "Marco Polo - Video Messenger",
       "developer": "Joya Communications",
       "store_url": "https://apps.apple.com/us/app/marco-polo-video-messenger/id912561374?uo=4",
@@ -1098,7 +1083,22 @@
       "release_date": "2014/10/07",
       "rating": 4.76395,
       "rating_count": 2157077,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.igtracker.insights",
+      "itunes_id": "1499924074",
+      "rank": 73,
+      "name": "Reports Unfollowers Followers+",
+      "developer": "BYTECORE MOBILITY LIMITED",
+      "store_url": "https://apps.apple.com/us/app/reports-unfollowers-followers/id1499924074?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/ac/ef/f3aceffe-87c2-99af-f451-a716d662a41f/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.png",
+      "release_date": "2020/03/06",
+      "rating": 4.45542,
+      "rating_count": 130303,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -1113,22 +1113,22 @@
       "release_date": "2024/09/04",
       "rating": 4.58819,
       "rating_count": 5216,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "xyz.tyb.app",
-      "itunes_id": "6449951641",
+      "app_id": "com.moneydolly.app",
+      "itunes_id": "1501929060",
       "rank": 75,
-      "name": "TYB: Brand Community Rewards",
-      "developer": "TYB Inc.",
-      "store_url": "https://apps.apple.com/us/app/tyb-brand-community-rewards/id6449951641?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/eb/be/34ebbe94-bf24-2d8e-4f3b-fbe58c10cdea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "release_date": "2023/10/26",
-      "rating": 4.74373,
-      "rating_count": 2829,
-      "timestamp": "2026-08-20 01:23:42"
+      "name": "MoneyDolly",
+      "developer": "MoneyDolly",
+      "store_url": "https://apps.apple.com/us/app/moneydolly/id1501929060?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/3e/01/ed3e0134-bda9-d73c-ed6b-29bc876aa4e6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2020/08/11",
+      "rating": 4.74427,
+      "rating_count": 107903,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -1143,29 +1143,14 @@
       "release_date": "2026/03/09",
       "rating": 4.8629,
       "rating_count": 372,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "im.thebot",
-      "itunes_id": "1263036818",
-      "rank": 77,
-      "name": "botim",
-      "developer": "Algento Cloud Computing Limited",
-      "store_url": "https://apps.apple.com/us/app/botim/id1263036818?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/8a/b3/b58ab3d8-48e4-ae17-e97b-2779bba37ad5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "release_date": "2017/08/13",
-      "rating": 4.33399,
-      "rating_count": 52196,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.newchat.hai",
       "itunes_id": "6587576438",
-      "rank": 78,
+      "rank": 77,
       "name": "setlog - friends camera",
       "developer": "new chat",
       "store_url": "https://apps.apple.com/us/app/setlog-friends-camera/id6587576438?uo=4",
@@ -1173,29 +1158,14 @@
       "release_date": "2025/12/24",
       "rating": 3.85185,
       "rating_count": 27,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "co.circle.app",
-      "itunes_id": "1509651625",
-      "rank": 79,
-      "name": "Circle Communities",
-      "developer": "CircleCo Inc",
-      "store_url": "https://apps.apple.com/us/app/circle-communities/id1509651625?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/05/4b/dd054b9a-7b0e-86e7-8377-e4edc3ca2fa7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "release_date": "2021/01/25",
-      "rating": 4.86791,
-      "rating_count": 81247,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.teamn.wooplus",
       "itunes_id": "1011085984",
-      "rank": 80,
+      "rank": 78,
       "name": "Curvy Dating App: WooPlus",
       "developer": "DATING OASIS LIMITED",
       "store_url": "https://apps.apple.com/us/app/curvy-dating-app-wooplus/id1011085984?uo=4",
@@ -1203,7 +1173,37 @@
       "release_date": "2015/10/20",
       "rating": 4.53467,
       "rating_count": 58006,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.instory.reports",
+      "itunes_id": "1485509764",
+      "rank": 79,
+      "name": "Reports+ for Followers Tracker",
+      "developer": "FAMEDMOBILE MARKET LIMITED",
+      "store_url": "https://apps.apple.com/us/app/reports-for-followers-tracker/id1485509764?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/3c/54/ec3c5435-1061-92c7-65c8-fdbeccad3c31/AppIcon-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png",
+      "release_date": "2019/11/30",
+      "rating": 4.51206,
+      "rating_count": 32004,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "xyz.tyb.app",
+      "itunes_id": "6449951641",
+      "rank": 80,
+      "name": "TYB: Brand Community Rewards",
+      "developer": "TYB Inc.",
+      "store_url": "https://apps.apple.com/us/app/tyb-brand-community-rewards/id6449951641?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/eb/be/34ebbe94-bf24-2d8e-4f3b-fbe58c10cdea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2023/10/26",
+      "rating": 4.74373,
+      "rating_count": 2829,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -1218,52 +1218,52 @@
       "release_date": "2025/12/25",
       "rating": 2.77778,
       "rating_count": 9,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "com.instory.reports",
-      "itunes_id": "1485509764",
+      "app_id": "co.circle.app",
+      "itunes_id": "1509651625",
       "rank": 82,
-      "name": "Reports+ for Followers Tracker",
-      "developer": "FAMEDMOBILE MARKET LIMITED",
-      "store_url": "https://apps.apple.com/us/app/reports-for-followers-tracker/id1485509764?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/3c/54/ec3c5435-1061-92c7-65c8-fdbeccad3c31/AppIcon-1x_U007epad-0-1-0-85-220-0.png/100x100bb.png",
-      "release_date": "2019/11/30",
-      "rating": 4.51206,
-      "rating_count": 32004,
-      "timestamp": "2026-08-20 01:23:42"
+      "name": "Circle Communities",
+      "developer": "CircleCo Inc",
+      "store_url": "https://apps.apple.com/us/app/circle-communities/id1509651625?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/05/4b/dd054b9a-7b0e-86e7-8377-e4edc3ca2fa7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2021/01/25",
+      "rating": 4.86791,
+      "rating_count": 81247,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "com.moneydolly.app",
-      "itunes_id": "1501929060",
+      "app_id": "im.thebot",
+      "itunes_id": "1263036818",
       "rank": 83,
-      "name": "MoneyDolly",
-      "developer": "MoneyDolly",
-      "store_url": "https://apps.apple.com/us/app/moneydolly/id1501929060?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/3e/01/ed3e0134-bda9-d73c-ed6b-29bc876aa4e6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
-      "release_date": "2020/08/11",
-      "rating": 4.74427,
-      "rating_count": 107903,
-      "timestamp": "2026-08-20 01:23:42"
+      "name": "botim",
+      "developer": "Algento Cloud Computing Limited",
+      "store_url": "https://apps.apple.com/us/app/botim/id1263036818?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/8a/b3/b58ab3d8-48e4-ae17-e97b-2779bba37ad5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2017/08/13",
+      "rating": 4.33399,
+      "rating_count": 52196,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "com.wayahq.app",
-      "itunes_id": "6796187124",
+      "app_id": "Norae.Spotlight",
+      "itunes_id": "1219890480",
       "rank": 84,
-      "name": "WAYA APP",
-      "developer": "SmartQix LLC",
-      "store_url": "https://apps.apple.com/us/app/waya-app/id6796187124?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/8d/39/f18d390c-9208-2b44-82ac-2c046de12ca9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "release_date": "2026/08/13",
-      "rating": 4.76923,
-      "rating_count": 26,
-      "timestamp": "2026-08-20 01:23:42"
+      "name": "Coverstar - Positive Social",
+      "developer": "Norae Inc.",
+      "store_url": "https://apps.apple.com/us/app/coverstar-positive-social/id1219890480?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/9f/dd/7a9fdd58-5184-6f0a-961c-8ea00d143c2b/AppIconCoverstar-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+      "release_date": "2017/03/30",
+      "rating": 4.73371,
+      "rating_count": 191559,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
@@ -1278,179 +1278,14 @@
       "release_date": "2026/06/30",
       "rating": 4.083,
       "rating_count": 253,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.vlogitapp.Vlogit",
-      "itunes_id": "6753156888",
-      "rank": 86,
-      "name": "Vlogit: Vlogs With Friends",
-      "developer": "Vlogit",
-      "store_url": "https://apps.apple.com/us/app/vlogit-vlogs-with-friends/id6753156888?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/13/55/54135589-7030-b131-3e67-662e72d76237/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2026/06/15",
-      "rating": 4.75417,
-      "rating_count": 2099,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.kik.chat",
-      "itunes_id": "357218860",
-      "rank": 87,
-      "name": "Kik Messaging & Chat App",
-      "developer": "Medialab - Kik",
-      "store_url": "https://apps.apple.com/us/app/kik-messaging-chat-app/id357218860?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/c9/7a/78c97aac-d6cb-e648-671b-3d16ded2b281/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2010/04/10",
-      "rating": 4.2642,
-      "rating_count": 484495,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.hpcnt.azar",
-      "itunes_id": "972558973",
-      "rank": 88,
-      "name": "Azar: Chat, Meet Friends",
-      "developer": "Hyperconnect LLC",
-      "store_url": "https://apps.apple.com/us/app/azar-chat-meet-friends/id972558973?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/5a/18/bf5a1898-db35-0273-2c0f-4ba92744dad9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "release_date": "2015/06/11",
-      "rating": 4.33283,
-      "rating_count": 101974,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "Norae.Spotlight",
-      "itunes_id": "1219890480",
-      "rank": 89,
-      "name": "Coverstar - Positive Social",
-      "developer": "Norae Inc.",
-      "store_url": "https://apps.apple.com/us/app/coverstar-positive-social/id1219890480?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/9f/dd/7a9fdd58-5184-6f0a-961c-8ea00d143c2b/AppIconCoverstar-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
-      "release_date": "2017/03/30",
-      "rating": 4.73371,
-      "rating_count": 191559,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "me.talktone.im",
-      "itunes_id": "863809868",
-      "rank": 90,
-      "name": "TalkU: Unlimited Calls + Texts",
-      "developer": "Newtone Communications Inc",
-      "store_url": "https://apps.apple.com/us/app/talku-unlimited-calls-texts/id863809868?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0c/49/17/0c4917c2-b37a-9c05-7b27-48a3bf275477/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-      "release_date": "2014/05/22",
-      "rating": 4.50871,
-      "rating_count": 22227,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "enterprises.dating.boo",
-      "itunes_id": "1498407272",
-      "rank": 91,
-      "name": "Boo App: Dating. Friends. Chat",
-      "developer": "Boo Enterprises, Inc.",
-      "store_url": "https://apps.apple.com/us/app/boo-app-dating-friends-chat/id1498407272?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/15/37/55153743-2a83-eeb9-6774-723c4588de27/AppIcon-4-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
-      "release_date": "2020/02/22",
-      "rating": 4.16858,
-      "rating_count": 206399,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.spektrum.TikSaver",
-      "itunes_id": "6737745046",
-      "rank": 92,
-      "name": "Tik Saver: Save Tok Video Pro",
-      "developer": "Spektrum Epps",
-      "store_url": "https://apps.apple.com/us/app/tik-saver-save-tok-video-pro/id6737745046?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/6f/d9/c26fd932-b675-0355-5e9d-20d1f3a669ce/AppIcon-0-0-1x_U007ephone-0-85-220.png/100x100bb.png",
-      "release_date": "2024/11/07",
-      "rating": 4.46314,
-      "rating_count": 17066,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "ai.seaart.seasoul.ios",
-      "itunes_id": "6758688589",
-      "rank": 93,
-      "name": "Sea Soul",
-      "developer": "SUNRISEAI PTE. LTD.",
-      "store_url": "https://apps.apple.com/us/app/sea-soul/id6758688589?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/df/1a/10df1a77-7f55-0de7-1a43-e6750ff40c1d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
-      "release_date": "2026/02/23",
-      "rating": 3.97185,
-      "rating_count": 675,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "xyz.blueskyweb.app",
-      "itunes_id": "6444370199",
-      "rank": 94,
-      "name": "Bluesky Social",
-      "developer": "Bluesky PBLLC",
-      "store_url": "https://apps.apple.com/us/app/bluesky-social/id6444370199?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/d4/84/31d48444-e7f1-7935-e1e8-876b28744ae5/ios_icon_default-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
-      "release_date": "2023/02/18",
-      "rating": 3.88374,
-      "rating_count": 13659,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "com.quyi.Vibechat",
-      "itunes_id": "6670781850",
-      "rank": 95,
-      "name": "Zestr",
-      "developer": "QUYI TECHNOLOGY PTE. LTD.",
-      "store_url": "https://apps.apple.com/us/app/zestr/id6670781850?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/f9/aa/a9f9aaed-b69a-5589-0e85-1f8152cc9957/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
-      "release_date": "2024/10/09",
-      "rating": 2.88889,
-      "rating_count": 27,
-      "timestamp": "2026-08-20 01:23:42"
-    },
-    {
-      "platform": "App Store",
-      "category": "社交网络",
-      "app_id": "cerca.com.app",
-      "itunes_id": "6738100998",
-      "rank": 96,
-      "name": "Cerca Dating: Meet Mutuals",
-      "developer": "Cerca Applications, Inc.",
-      "store_url": "https://apps.apple.com/us/app/cerca-dating-meet-mutuals/id6738100998?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/a5/db/eea5db9c-2d1a-9fb8-e6d3-6fc4f452723a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
-      "release_date": "2025/01/17",
-      "rating": 4.46793,
-      "rating_count": 4911,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "me.zepeto.main",
       "itunes_id": "1350301428",
-      "rank": 97,
+      "rank": 86,
       "name": "ZEPETO: Avatar, Connect & Live",
       "developer": "NAVER Z Corporation",
       "store_url": "https://apps.apple.com/us/app/zepeto-avatar-connect-live/id1350301428?uo=4",
@@ -1458,29 +1293,149 @@
       "release_date": "2018/02/28",
       "rating": 4.65151,
       "rating_count": 534150,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
-      "app_id": "me.dingtone.im",
-      "itunes_id": "588937297",
-      "rank": 98,
-      "name": "Dingtone: Phone Calls + Texts",
-      "developer": "Sixapps Limited",
-      "store_url": "https://apps.apple.com/us/app/dingtone-phone-calls-texts/id588937297?uo=4",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/80/e5/1c/80e51ccf-aed6-36fe-cc18-554ca033921e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
-      "release_date": "2013/02/07",
-      "rating": 4.53829,
-      "rating_count": 30643,
-      "timestamp": "2026-08-20 01:23:42"
+      "app_id": "com.wayahq.app",
+      "itunes_id": "6796187124",
+      "rank": 87,
+      "name": "WAYA APP",
+      "developer": "SmartQix LLC",
+      "store_url": "https://apps.apple.com/us/app/waya-app/id6796187124?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f1/8d/39/f18d390c-9208-2b44-82ac-2c046de12ca9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/08/13",
+      "rating": 4.76923,
+      "rating_count": 26,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.vlogitapp.Vlogit",
+      "itunes_id": "6753156888",
+      "rank": 88,
+      "name": "Vlogit: Vlogs With Friends",
+      "developer": "Vlogit",
+      "store_url": "https://apps.apple.com/us/app/vlogit-vlogs-with-friends/id6753156888?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/13/55/54135589-7030-b131-3e67-662e72d76237/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2026/06/15",
+      "rating": 4.75417,
+      "rating_count": 2099,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.hpcnt.azar",
+      "itunes_id": "972558973",
+      "rank": 89,
+      "name": "Azar: Chat, Meet Friends",
+      "developer": "Hyperconnect LLC",
+      "store_url": "https://apps.apple.com/us/app/azar-chat-meet-friends/id972558973?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/5a/18/bf5a1898-db35-0273-2c0f-4ba92744dad9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2015/06/11",
+      "rating": 4.33283,
+      "rating_count": 101974,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.kik.chat",
+      "itunes_id": "357218860",
+      "rank": 90,
+      "name": "Kik Messaging & Chat App",
+      "developer": "Medialab - Kik",
+      "store_url": "https://apps.apple.com/us/app/kik-messaging-chat-app/id357218860?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/c9/7a/78c97aac-d6cb-e648-671b-3d16ded2b281/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2010/04/10",
+      "rating": 4.2642,
+      "rating_count": 484495,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "me.talktone.im",
+      "itunes_id": "863809868",
+      "rank": 91,
+      "name": "TalkU: Unlimited Calls + Texts",
+      "developer": "Newtone Communications Inc",
+      "store_url": "https://apps.apple.com/us/app/talku-unlimited-calls-texts/id863809868?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0c/49/17/0c4917c2-b37a-9c05-7b27-48a3bf275477/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+      "release_date": "2014/05/22",
+      "rating": 4.50871,
+      "rating_count": 22227,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "xyz.blueskyweb.app",
+      "itunes_id": "6444370199",
+      "rank": 92,
+      "name": "Bluesky Social",
+      "developer": "Bluesky PBLLC",
+      "store_url": "https://apps.apple.com/us/app/bluesky-social/id6444370199?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/d4/84/31d48444-e7f1-7935-e1e8-876b28744ae5/ios_icon_default-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.png",
+      "release_date": "2023/02/18",
+      "rating": 3.88374,
+      "rating_count": 13659,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.spektrum.TikSaver",
+      "itunes_id": "6737745046",
+      "rank": 93,
+      "name": "Tik Saver: Save Tok Video Pro",
+      "developer": "Spektrum Epps",
+      "store_url": "https://apps.apple.com/us/app/tik-saver-save-tok-video-pro/id6737745046?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/6f/d9/c26fd932-b675-0355-5e9d-20d1f3a669ce/AppIcon-0-0-1x_U007ephone-0-85-220.png/100x100bb.png",
+      "release_date": "2024/11/07",
+      "rating": 4.46314,
+      "rating_count": 17066,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "com.quyi.Vibechat",
+      "itunes_id": "6670781850",
+      "rank": 94,
+      "name": "Zestr",
+      "developer": "QUYI TECHNOLOGY PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/zestr/id6670781850?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/f9/aa/a9f9aaed-b69a-5589-0e85-1f8152cc9957/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2024/10/09",
+      "rating": 2.88889,
+      "rating_count": 27,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "cerca.com.app",
+      "itunes_id": "6738100998",
+      "rank": 95,
+      "name": "Cerca Dating: Meet Mutuals",
+      "developer": "Cerca Applications, Inc.",
+      "store_url": "https://apps.apple.com/us/app/cerca-dating-meet-mutuals/id6738100998?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/a5/db/eea5db9c-2d1a-9fb8-e6d3-6fc4f452723a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.png",
+      "release_date": "2025/01/17",
+      "rating": 4.46793,
+      "rating_count": 4911,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.backendtech.tatotalk",
       "itunes_id": "6761046869",
-      "rank": 99,
+      "rank": 96,
       "name": "Tato Talk",
       "developer": "BackEndTech",
       "store_url": "https://apps.apple.com/us/app/tato-talk/id6761046869?uo=4",
@@ -1488,14 +1443,29 @@
       "release_date": "2026/04/03",
       "rating": 3.19048,
       "rating_count": 63,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "enterprises.dating.boo",
+      "itunes_id": "1498407272",
+      "rank": 97,
+      "name": "Boo App: Dating. Friends. Chat",
+      "developer": "Boo Enterprises, Inc.",
+      "store_url": "https://apps.apple.com/us/app/boo-app-dating-friends-chat/id1498407272?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/15/37/55153743-2a83-eeb9-6774-723c4588de27/AppIcon-4-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2020/02/22",
+      "rating": 4.16858,
+      "rating_count": 206399,
+      "timestamp": "2026-08-20 02:17:25"
     },
     {
       "platform": "App Store",
       "category": "社交网络",
       "app_id": "com.mangolabs.stickered",
       "itunes_id": "1472619338",
-      "rank": 100,
+      "rank": 98,
       "name": "Litstick - Best Stickers App",
       "developer": "Sociaaal LLC",
       "store_url": "https://apps.apple.com/us/app/litstick-best-stickers-app/id1472619338?uo=4",
@@ -1503,7 +1473,37 @@
       "release_date": "2019/08/15",
       "rating": 4.6467,
       "rating_count": 277356,
-      "timestamp": "2026-08-20 01:23:42"
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "ai.seaart.seasoul.ios",
+      "itunes_id": "6758688589",
+      "rank": 99,
+      "name": "Sea Soul",
+      "developer": "SUNRISEAI PTE. LTD.",
+      "store_url": "https://apps.apple.com/us/app/sea-soul/id6758688589?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/df/1a/10df1a77-7f55-0de7-1a43-e6750ff40c1d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.png",
+      "release_date": "2026/02/23",
+      "rating": 3.97185,
+      "rating_count": 675,
+      "timestamp": "2026-08-20 02:17:25"
+    },
+    {
+      "platform": "App Store",
+      "category": "社交网络",
+      "app_id": "me.dingtone.im",
+      "itunes_id": "588937297",
+      "rank": 100,
+      "name": "Dingtone: Phone Calls + Texts",
+      "developer": "Sixapps Limited",
+      "store_url": "https://apps.apple.com/us/app/dingtone-phone-calls-texts/id588937297?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/80/e5/1c/80e51ccf-aed6-36fe-cc18-554ca033921e/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/100x100bb.png",
+      "release_date": "2013/02/07",
+      "rating": 4.53829,
+      "rating_count": 30643,
+      "timestamp": "2026-08-20 02:17:25"
     }
   ]
 }
