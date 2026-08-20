@@ -53,7 +53,18 @@
       "Bash(ipconfig getifaddr *)",
       "Bash(echo \"IP: $\\(ipconfig getifaddr en0 2>/dev/null\\)\")",
       "Bash(pkill -f \"modules/scraper.py\")",
-      "Bash(kill 8884)"
+      "Bash(kill 8884)",
+      "Bash(git symbolic-ref *)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(gh run *)",
+      "Bash(gh api *)",
+      "Bash(git commit -m '【Fix】修复定时抓取不触发：调整 cron 避开整点高峰并重新注册调度 *)",
+      "Bash(git push *)",
+      "WebFetch(domain:docs.github.com)",
+      "WebSearch",
+      "Bash(gh workflow *)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }
