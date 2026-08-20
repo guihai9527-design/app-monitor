@@ -17,7 +17,7 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2025/08/16",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -31,7 +31,7 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2021/08/23",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -45,7 +45,7 @@
       "rating": 2.5272727,
       "rating_count": 59,
       "release_date": "2025/09/10",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -59,27 +59,13 @@
       "rating": 4.6714287,
       "rating_count": 5892,
       "release_date": "2025/09/05",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.looko.acloset",
-      "rank": 5,
-      "name": "Acloset - AI Fashion Assistant",
-      "developer": "Acloset",
-      "store_url": "https://play.google.com/store/apps/details?id=com.looko.acloset",
-      "icon_url": "https://play-lh.googleusercontent.com/ZxDb4K8ZDiz45vTRXhULZVtjtORihPVdZlhjRtypOo24li9Mk4EscMDYhU8xlcS6s2303MIOWM7BvvdGnruB",
-      "rating": 4.4314723,
-      "rating_count": 28223,
-      "release_date": "2021/03/25",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.indyx.android",
-      "rank": 6,
+      "rank": 5,
       "name": "Indyx: Wardrobe & Outfit App",
       "developer": "Indyx Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.indyx.android",
@@ -87,27 +73,13 @@
       "rating": 4.5,
       "rating_count": 1214,
       "release_date": "2022/10/13",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.ghost.lgnds",
-      "rank": 7,
-      "name": "GHOST Lifestyle",
-      "developer": "GHOST Lifestyle",
-      "store_url": "https://play.google.com/store/apps/details?id=com.ghost.lgnds",
-      "icon_url": "https://play-lh.googleusercontent.com/XkPjjs8oLVYDN6W_7UWVU3Iape-n8wUC-UegLAH5AaeNrl-Z_3cYTeTfyOKC_GsqiaBt_v9kEVHY3PCOaZMK",
-      "rating": 4.1551723,
-      "rating_count": 356,
-      "release_date": "2021/04/05",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.twelve70.www.twa",
-      "rank": 8,
+      "rank": 6,
       "name": "Twelve70 - Outfit Generator",
       "developer": "Twelve70 Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.twelve70.www.twa",
@@ -115,13 +87,27 @@
       "rating": 4.025641,
       "rating_count": 151,
       "release_date": "2021/12/30",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.looko.acloset",
+      "rank": 7,
+      "name": "Acloset - AI Fashion Assistant",
+      "developer": "Acloset",
+      "store_url": "https://play.google.com/store/apps/details?id=com.looko.acloset",
+      "icon_url": "https://play-lh.googleusercontent.com/ZxDb4K8ZDiz45vTRXhULZVtjtORihPVdZlhjRtypOo24li9Mk4EscMDYhU8xlcS6s2303MIOWM7BvvdGnruB",
+      "rating": 4.4314723,
+      "rating_count": 28228,
+      "release_date": "2021/03/25",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.evlop.shopify.ikealifestylemyanmar",
-      "rank": 9,
+      "rank": 8,
       "name": "Simple Lifestyle",
       "developer": "Philip More",
       "store_url": "https://play.google.com/store/apps/details?id=com.evlop.shopify.ikealifestylemyanmar",
@@ -129,21 +115,35 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2024/11/13",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.whering.app",
-      "rank": 10,
+      "rank": 9,
       "name": "Whering:Digital Closet Stylist",
       "developer": "Whering Ltd",
       "store_url": "https://play.google.com/store/apps/details?id=com.whering.app",
       "icon_url": "https://play-lh.googleusercontent.com/0UmaK3vJ455c7N1c66JxQDGZMi8X8-gS6T9385Whal3U0EaZvAf7CY6pICJLwwEhWkalI33cgo4KM48SML9JMw",
       "rating": 4.404762,
-      "rating_count": 26350,
-      "release_date": "2020/08/18",
-      "timestamp": "2026-08-20 02:18:17"
+      "rating_count": 26351,
+      "release_date": "18 Aug 2020",
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.ghost.lgnds",
+      "rank": 10,
+      "name": "GHOST Lifestyle",
+      "developer": "GHOST Lifestyle",
+      "store_url": "https://play.google.com/store/apps/details?id=com.ghost.lgnds",
+      "icon_url": "https://play-lh.googleusercontent.com/XkPjjs8oLVYDN6W_7UWVU3Iape-n8wUC-UegLAH5AaeNrl-Z_3cYTeTfyOKC_GsqiaBt_v9kEVHY3PCOaZMK",
+      "rating": 4.1551723,
+      "rating_count": 356,
+      "release_date": "2021/04/05",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -155,15 +155,29 @@
       "store_url": "https://play.google.com/store/apps/details?id=de.lhenne.fits",
       "icon_url": "https://play-lh.googleusercontent.com/LS6M11WGuCMmFTCGCUIiPcqAmJswRPNGkmFyRHPQBXrluKRVtyQzmuPau_g-_W5F6DAZybovJod0U0dvXZWFnw",
       "rating": 4.62,
-      "rating_count": 9410,
+      "rating_count": 9418,
       "release_date": "2025/03/15",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "daily.planner.routine.habits",
+      "rank": 12,
+      "name": "Me+ Lifestyle Routine",
+      "developer": "ENERJOY PTE. LTD.",
+      "store_url": "https://play.google.com/store/apps/details?id=daily.planner.routine.habits",
+      "icon_url": "https://play-lh.googleusercontent.com/rzSDCwouuYPz_Fyw5xFvxRW0qQYaxx4tc2YELSgisimXNEyE8dGzWv0jE8TOqqMs9SO5IBaRVxd4uu5CKKqeIA",
+      "rating": 4.7395477,
+      "rating_count": 858932,
+      "release_date": "2023/06/19",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "app.mealplan.additivefreelifestyle",
-      "rank": 12,
+      "rank": 13,
       "name": "Additive-Free Lifestyle",
       "developer": "Sistermixin Pty Ltd (Additive-Free Lifestyle)",
       "store_url": "https://play.google.com/store/apps/details?id=app.mealplan.additivefreelifestyle",
@@ -171,21 +185,7 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "daily.planner.routine.habits",
-      "rank": 13,
-      "name": "Me+ Lifestyle Routine",
-      "developer": "ENERJOY PTE. LTD.",
-      "store_url": "https://play.google.com/store/apps/details?id=daily.planner.routine.habits",
-      "icon_url": "https://play-lh.googleusercontent.com/rzSDCwouuYPz_Fyw5xFvxRW0qQYaxx4tc2YELSgisimXNEyE8dGzWv0jE8TOqqMs9SO5IBaRVxd4uu5CKKqeIA",
-      "rating": 4.7395763,
-      "rating_count": 858916,
-      "release_date": "2023/06/19",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -199,7 +199,7 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2025/07/29",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -213,27 +213,13 @@
       "rating": 4.821918,
       "rating_count": 79,
       "release_date": "2026/04/14",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.lifestylesapp",
-      "rank": 16,
-      "name": "Your Lifestyle Plus",
-      "developer": "Travel and Leisure Australia Pty Ltd",
-      "store_url": "https://play.google.com/store/apps/details?id=com.lifestylesapp",
-      "icon_url": "https://play-lh.googleusercontent.com/KMD6ennJ60lDvKY4074Wn5WFcgldax1A_lLN2U_JDGoyrc5PER8rtP1ySVkulysVm1GURzLAg2G1fiNkQQ7g",
-      "rating": 0,
-      "rating_count": 0,
-      "release_date": "2020/02/21",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.master.lifestyle",
-      "rank": 17,
+      "rank": 16,
       "name": "Master Lifestyle",
       "developer": "Master Lifestyle",
       "store_url": "https://play.google.com/store/apps/details?id=com.master.lifestyle",
@@ -241,7 +227,21 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2026/02/19",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.lifestylesapp",
+      "rank": 17,
+      "name": "Your Lifestyle Plus",
+      "developer": "Travel and Leisure Australia Pty Ltd",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lifestylesapp",
+      "icon_url": "https://play-lh.googleusercontent.com/KMD6ennJ60lDvKY4074Wn5WFcgldax1A_lLN2U_JDGoyrc5PER8rtP1ySVkulysVm1GURzLAg2G1fiNkQQ7g",
+      "rating": 0,
+      "rating_count": 0,
+      "release_date": "2020/02/21",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -255,27 +255,13 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2023/08/10",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.lincolnloop",
-      "rank": 19,
-      "name": "Lincoln Lifestyle",
-      "developer": "Generator Tech",
-      "store_url": "https://play.google.com/store/apps/details?id=com.lincolnloop",
-      "icon_url": "https://play-lh.googleusercontent.com/iChjFieVZ8AA7w4AgAx15KLadxI-8n86GLEXgEhGyriCjFY-l95CQIoBHWW28eJ5flH93zp_PaJP7Lqfo8R1ww",
-      "rating": 0,
-      "rating_count": 0,
-      "release_date": "2026/02/04",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.combyne.app",
-      "rank": 20,
+      "rank": 19,
       "name": "Combyne - Outfit creation",
       "developer": "combyne GmbH",
       "store_url": "https://play.google.com/store/apps/details?id=com.combyne.app",
@@ -283,7 +269,21 @@
       "rating": 4.438674,
       "rating_count": 231984,
       "release_date": "2017/02/20",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.lincolnloop",
+      "rank": 20,
+      "name": "Lincoln Lifestyle",
+      "developer": "Generator Tech",
+      "store_url": "https://play.google.com/store/apps/details?id=com.lincolnloop",
+      "icon_url": "https://play-lh.googleusercontent.com/iChjFieVZ8AA7w4AgAx15KLadxI-8n86GLEXgEhGyriCjFY-l95CQIoBHWW28eJ5flH93zp_PaJP7Lqfo8R1ww",
+      "rating": 0,
+      "rating_count": 0,
+      "release_date": "2026/02/04",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -297,27 +297,13 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2021/04/14",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.saveyourwardrobe.syw",
-      "rank": 22,
-      "name": "Save Your Wardrobe: Organiser",
-      "developer": "Save Your Wardrobe",
-      "store_url": "https://play.google.com/store/apps/details?id=com.saveyourwardrobe.syw",
-      "icon_url": "https://play-lh.googleusercontent.com/mkYlw5GEFs66kAmnFVR-kkxjmqgniMxNWNx2Vfn9-sgGf2pbCUN-smwWo6BLZYVQCz2tilHhCHJ7scNEgYv7yQ",
-      "rating": 3.8412697,
-      "rating_count": 438,
-      "release_date": "2021/11/10",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "app.stylix",
-      "rank": 23,
+      "rank": 22,
       "name": "Inspoy: Outfit Maker, Planner",
       "developer": "Applabel LTD",
       "store_url": "https://play.google.com/store/apps/details?id=app.stylix",
@@ -325,27 +311,13 @@
       "rating": 3.14,
       "rating_count": 2948,
       "release_date": "2024/07/05",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.essembl.app",
-      "rank": 24,
-      "name": "Essembl : AI Styling Assistant",
-      "developer": "Essembl SA",
-      "store_url": "https://play.google.com/store/apps/details?id=com.essembl.app",
-      "icon_url": "https://play-lh.googleusercontent.com/q4xle4uP4hqi4TvpjRfZ-ACt_CUR_pEh_O-3sTalP0mceR7VWS9oKsqc7-fkU5eqyxRnIUTfoY_zxT7d1FlX",
-      "rating": 4.29,
-      "rating_count": 10218,
-      "release_date": "2024/05/27",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "world.dressly.fashion",
-      "rank": 25,
+      "rank": 23,
       "name": "Outfit AI Stylist – Dressly",
       "developer": "Dressly World",
       "store_url": "https://play.google.com/store/apps/details?id=world.dressly.fashion",
@@ -353,7 +325,35 @@
       "rating": 4.207469,
       "rating_count": 9885,
       "release_date": "2025/02/25",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.saveyourwardrobe.syw",
+      "rank": 24,
+      "name": "Save Your Wardrobe: Organiser",
+      "developer": "Save Your Wardrobe",
+      "store_url": "https://play.google.com/store/apps/details?id=com.saveyourwardrobe.syw",
+      "icon_url": "https://play-lh.googleusercontent.com/mkYlw5GEFs66kAmnFVR-kkxjmqgniMxNWNx2Vfn9-sgGf2pbCUN-smwWo6BLZYVQCz2tilHhCHJ7scNEgYv7yQ",
+      "rating": 3.8412697,
+      "rating_count": 438,
+      "release_date": "2021/11/10",
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.essembl.app",
+      "rank": 25,
+      "name": "Essembl : AI Styling Assistant",
+      "developer": "Essembl SA",
+      "store_url": "https://play.google.com/store/apps/details?id=com.essembl.app",
+      "icon_url": "https://play-lh.googleusercontent.com/q4xle4uP4hqi4TvpjRfZ-ACt_CUR_pEh_O-3sTalP0mceR7VWS9oKsqc7-fkU5eqyxRnIUTfoY_zxT7d1FlX",
+      "rating": 4.29,
+      "rating_count": 10222,
+      "release_date": "2024/05/27",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -367,27 +367,13 @@
       "rating": 3.2439024,
       "rating_count": 1798,
       "release_date": "2021/07/07",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.crazylabs.fashion.squad",
-      "rank": 27,
-      "name": "Glow Fashion Idol",
-      "developer": "CrazyLabs LTD",
-      "store_url": "https://play.google.com/store/apps/details?id=com.crazylabs.fashion.squad",
-      "icon_url": "https://play-lh.googleusercontent.com/g2nIc_OPSy3JLw8lgVvWCpJSsoorengpP1h70ktPZIv_x7SselgFd45FO_xZ0ANT2HSZPo_TBSHtchphJJpgmA",
-      "rating": 4.696541,
-      "rating_count": 173366,
-      "release_date": "2023/08/11",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.tagmango.internetlifestylehub",
-      "rank": 28,
+      "rank": 27,
       "name": "Internet Lifestyle Hub",
       "developer": "TagMango, Inc",
       "store_url": "https://play.google.com/store/apps/details?id=com.tagmango.internetlifestylehub",
@@ -395,7 +381,21 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2023/06/24",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.crazylabs.fashion.squad",
+      "rank": 28,
+      "name": "Glow Fashion Idol",
+      "developer": "CrazyLabs LTD",
+      "store_url": "https://play.google.com/store/apps/details?id=com.crazylabs.fashion.squad",
+      "icon_url": "https://play-lh.googleusercontent.com/g2nIc_OPSy3JLw8lgVvWCpJSsoorengpP1h70ktPZIv_x7SselgFd45FO_xZ0ANT2HSZPo_TBSHtchphJJpgmA",
+      "rating": 4.697492,
+      "rating_count": 173405,
+      "release_date": "2023/08/11",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -409,21 +409,21 @@
       "rating": 5,
       "rating_count": 11,
       "release_date": "2026/02/26",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
-      "app_id": "com.metabolic_balance.mauiapp2",
+      "app_id": "io.shoplook",
       "rank": 30,
-      "name": "Healthy Lifestyle Companion",
-      "developer": "Metabolic Balance Global AG",
-      "store_url": "https://play.google.com/store/apps/details?id=com.metabolic_balance.mauiapp2",
-      "icon_url": "https://play-lh.googleusercontent.com/LtlH3-yC8au9vtLd-QmmxaG9lPaGdg_u4LGiM9RkkdXkv_aHNf_HOWPT30Yk4BO0bICF6u54WCLIkV5lG850nSk",
-      "rating": 0,
-      "rating_count": 0,
-      "release_date": "2025/06/28",
-      "timestamp": "2026-08-20 02:18:17"
+      "name": "Shoplook Outfit Maker",
+      "developer": "Shoplook",
+      "store_url": "https://play.google.com/store/apps/details?id=io.shoplook",
+      "icon_url": "https://play-lh.googleusercontent.com/gIa3CT4-YdykF4jqgXQN9SiNXn0TUaWRt2G0Vnv-23nWRht9Agrsnibb21iysaSrFI2-grW1vmQF2IKCLgGHQA",
+      "rating": 4.57,
+      "rating_count": 2455,
+      "release_date": "2021/09/17",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -434,10 +434,10 @@
       "developer": "Amazon Mobile LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping",
       "icon_url": "https://play-lh.googleusercontent.com/UIYZ9hTFNg-zZUg_uzLS9YdyDpvoo1VHNFb6VlzHy5JqNMq9Uq-p2S1VPwzXCipHTFacfGKhJkyAuKL19VVlcWA",
-      "rating": 4.403763,
-      "rating_count": 4660704,
+      "rating": 4.4036694,
+      "rating_count": 4660712,
       "release_date": "2014/12/10",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -448,10 +448,10 @@
       "developer": "Alibaba Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.alibaba.aliexpresshd",
       "icon_url": "https://play-lh.googleusercontent.com/-26EaFSeFE-GPfgjA98H_ukuK2AEN0ZlMNB9lECGJDxUSG7G20emcnXaHrM5fL2d7mCi3O825iShQvn2J0ZY",
-      "rating": 4.2963862,
-      "rating_count": 16291893,
+      "rating": 4.2963433,
+      "rating_count": 16291923,
       "release_date": "2012/09/27",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -462,10 +462,10 @@
       "developer": "Temu",
       "store_url": "https://play.google.com/store/apps/details?id=com.einnovation.temu",
       "icon_url": "https://play-lh.googleusercontent.com/opNFHpwXUxk8zAVzQbvBgEcBPmgYt0uX-p28VKDZ8nJNFPA7_JHx3PO3ski-GW_FW7gf3jrEP4OCKxTpP7Wv_w",
-      "rating": 4.457643,
-      "rating_count": 12562337,
+      "rating": 4.4575973,
+      "rating_count": 12562646,
       "release_date": "2022/08/25",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -476,10 +476,10 @@
       "developer": "Wish US Holdings LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.contextlogic.wish",
       "icon_url": "https://play-lh.googleusercontent.com/IQKc-fF8iDPysSuc9EssDW84qXGsLsO3W4aTCmBnavjAFJqo2z6KXe9_xZOoMm5Q6JnoNKmW49ZgszrtLtgR",
-      "rating": 4.675439,
+      "rating": 4.67544,
       "rating_count": 14372165,
       "release_date": "2012/07/26",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -490,10 +490,10 @@
       "developer": "eBay Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.ebay.mobile",
       "icon_url": "https://play-lh.googleusercontent.com/q0_ZVJFuUH3WFZuZrP8JUMC54dwz1q_SZZufBDMqYaE8O2sLPulV1_dF3xGMQ6b102MTBZlluAF8z4AgZ-Isow",
-      "rating": 4.548717,
-      "rating_count": 5015715,
+      "rating": 4.548436,
+      "rating_count": 5015721,
       "release_date": "2010/02/17",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -505,9 +505,9 @@
       "store_url": "https://play.google.com/store/apps/details?id=com.flipkart.android",
       "icon_url": "https://play-lh.googleusercontent.com/mlWjVjxflQoYJHBBgDQ08FqT8i3KnDG__2RH8P-GWOKlEPAIo8TllTZo3HDQ3J5zlO6oAhc1FAv0Bf2on0wL8w",
       "rating": 4.458618,
-      "rating_count": 75713860,
+      "rating_count": 75716498,
       "release_date": "2011/07/02",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -518,10 +518,10 @@
       "developer": "Meesho",
       "store_url": "https://play.google.com/store/apps/details?id=com.meesho.supply",
       "icon_url": "https://play-lh.googleusercontent.com/lQrsRJ7PT25f2J8n14Zp4j0695_2NIpIUEQpG6bEuljhk7oJ8q_GeA5iYgWm1DiDq0WFPBWP4iaJcXi4XPwoWCk",
-      "rating": 4.2677965,
-      "rating_count": 6035153,
+      "rating": 4.264856,
+      "rating_count": 6035366,
       "release_date": "2017/02/16",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -533,9 +533,9 @@
       "store_url": "https://play.google.com/store/apps/details?id=com.myntra.android",
       "icon_url": "https://play-lh.googleusercontent.com/G4PzdZ4rHsX_itOqEa603UMdUmCcEgA4uvmuGJ4mSRkA8zJ8UkPGSGYptSK0yM9mmx6WlJCKEASy8WxXE8XBHg",
       "rating": 4.592089,
-      "rating_count": 5745307,
+      "rating_count": 5745521,
       "release_date": "2014/05/07",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -546,10 +546,10 @@
       "developer": "Roadget Business PTE. LTD.",
       "store_url": "https://play.google.com/store/apps/details?id=com.zzkko",
       "icon_url": "https://play-lh.googleusercontent.com/M_c3ZcQ1dx3AlDSfFEL0S2KgYrmkvJz2gz6gMZaL0pSQS9yYfUOGAQJTfuXMvx0K5c46dh5TKauxuRbUlnxB7w",
-      "rating": 4.7566795,
-      "rating_count": 11272589,
+      "rating": 4.756693,
+      "rating_count": 11273366,
       "release_date": "2014/03/18",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -560,10 +560,10 @@
       "developer": "Walmart",
       "store_url": "https://play.google.com/store/apps/details?id=com.walmart.android",
       "icon_url": "https://play-lh.googleusercontent.com/uWXZHyYx_7M_aOFK_qINeboJGvmNgXSNRpCzjKyIWyHYcJbgZ0Ky0KlQBy5i1bmkphZdZ-lo9zc2De-KbQBKKA",
-      "rating": 4.711262,
-      "rating_count": 7348791,
+      "rating": 4.711129,
+      "rating_count": 7349089,
       "release_date": "2011/05/06",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -574,58 +574,44 @@
       "developer": "Target Corporation",
       "store_url": "https://play.google.com/store/apps/details?id=com.target.ui",
       "icon_url": "https://play-lh.googleusercontent.com/PMEO7Vf0nxncQTi6r9K-Buo9GS0Vc5aCJcyzaJ_p0zR7Tirkjzo_OhnprTD6ccKK-eA5pf_dq4IT598ZzrV__w",
-      "rating": 4.87935,
-      "rating_count": 417195,
+      "rating": 4.879383,
+      "rating_count": 417222,
       "release_date": "2010/08/31",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.sephora",
-      "rank": 42,
-      "name": "Sephora: Buy Makeup & Skincare",
-      "developer": "Sephora USA, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.sephora",
-      "icon_url": "https://play-lh.googleusercontent.com/nTWsdDvMx4vyuiZAwCu0YGhEvXgl3JRciLPst5i_i7SlvoSDl1ND4_qLf5U_52oHQ2lwNsEXBxAZrPJXluCo",
-      "rating": 3.9207003,
-      "rating_count": 79919,
-      "release_date": "2013/12/16",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.mercadolibre",
-      "rank": 43,
+      "rank": 42,
       "name": "Mercado Libre: Compras online",
       "developer": "Mercado Libre",
       "store_url": "https://play.google.com/store/apps/details?id=com.mercadolibre",
       "icon_url": "https://play-lh.googleusercontent.com/umrkyQ_A4JNqNsUQcncPdLC_4ckhe1XqGnRgzTfAzIbBBqnmqPB6JzDhDr4cjn6sN2rYn_xYv-KCRTCht-98qxY",
-      "rating": 4.807555,
-      "rating_count": 26843545,
+      "rating": 4.8076453,
+      "rating_count": 26844918,
       "release_date": "2011/09/07",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.etsy.android",
-      "rank": 44,
+      "rank": 43,
       "name": "Etsy: Shop from Real People",
       "developer": "Etsy, Inc",
       "store_url": "https://play.google.com/store/apps/details?id=com.etsy.android",
       "icon_url": "https://play-lh.googleusercontent.com/QjuCfvGNr91o5Do9OyNjBprY12cNi4d-uAm73zlHucElV306V5S2Rl1g02kqsXcDqA9XFYIeOD-LI0rdiJk_",
-      "rating": 4.851291,
-      "rating_count": 2170379,
+      "rating": 4.851313,
+      "rating_count": 2170436,
       "release_date": "2012/12/04",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.abercrombie.hollister",
-      "rank": 45,
+      "rank": 44,
       "name": "Hollister Co.",
       "developer": "Abercrombie & Fitch Co",
       "store_url": "https://play.google.com/store/apps/details?id=com.abercrombie.hollister",
@@ -633,27 +619,27 @@
       "rating": 4.8124676,
       "rating_count": 111938,
       "release_date": "2013/07/15",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.noon.buyerapp",
-      "rank": 46,
+      "rank": 45,
       "name": "noon Online Shopping & Grocery",
       "developer": "noon e-commerce",
       "store_url": "https://play.google.com/store/apps/details?id=com.noon.buyerapp",
       "icon_url": "https://play-lh.googleusercontent.com/8zbhHOD1GIysqml4_Nc8OdhBjFnd5Tvb_lra5seU-b5luWff8IOkkDyzNJq5scFM-pDanZIRvdjVt9-8ly9h_A",
       "rating": 4.6462717,
-      "rating_count": 1157850,
+      "rating_count": 1157854,
       "release_date": "2017/10/01",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.jcp",
-      "rank": 47,
+      "rank": 46,
       "name": "JCPenney – Shopping & Deals",
       "developer": "Penney OpCo LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.jcp",
@@ -661,55 +647,55 @@
       "rating": 4.0936303,
       "rating_count": 114059,
       "release_date": "2012/02/03",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.daraz.android",
-      "rank": 48,
+      "rank": 47,
       "name": "Daraz Online Shopping App",
       "developer": "Daraz Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.daraz.android",
       "icon_url": "https://play-lh.googleusercontent.com/9TsiJAH3aOaYHFmYbV5UfWDGVW2ob1VicZZ1vjTwlUCSzKyHV-9GEWb2FA8Ldg2J7DnibJQ8ujh-t26-WOeVSA",
       "rating": 4.3486905,
-      "rating_count": 4117025,
+      "rating_count": 4117032,
       "release_date": "2016/09/26",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "fr.vinted",
-      "rank": 49,
+      "rank": 48,
       "name": "Vinted: Shop & sell pre-loved",
       "developer": "Vinted",
       "store_url": "https://play.google.com/store/apps/details?id=fr.vinted",
       "icon_url": "https://play-lh.googleusercontent.com/cw3VzDl2b0m8eXx3dXe6RdV6r8ztpzUp_DJk4PStqU2mbD1x1TfKSCNJZVd6wjABgy0Nz0BCb3NqMI2TkKlR3Q",
-      "rating": 4.2313986,
-      "rating_count": 2285775,
+      "rating": 4.230712,
+      "rating_count": 2285776,
       "release_date": "2021/10/10",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.alibaba.intl.android.apps.poseidon",
-      "rank": 50,
+      "rank": 49,
       "name": "Alibaba.com - B2B marketplace",
       "developer": "Alibaba Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.alibaba.intl.android.apps.poseidon",
       "icon_url": "https://play-lh.googleusercontent.com/g2PHg8S3kLbpw_q6MS-ibyxMT8WP8nSVJ--Bjzscn1sx3p-9eMeVcKWlF2Gkd89ESuU0ojv2BgzN2bT-G9leig",
-      "rating": 4.3802385,
-      "rating_count": 3050102,
+      "rating": 4.3805094,
+      "rating_count": 3050146,
       "release_date": "2012/10/17",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.banggood.client",
-      "rank": 51,
+      "rank": 50,
       "name": "Banggood - Online Shopping",
       "developer": "Banggood",
       "store_url": "https://play.google.com/store/apps/details?id=com.banggood.client",
@@ -717,13 +703,13 @@
       "rating": 4.602353,
       "rating_count": 433874,
       "release_date": "2014/11/11",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.wayfair.wayfair",
-      "rank": 52,
+      "rank": 51,
       "name": "Wayfair - Shop All Things Home",
       "developer": "Wayfair, LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.wayfair.wayfair",
@@ -731,27 +717,27 @@
       "rating": 4.7959504,
       "rating_count": 460714,
       "release_date": "2015/02/20",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.lazada.android",
-      "rank": 53,
+      "rank": 52,
       "name": "Lazada | All Shipping On Us",
       "developer": "Lazada Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.lazada.android",
       "icon_url": "https://play-lh.googleusercontent.com/9uh76LzzvIG4OrcZnrh19aV_Eskqbjn45zqQco36rvjasebQ-DN3XEb3Ar2lY2TBvtGKBCaeZhZ9eDbaveJmxg",
       "rating": 4.6812663,
-      "rating_count": 29226592,
+      "rating_count": 29226604,
       "release_date": "2013/06/08",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.adidas.app",
-      "rank": 54,
+      "rank": 53,
       "name": "adidas: Shop Shoes & Clothing",
       "developer": "adidas",
       "store_url": "https://play.google.com/store/apps/details?id=com.adidas.app",
@@ -759,41 +745,41 @@
       "rating": 4.6889014,
       "rating_count": 648257,
       "release_date": "2017/11/05",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.whatnot_mobile",
-      "rank": 55,
+      "rank": 54,
       "name": "Whatnot: Shop, Sell, Connect",
       "developer": "Whatnot Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.whatnot_mobile",
       "icon_url": "https://play-lh.googleusercontent.com/wEQOqpC90lbIWelqnb2fXpU-84meB6VUpYe4fNLX3EUg6QGTtYGLFS-LZzcjs7WUvn4HScPbgwO7vfVp3uogPA",
-      "rating": 4.72952,
-      "rating_count": 307558,
+      "rating": 4.7293925,
+      "rating_count": 307583,
       "release_date": "2019/12/06",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.dollargeneral.android",
-      "rank": 56,
+      "rank": 55,
       "name": "Dollar General-Digital Coupons",
       "developer": "DOLLAR GENERAL CORPORATION",
       "store_url": "https://play.google.com/store/apps/details?id=com.dollargeneral.android",
       "icon_url": "https://play-lh.googleusercontent.com/zMqS0bw-gUHg1E-NBlLjtT16iclulhpG8iG_GTDUfnDIMdxq1UuH0GnsoWXUO-pi7dMiqKlWRjXdE88K-MB9Mg",
-      "rating": 4.700435,
-      "rating_count": 822676,
+      "rating": 4.70043,
+      "rating_count": 822679,
       "release_date": "2012/11/13",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.joybuy.jdi",
-      "rank": 57,
+      "rank": 56,
       "name": "Joybuy-Don't Just Buy!",
       "developer": "Joybuy",
       "store_url": "https://play.google.com/store/apps/details?id=com.joybuy.jdi",
@@ -801,49 +787,63 @@
       "rating": 4.25,
       "rating_count": 9695,
       "release_date": "2025/04/08",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.fetchrewards.fetchrewards.hop",
-      "rank": 58,
+      "rank": 57,
       "name": "Fetch: Receipts For Gift Cards",
       "developer": "Fetch Rewards",
       "store_url": "https://play.google.com/store/apps/details?id=com.fetchrewards.fetchrewards.hop",
       "icon_url": "https://play-lh.googleusercontent.com/K_DvVVBJ3W9YQjDwlb_LvrdIuunERyWGqkzpbhN-LK29N6RIdPwSCtxJXwvZTSfSSTgk-XgHVa5ZmkOc8TOFdg",
-      "rating": 4.7464623,
-      "rating_count": 1657980,
+      "rating": 4.7464504,
+      "rating_count": 1658013,
       "release_date": "2016/12/07",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.bestbuy.android",
-      "rank": 59,
+      "rank": 58,
       "name": "Best Buy: Shop tech deals",
       "developer": "Best Buy Co., Inc",
       "store_url": "https://play.google.com/store/apps/details?id=com.bestbuy.android",
       "icon_url": "https://play-lh.googleusercontent.com/e0da_uIxpuKrZtYl1YXm8OQmFVfQ02eYNM_iakRv9pLurvYtlxhyZKRjM12A6LHX4IvCE4J8rDxC24PkHtAP7w",
-      "rating": 4.663532,
-      "rating_count": 465714,
+      "rating": 4.6628933,
+      "rating_count": 465729,
       "release_date": "2010/02/08",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.ulta",
-      "rank": 60,
+      "rank": 59,
       "name": "Ulta Beauty: Makeup & Skincare",
       "developer": "Ulta Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.ulta",
       "icon_url": "https://play-lh.googleusercontent.com/a0628sEzjM_SHUTIYAIcV9QyIGCQtcrQPpsWfu7TUunRvAdskALS4uUlWGVBxx2FB4kczf-yp5qqARHCZ-zW",
-      "rating": 4.602158,
-      "rating_count": 216347,
+      "rating": 4.602196,
+      "rating_count": 216354,
       "release_date": "2012/11/08",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.wildberries.ru",
+      "rank": 60,
+      "name": "Wildberries",
+      "developer": "Wildberries LLC",
+      "store_url": "https://play.google.com/store/apps/details?id=com.wildberries.ru",
+      "icon_url": "https://play-lh.googleusercontent.com/_3OFXp7p3aaOt6lJdqOPNS8frRjGW7SrlgUELTcxMZNbvQtBN0ez_lrXtMk-X9Yk_kfdesM7fOcRpMl3Ebhgpg",
+      "rating": 4.504442,
+      "rating_count": 9442117,
+      "release_date": "2012/10/12",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -857,7 +857,7 @@
       "rating": 4.5409226,
       "rating_count": 210527,
       "release_date": "2013/12/20",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -868,10 +868,10 @@
       "developer": "Wendy's Int'l., LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.wendys.nutritiontool",
       "icon_url": "https://play-lh.googleusercontent.com/bpNY8LIFST6GTTrv_pVA72_otqzOkK4NoBo4UT5zL1f6jKmfX34ddlIjSgmv6GDg5OuoIFtsxboZHOd44DuS8g",
-      "rating": 4.6828427,
-      "rating_count": 684182,
+      "rating": 4.6827993,
+      "rating_count": 684198,
       "release_date": "2012/06/29",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -885,7 +885,7 @@
       "rating": 3.1776707,
       "rating_count": 27045,
       "release_date": "2021/02/12",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -896,10 +896,10 @@
       "developer": "Uber Technologies, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.ubercab.eats",
       "icon_url": "https://play-lh.googleusercontent.com/nQpl8xd3y1dpvHp-VcZrQ7H8ikP5jDYi0tYdS-FzqKyb0qqBb-0FVzuC3eepETxYECADHSitC89yhvWkXxcy",
-      "rating": 4.6367416,
-      "rating_count": 7765369,
+      "rating": 4.6366487,
+      "rating_count": 7765495,
       "release_date": "2016/02/29",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -910,10 +910,10 @@
       "developer": "Panda Restaurant Group, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.pandaexpress.app",
       "icon_url": "https://play-lh.googleusercontent.com/tbu_j3SR9IGzQcMHrVKnKB06bCaxdL1wc18wwE7xw95g4uY2Xdae6-LGKRXBogdVQM8crJ1dCFSJseyhr21B",
-      "rating": 4.5891237,
-      "rating_count": 67939,
+      "rating": 4.5891857,
+      "rating_count": 67941,
       "release_date": "2014/08/20",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -924,10 +924,10 @@
       "developer": "DoorDash",
       "store_url": "https://play.google.com/store/apps/details?id=com.dd.doordash",
       "icon_url": "https://play-lh.googleusercontent.com/daqnb5FdirTUewbv81mzwbnhD6_d1ITPYjM-XBFykk3QXRebKeaZLwWjyIbFKzLaEm6c12_wqVEHQhVrX3kO",
-      "rating": 4.6617746,
-      "rating_count": 6132572,
+      "rating": 4.661784,
+      "rating_count": 6132677,
       "release_date": "2015/03/26",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -938,10 +938,10 @@
       "developer": "SUBWAY Restaurants",
       "store_url": "https://play.google.com/store/apps/details?id=com.subway.mobile.subwayapp03",
       "icon_url": "https://play-lh.googleusercontent.com/s3Dsgl-cxs38Og36Mfm99nraKrvLjD-0ET_iOPoaLerhKQV6On9DqWKJXKuOqisawrvm8vaweQXNqN6DZb3Z",
-      "rating": 4.1171236,
-      "rating_count": 515460,
+      "rating": 4.1171865,
+      "rating_count": 515462,
       "release_date": "2014/07/31",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -952,10 +952,10 @@
       "developer": "Taco Bell Mobile",
       "store_url": "https://play.google.com/store/apps/details?id=com.tacobell.ordering",
       "icon_url": "https://play-lh.googleusercontent.com/ZTEchgfy3VtUz1cTAEvD-S4tfpzE_qvrTp6Xi0EyokF5xQM2hV_ga2jHeSSNyxXXbcTwNNuvmYKxlepUstGSaw",
-      "rating": 2.4123313,
-      "rating_count": 197379,
+      "rating": 2.4118147,
+      "rating_count": 197389,
       "release_date": "2014/10/27",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -966,10 +966,10 @@
       "developer": "Popeyes Louisiana Kitchen, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.emn8.mobilem8.nativeapp.popeyes",
       "icon_url": "https://play-lh.googleusercontent.com/pl51Fj6OTpu_1PDLXELssCCAEN6Gnlq79PrTvFo6uSlR-ilmfCIAL6gsJ012HL4rlEX-sjezmQtDtqnXgXXhDw",
-      "rating": 4.8932877,
-      "rating_count": 192354,
+      "rating": 4.8933487,
+      "rating_count": 192376,
       "release_date": "2018/06/18",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -980,10 +980,10 @@
       "developer": "McDonalds USA, LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.mcdonalds.app",
       "icon_url": "https://play-lh.googleusercontent.com/-i1ieydxNBltLJ5TFmDLaz5SXTVwgbk6-K4CIad28TmU8mPeYx4IjDHy6UMnp9AEqjTJMo7rBhjQC0OT4tGV-WM",
-      "rating": 4.029584,
-      "rating_count": 2170145,
+      "rating": 4.029579,
+      "rating_count": 2170144,
       "release_date": "2014/10/24",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -994,10 +994,10 @@
       "developer": "Burger King, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.emn8.mobilem8.nativeapp.bk",
       "icon_url": "https://play-lh.googleusercontent.com/o3D9bdrSDrNK-ln-VvKpJpSMAdnzVkn4ZqpW5YC2Ja1DeNBm08fCeJ4HVD8xo2iTdgJUa7OfXU72kJrl1lbM",
-      "rating": 4.4053397,
-      "rating_count": 323348,
+      "rating": 4.4054413,
+      "rating_count": 323353,
       "release_date": "2013/05/08",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1008,10 +1008,10 @@
       "developer": "Domino's Pizza LLC",
       "store_url": "https://play.google.com/store/apps/details?id=com.dominospizza",
       "icon_url": "https://play-lh.googleusercontent.com/1VZ01IzwPW-2YMAdkku1Gdn4W1O8FQlqTb1oU7_9egTvskkNVKUruyfwznkEMC5PI1yOBP98P6Md8jtHK-bA",
-      "rating": 4.5923896,
-      "rating_count": 2392260,
+      "rating": 4.592355,
+      "rating_count": 2392265,
       "release_date": "2012/02/21",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1022,10 +1022,10 @@
       "developer": "Starbucks Coffee Company",
       "store_url": "https://play.google.com/store/apps/details?id=com.starbucks.mobilecard",
       "icon_url": "https://play-lh.googleusercontent.com/JbVPz6F90kldmwCxJ74cmvJibVH5G5JRplTIVy9gRsrMMoYhHJ5JN9jviiF_99eDC1o_afn2y8GbrgigN89C9g",
-      "rating": 4.84449,
-      "rating_count": 1559232,
+      "rating": 4.8444366,
+      "rating_count": 1559235,
       "release_date": "2011/06/14",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1036,10 +1036,10 @@
       "developer": "Little Caesar Enterprises, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.littlecaesars",
       "icon_url": "https://play-lh.googleusercontent.com/9I7nh2xAbNKwu7xbKvFVmELkozAZtZK5zr30I9pbx93kyv3CGKuTG76pD8VdOkrcE1PF8Ok5VdO9i_tLx_obwA",
-      "rating": 4.7264166,
-      "rating_count": 621197,
+      "rating": 4.72633,
+      "rating_count": 621213,
       "release_date": "2016/09/16",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1050,10 +1050,10 @@
       "developer": "Too Good To Go Aps",
       "store_url": "https://play.google.com/store/apps/details?id=com.app.tgtg",
       "icon_url": "https://play-lh.googleusercontent.com/SKnwpZGNeXk8dSPNH2l3tDkpweSu8WWZ-UfC576vhK5d0RQKeYyPGCqsaM1b_7HoZdzjHvutaA6xqcqvBwcEtA",
-      "rating": 4.829781,
-      "rating_count": 1974963,
+      "rating": 4.829814,
+      "rating_count": 1974985,
       "release_date": "2016/01/14",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1067,7 +1067,7 @@
       "rating": 4.4937944,
       "rating_count": 22842,
       "release_date": "2019/12/16",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1079,9 +1079,9 @@
       "store_url": "https://play.google.com/store/apps/details?id=com.bolt.deliveryclient",
       "icon_url": "https://play-lh.googleusercontent.com/sKs-ie_fs4ctGMKnmwYlC-boy0GqrGD2t7eiR9AXLPvXyJPbMcXemGxubvb_T43cutXPFNOta7rmFcJPsB3I",
       "rating": 4.56,
-      "rating_count": 264309,
+      "rating_count": 264310,
       "release_date": "2019/08/20",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1095,7 +1095,7 @@
       "rating": 4.068129,
       "rating_count": 70592,
       "release_date": "2018/05/22",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1106,10 +1106,10 @@
       "developer": "Sonic Industries Services, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.sonic.sonicdrivein",
       "icon_url": "https://play-lh.googleusercontent.com/aLVZSOQ48zx9vj1rwq7-UzD58coKIrAUA7hkAIfjcPh7Cu9zlLkP8o2D_-ANgOyfS-5fNAHiNKBQ1ZVBHkmeig",
-      "rating": 4.5969043,
-      "rating_count": 764906,
+      "rating": 4.596921,
+      "rating_count": 764924,
       "release_date": "2014/07/15",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1121,9 +1121,9 @@
       "store_url": "https://play.google.com/store/apps/details?id=com.application.zomato",
       "icon_url": "https://play-lh.googleusercontent.com/A1_fnBW1GHf4v957UIb-gjsTFcMT7dSbW9kh9YKdWo3kq90RhfCiv8RUBLtHvfUSZYXA3ZSXkS9mQ4Rr83g3_Q",
       "rating": 4.715313,
-      "rating_count": 13954772,
+      "rating_count": 13955357,
       "release_date": "2011/01/10",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1134,10 +1134,10 @@
       "developer": "Grubhub",
       "store_url": "https://play.google.com/store/apps/details?id=com.grubhub.android",
       "icon_url": "https://play-lh.googleusercontent.com/yQanUgJ0Hbbbp6RZzoJbM_yG5FE3qLCsoxx75pc4LoRisGT852s3KZI5SLr8UWg32HAkR8ZU4VsWFw3y-FQzZA",
-      "rating": 4.5426536,
-      "rating_count": 986825,
+      "rating": 4.542635,
+      "rating_count": 986830,
       "release_date": "2010/10/04",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1148,38 +1148,38 @@
       "developer": "Chipotle Mexican Grill",
       "store_url": "https://play.google.com/store/apps/details?id=com.chipotle.ordering",
       "icon_url": "https://play-lh.googleusercontent.com/a4rVFv-9Oz50Qg1kwEbA9fzhTP_PzHsrVHUZ2ZL9W_LffTodrrZOTIHWtwMLH4PH0H5Q0bTfX7UyXkqgjV1cHg",
-      "rating": 4.731767,
-      "rating_count": 545640,
+      "rating": 4.731907,
+      "rating_count": 545668,
       "release_date": "2013/06/19",
-      "timestamp": "2026-08-20 02:18:17"
-    },
-    {
-      "platform": "Google Play",
-      "category": "生活方式",
-      "app_id": "com.dunkinbrands.otgo",
-      "rank": 83,
-      "name": "Dunkin’",
-      "developer": "Dunkin' Brands, Inc.",
-      "store_url": "https://play.google.com/store/apps/details?id=com.dunkinbrands.otgo",
-      "icon_url": "https://play-lh.googleusercontent.com/BDmtom97qcZLwQyPZ_g8g6Kvyp-PpltwQjDYNoai2uAl5q0NU440d0b4pbK0O2aa0RXLO1v2SOWWCcs3ZKEuwQ",
-      "rating": 4.7404284,
-      "rating_count": 622433,
-      "release_date": "2016/04/13",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
       "category": "生活方式",
       "app_id": "com.global.foodpanda.android",
-      "rank": 84,
+      "rank": 83,
       "name": "foodpanda: food & groceries",
       "developer": "Foodpanda GmbH a subsidiary of Delivery Hero SE",
       "store_url": "https://play.google.com/store/apps/details?id=com.global.foodpanda.android",
       "icon_url": "https://play-lh.googleusercontent.com/AGKMvrcaU1-dQpoKzFltAXyB9cA5BE7kJ9lsKbQwOLPXJvvDUfYuETUyZCjDViASYkkWAu326waQq2IHBHGwvww",
       "rating": 4.039306,
-      "rating_count": 3574215,
+      "rating_count": 3574227,
       "release_date": "2013/11/19",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.dunkinbrands.otgo",
+      "rank": 84,
+      "name": "Dunkin’",
+      "developer": "Dunkin' Brands, Inc.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.dunkinbrands.otgo",
+      "icon_url": "https://play-lh.googleusercontent.com/BDmtom97qcZLwQyPZ_g8g6Kvyp-PpltwQjDYNoai2uAl5q0NU440d0b4pbK0O2aa0RXLO1v2SOWWCcs3ZKEuwQ",
+      "rating": 4.740441,
+      "rating_count": 622441,
+      "release_date": "2016/04/13",
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1190,10 +1190,10 @@
       "developer": "Booking.com Hotels & Vacation Rentals",
       "store_url": "https://play.google.com/store/apps/details?id=com.booking",
       "icon_url": "https://play-lh.googleusercontent.com/ozdbI6WGLCrPRNmc2TqrxgOx_TBIOB7WSeLE5iPkCuBiLyB0tkBo2o3l-VRdD71aKaY-mTwzLQY8zpeo9rOLkwA",
-      "rating": 4.7885013,
-      "rating_count": 6280156,
+      "rating": 4.788485,
+      "rating_count": 6280266,
       "release_date": "2011/02/04",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1204,10 +1204,10 @@
       "developer": "Tripadvisor",
       "store_url": "https://play.google.com/store/apps/details?id=com.tripadvisor.tripadvisor",
       "icon_url": "https://play-lh.googleusercontent.com/SadHVg8ieqV-KQRjgukQJIVRtDAc9tGLUjOKecJtSLVdUHeENpQgzxgWZ__wSQ9ZWmHbJ2G-aqHRZdT7K8KPoJk",
-      "rating": 4.5044265,
-      "rating_count": 1474253,
+      "rating": 4.5051994,
+      "rating_count": 1474255,
       "release_date": "2010/07/12",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1218,10 +1218,10 @@
       "developer": "Expedia",
       "store_url": "https://play.google.com/store/apps/details?id=com.expedia.bookings",
       "icon_url": "https://play-lh.googleusercontent.com/xR9ID0uk8rgizV7V-GLpmWFEdEkbElLBCDMgauP1Svk_bh1JPpSSlL79X7NuN_tt34EOM1OFpLgA-eeboZUc9A",
-      "rating": 4.811212,
-      "rating_count": 1658065,
+      "rating": 4.8112144,
+      "rating_count": 1658129,
       "release_date": "2011/05/10",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1232,10 +1232,10 @@
       "developer": "Skyscanner Ltd",
       "store_url": "https://play.google.com/store/apps/details?id=net.skyscanner.android.main",
       "icon_url": "https://play-lh.googleusercontent.com/3U-xGT-HeIX65OvG9ZUp7lMDf3T51qtYm-ikjCkyHAjveiyc_Qtl11dqlx3cCMHszOdsycuAalGbUW78sMX7cw",
-      "rating": 4.790823,
-      "rating_count": 1501498,
+      "rating": 4.790897,
+      "rating_count": 1501537,
       "release_date": "2011/07/20",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1246,10 +1246,10 @@
       "developer": "Hopper Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.hopper.mountainview.play",
       "icon_url": "https://play-lh.googleusercontent.com/HbSywvR-AS9iEr4DlkaK-tTi861QzFFAFC7SMmiY_jJi5S3RuuCJHdO_WSkb2gjcgM1GXckSV5hhRp4W5ypZuAY",
-      "rating": 4.5483074,
-      "rating_count": 149957,
+      "rating": 4.548366,
+      "rating_count": 149958,
       "release_date": "2015/08/30",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1260,10 +1260,10 @@
       "developer": "Trip.com",
       "store_url": "https://play.google.com/store/apps/details?id=ctrip.english",
       "icon_url": "https://play-lh.googleusercontent.com/vNZziIq3UAk5fRBofLa418ruaHqypKqyOh2vsgrV56ccQDdXkIV0v6WA11B3XlyEEPN4YrPvsqFDJEG3wqbi",
-      "rating": 4.7103043,
-      "rating_count": 915179,
+      "rating": 4.7105484,
+      "rating_count": 915227,
       "release_date": "2013/07/31",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1274,10 +1274,10 @@
       "developer": "Uber Technologies, Inc.",
       "store_url": "https://play.google.com/store/apps/details?id=com.ubercab",
       "icon_url": "https://play-lh.googleusercontent.com/OXQnDlRtPa5ha6KCnKPqVmxHYBP7tjrAa7PXGNRqcwDC_J03HVeuEKcKrkcIqnfOqsF5uy3uwWxIXR067QHsNQ",
-      "rating": 4.7413917,
-      "rating_count": 19556863,
+      "rating": 4.7413898,
+      "rating_count": 19557688,
       "release_date": "2010/10/28",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1288,10 +1288,10 @@
       "developer": "KAYAK.com",
       "store_url": "https://play.google.com/store/apps/details?id=com.kayak.android",
       "icon_url": "https://play-lh.googleusercontent.com/fzR0RmuvM41UxDJMPpCySidIR5WeUKUX0GImQs64GJhV5IlGsnm20-O3BbA7LEI4r5cSkEiANEs0akxxOF8R8w",
-      "rating": 4.7894325,
-      "rating_count": 423292,
+      "rating": 4.789357,
+      "rating_count": 423293,
       "release_date": "",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1303,9 +1303,9 @@
       "store_url": "https://play.google.com/store/apps/details?id=com.klook",
       "icon_url": "https://play-lh.googleusercontent.com/VMmLRNcYM21bePmsaTPyIyDz9kYIcM9IGsEgTgC3kY6TfIn1RolGRGZjT3BP3AaFaRoPdgo-8BR5zy8nxH-9tEM",
       "rating": 4.4766355,
-      "rating_count": 144710,
+      "rating_count": 144715,
       "release_date": "2015/05/26",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1316,10 +1316,10 @@
       "developer": "agoda.com",
       "store_url": "https://play.google.com/store/apps/details?id=com.agoda.mobile.consumer",
       "icon_url": "https://play-lh.googleusercontent.com/OnX2KsVpNq1vK-18zV86P8eBxep0IlwvC1SaafZtYcrAb7TbP6F2W87AKzqOAZQku9oBslCxfD8UEVC0abhqrQ",
-      "rating": 4.5450463,
-      "rating_count": 2277707,
+      "rating": 4.544965,
+      "rating_count": 2277735,
       "release_date": "2011/07/06",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1330,10 +1330,10 @@
       "developer": "Airbnb",
       "store_url": "https://play.google.com/store/apps/details?id=com.airbnb.android",
       "icon_url": "https://play-lh.googleusercontent.com/PDPmzZUDSmFa33PmzoZ_OWLeIbj23UtGFE9fXVEVjfuyMGvPygT-v9N7bFsJwc8PojCmw72i8Xn45qHElm8b",
-      "rating": 4.54798,
-      "rating_count": 1951749,
+      "rating": 4.548013,
+      "rating_count": 1951772,
       "release_date": "2012/01/17",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1344,10 +1344,10 @@
       "developer": "trivago N.V.",
       "store_url": "https://play.google.com/store/apps/details?id=com.trivago",
       "icon_url": "https://play-lh.googleusercontent.com/MmtE8fh-QwtTh1u4vuekrxw85E4kjvh3JGDTcNRWUvvAPDaosuvx51uxU77Y4JPOzJsAVbBDTm4yqbING0x9",
-      "rating": 4.4505067,
-      "rating_count": 370733,
+      "rating": 4.454118,
+      "rating_count": 370735,
       "release_date": "2010/12/03",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1361,7 +1361,7 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2026/06/02",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1375,7 +1375,7 @@
       "rating": 0,
       "rating_count": 0,
       "release_date": "2026/05/27",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1389,7 +1389,7 @@
       "rating": 4.706499,
       "rating_count": 35475,
       "release_date": "2019/08/21",
-      "timestamp": "2026-08-20 02:18:17"
+      "timestamp": "2026-08-20 03:28:30"
     },
     {
       "platform": "Google Play",
@@ -1401,9 +1401,9 @@
       "store_url": "https://play.google.com/store/apps/details?id=com.flightradar24free",
       "icon_url": "https://play-lh.googleusercontent.com/8KtIuiRHYtY0XJigXIl-iN6X6-ht85ELWXFiynenpCW40b6zNUnLFGKwIN0iITV_1L3sN3G53PaiNiWsn5RSIv8",
       "rating": 4.501731,
-      "rating_count": 653632,
-      "release_date": "15 Sept 2010",
-      "timestamp": "2026-08-20 02:18:17"
+      "rating_count": 653635,
+      "release_date": "2010/09/15",
+      "timestamp": "2026-08-20 03:28:30"
     }
   ]
 }

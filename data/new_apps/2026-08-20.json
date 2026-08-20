@@ -1,7 +1,36 @@
 {
   "date": "2026-08-20",
   "compare_date": "2026-08-19",
-  "total_count": 0,
-  "new_apps": [],
-  "generated_at": "2026-08-20 02:19:25"
+  "total_count": 2,
+  "new_apps": [
+    {
+      "platform": "Google Play",
+      "category": "游戏",
+      "app_id": "com.horus.car.master",
+      "rank": 77,
+      "name": "Racing Fury: Car Battle PvP",
+      "developer": "Horus Entertainment",
+      "store_url": "https://play.google.com/store/apps/details?id=com.horus.car.master",
+      "icon_url": "https://play-lh.googleusercontent.com/dgUiRTVB6yQ_2K63CZTf-DsvdPsCA6BNwneAVoILbuGkM-wNnZg4LBrDbq0pdcOekZ5oZNJBdGPlo1szxuFDfQ",
+      "rating": 0,
+      "rating_count": 0,
+      "release_date": "2026/06/23",
+      "timestamp": "2026-08-20 03:28:38"
+    },
+    {
+      "platform": "Google Play",
+      "category": "娱乐",
+      "app_id": "com.kakao.page",
+      "rank": 100,
+      "name": "KakaoPage",
+      "developer": "Kakao Entertainment Corp.",
+      "store_url": "https://play.google.com/store/apps/details?id=com.kakao.page",
+      "icon_url": "https://play-lh.googleusercontent.com/5sJiMAEO66dYGE9IigEfYRwVe5qD5V_F6PVZna4XF7ZGwnqgKZj-6RUJ2RF_3Ve2_bA1hB6Qc0Jfh5cTnZdAjSg",
+      "rating": 1.0895523,
+      "rating_count": 131279,
+      "release_date": "2024/11/20",
+      "timestamp": "2026-08-20 03:29:18"
+    }
+  ],
+  "generated_at": "2026-08-20 03:29:24"
 }
