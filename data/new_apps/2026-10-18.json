@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-18",
+  "compare_date": "2026-10-17",
+  "total_count": 4,
+  "new_apps": [
+    {
+      "platform": "App Store",
+      "category": "健康与健身",
+      "app_id": "com.iUEFAVVYDQHealth.qo",
+      "itunes_id": "6464382652",
+      "rank": 78,
+      "name": "Blood Pressure - Health Pulse",
+      "developer": "Xian Xinxinan Information Technology Co., Ltd.",
+      "store_url": "https://apps.apple.com/us/app/blood-pressure-health-pulse/id6464382652?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/87/a6/fc/87a6fc63-1b8e-7c14-ea3e-5d6c50016633/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2023/09/27",
+      "rating": 4.32283,
+      "rating_count": 127,
+      "timestamp": "2026-10-18 04:57:16"
+    },
+    {
+      "platform": "App Store",
+      "category": "生活实用",
+      "app_id": "imote.tv.remote.control",
+      "itunes_id": "6477382010",
+      "rank": 85,
+      "name": "Universal TV Remote Control＊",
+      "developer": "VISARGERD, S.L.",
+      "store_url": "https://apps.apple.com/us/app/universal-tv-remote-control/id6477382010?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/a6/91/8da69194-011b-4dbe-1d74-3b5a37ac7890/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+      "release_date": "2024/11/19",
+      "rating": 4.56628,
+      "rating_count": 31241,
+      "timestamp": "2026-10-18 04:57:45"
+    },
+    {
+      "platform": "App Store",
+      "category": "照片&视频",
+      "app_id": "com.superzoom.cam.hd",
+      "itunes_id": "6786117030",
+      "rank": 90,
+      "name": "SuperZoom: Camera HD Clear",
+      "developer": "REFIS",
+      "store_url": "https://apps.apple.com/us/app/superzoom-camera-hd-clear/id6786117030?uo=4",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/28/66/a7286692-e872-a35d-5a5e-cb713192f731/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.png",
+      "release_date": "2026/07/09",
+      "rating": 2.75,
+      "rating_count": 8,
+      "timestamp": "2026-10-18 04:57:56"
+    },
+    {
+      "platform": "Google Play",
+      "category": "生活方式",
+      "app_id": "com.attilax0.vex.society",
+      "rank": 21,
+      "name": "VEX - Private Lifestyle Club",
+      "developer": "Soul Surferz",
+      "store_url": "https://play.google.com/store/apps/details?id=com.attilax0.vex.society",
+      "icon_url": "https://play-lh.googleusercontent.com/gor7gzOlnkCFjl2r2HV6pLgSCa0IShrXDB2-XrgRdYjOsoDcdkYlnSytlUGWSmCgpDgJ0OAZvKgaJ08LEMHPyg",
+      "rating": 4.632184,
+      "rating_count": 97,
+      "release_date": "2026/03/21",
+      "timestamp": "2026-10-18 04:58:25"
+    }
+  ],
+  "generated_at": "2026-10-18 04:59:33"
+}
